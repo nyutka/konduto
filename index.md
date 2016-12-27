@@ -61,7 +61,7 @@ sections:
         - title: Pague centavos por cada análise
       button-title: Solicitar proposta
       button-url: '#'
-- template: clients
+- template: testimonials
   bg-color: bg-red
   review: “A Konduto aumentou minhaconversãoe acabou com as fraudes no meunegócio!”
   author: João das Couves <br> CEO do E-commerce do João
