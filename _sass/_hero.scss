@@ -1,0 +1,26 @@
+.hero {
+	background-color: $dark-purple;
+	padding-top: 70px;
+	padding-bottom: 30px;
+	h2 {
+		margin-bottom: 50px;
+	}
+	.btn {
+		margin-bottom: 40px;
+	}
+}
+.hero-clinets {
+	background-color: $purple;
+	padding-top: 15px;
+	h3 {
+		color: $white;
+	}
+	.logos {
+		margin: 40px 0;
+		img {
+			width: 12%;
+			display: inline-block;
+			margin: 0 40px;
+		}
+	}
+}

@@ -1,5 +1,5 @@
 $dark-purple: #3c0861;
-$purple: #65457c
+$purple: #65457c;
 
 $pink: #c758a0;
 $light-pink: #f5aecd;
@@ -16,3 +16,18 @@ $light-red: #e59ca5;
 $dark-grey: #7b787d;
 $grey: #b8b6b9;
 $light-grey: #e8e8e8;
+
+$white: #ffffff;
+
+.bg-light-red {
+	background-color: $light-red;
+}
+.bg-red {
+	background-color: $red;
+}
+.bg-dark-purple {
+	background-color: $dark-purple;
+}
+.bg-pink {
+	background-color: $pink;
+}

@@ -1,45 +1,22 @@
-- name: Home
-  url: /
+header-nav:
+- name: Planos
+  url: planos
+- name: Como funciona
+  url: 
+- name: Integrações
+  url: 
+- name: Blog 
+  url: 
+- name: Ajuda
+  url: 
 
-- name: Work with us
-  url: /work-with-us/
-  pills:
-  
-  - name: Web Apps
-    url: /web-apps/
-  
-  - name: Mobile Apps
-    url: /mobile-apps/
-    
-  - name: IoT
-    url: /iot/
-    
-  - name: Business Apps
-    url: /business-apps/
-    
-  - name: API
-    url: /api/
+button-title: Login 
+button-url: "#"
 
-  - name: Cloud
-    url: /cloud/
-
-  - name: Games
-    url: /games/
-
-
-
-
-- name: Portfolio
-  url: /portfolio/
-  footer: true
-
-- name: About
-  url: /about/
-
-- name: Blog
-  url: /blog/
-  footer: true
-
-- name: Contact
-  url: /contact/
-  footer: true
+language:
+  - icon: pt-icon
+    url: "#"
+  - icon: eng-icon
+    url: "#"
+  - icon: es-icon
+    url: "#"

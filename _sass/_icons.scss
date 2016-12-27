@@ -1,0 +1,39 @@
+.icon {
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}
+.language-icon {
+	// border: 1px solid $white;
+	height: 48px;
+	width: 45px;
+}
+.big-icon {
+	height: 180px;
+	width: 205px;
+}
+.pt-icon {
+	background-image: url(../img/header/pt.png);
+	@extend .language-icon;
+	@extend .icon;
+}
+.eng-icon {
+	background-image: url(../img/header/eng.png);
+	@extend .language-icon;
+	@extend .icon;
+}
+.es-icon {
+	background-image: url(../img/header/es.png);
+	@extend .language-icon;
+	@extend .icon;
+}
+.feature-icon {
+	@extend .big-icon;
+	@extend .icon;
+	display: inline-block;
+}
+.social-icon {
+	@extend .icon;
+	height: 60px;
+	width: 60px;			
+}

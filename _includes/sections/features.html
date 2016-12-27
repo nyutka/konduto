@@ -1,0 +1,14 @@
+<div class="features">
+	<div class="container">
+		<h2 class="orange-title">{{  include.section.title }}</h2>
+		<div class="row text-center">
+			{% for features in include.section.features %}
+			<div class="col-md-4">
+				<div class="text-center"><span style="background-image: url({{ site.baseurl  }}/{{ features.icon }});" class="feature-icon"></span></div>
+				<h3>{{ features.title }}</h3>
+				<p>{{ features.info }}</p>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

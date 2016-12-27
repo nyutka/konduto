@@ -1,0 +1,10 @@
+<div class="hero-clinets text-center">
+	<div class="container-fluid">
+		<h3>{{ include.section.title }}</h3>
+		<div class="logos">
+		{% for logo in include.section.logos %}
+			<img src="{{ site.baseurl }}/{{ logo.img }}">
+		{% endfor %}
+		</div>
+	</div>
+</div>

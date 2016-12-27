@@ -1,0 +1,97 @@
+.navbar {
+	background-color: $dark-purple;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	.navbar-header {
+		.navbar-brand {
+			padding: 10px 20px;
+			img {
+				height: 55px;
+			}
+		}
+	}
+	.navbar-nav.nav > li {
+		line-height: $line-height-base;
+		a {
+			display: inline-block;
+		}
+	}
+	.navbar-nav.nav {
+		& > .nav-link {
+			&.active {
+				a {
+					color: $pink;
+				}
+			}
+			& > a {
+				color: $white;
+				font-size: 30px;
+				padding: 0px 25px;
+				transition: all 0.2s ease-in;
+				&:focuse,
+				&:hover {
+					background-color: transparent;
+					color: $pink;
+				}
+			}
+		}
+		& > .nav-btn {
+			margin-top: -8px;			
+		}
+	}
+	.nav>.nav-link>a:focus, 
+	.nav>.nav-link>a:hover {
+		background-color: transparent;
+		color: $pink
+	}
+	.btn-group.bootstrap-select {
+		width: inherit !important;
+		.btn-default {
+			background-color: transparent;
+			border: none;
+			outline: none;
+			padding: 0 30px;
+			&:hover,
+			&:focus {
+				outline: none !important;
+				margin: 0;
+				box-shadow: none;
+			}
+		}
+		.dropdown-menu.open {
+			background-color: transparent;
+			box-shadow: none;
+			border: none;
+			height: 160px;
+			.dropdown-menu.inner {
+				background-color: transparent;
+				box-shadow: none;
+				height: inherit;
+				li {
+					margin: 0;
+					height: 40px;
+					text-align: center;
+					&.selected {
+						background-color: transparent;
+						outline: none;
+					}
+					a {
+						outline: none;
+						height: 40px;
+						margin: 0;
+						padding: 0;
+						&:hover,
+						&:focus {
+							background-color: transparent;
+						}
+					}
+				}
+			}
+		}
+		.bs-caret {
+			display: none;
+		}
+	}
+
+}
