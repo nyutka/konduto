@@ -21,6 +21,13 @@
 			width: 12%;
 			display: inline-block;
 			margin: 0 40px;
+			@include media-down(sm) {
+				margin: 15px;
+				width: 27%;
+			}
+			@include media-down(xs) {
+				width: 38%;
+			}
 		}
 	}
 }

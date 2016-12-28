@@ -4,12 +4,17 @@ $buttons-font-family: 'Roboto Slab', serif;
 $roboto-font: 'Roboto Slab', serif;
 
 $font-size-base: 18px;
+$font-size-base-mobile: 16px;
 $font-size-base-small: 14px;
 $font-size-big: floor(($font-size-base * 1.8));
 
 $font-size-blockquote: floor(($font-size-base * 3.6));
+$font-size-blockquote-mobile: floor(($font-size-base * 2.2));
 
 $font-size-h1: floor(($font-size-base * 4));
+$font-size-h1-mobile: floor(($font-size-base * 2.8));
+$font-size-h1-mobile-xs: floor(($font-size-base * 2.1));
+
 $font-size-h2: floor(($font-size-base * 2.1));
 $font-size-h3: floor(($font-size-base * 1.4));
 $font-size-h4: floor(($font-size-base * 1.28));

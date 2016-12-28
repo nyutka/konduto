@@ -6,6 +6,10 @@
 		border-radius: $border-radius;
 		padding: 40px 30px 30px 60px;
 		text-align: center;
+		@include media-down(sm) {
+			margin: 10px 0;
+			padding: 20px;
+		}
 		h3, h4 {
 			color: $mint;
 		}
@@ -20,6 +24,10 @@
 			font-family: $roboto-font;
 			margin-left: 30px;
 			margin-right: 11px;
+			@include media-down(sm) {
+				margin: 0 0 20px 0;
+				text-align: center;
+			}
 		}
 		p {
 			color: $dark-grey;
@@ -29,6 +37,9 @@
 		}
 		.btn-orange{
 			margin-top: 70px;
+			@include media-down(sm) {
+				margin-top: 20px;
+			}
 		}
 	}
 	.plan-box:nth-child(1){

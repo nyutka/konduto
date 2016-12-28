@@ -11,6 +11,13 @@
       <a class="navbar-brand" href="/">
         <img src="{{ site.baseurl }}/img/header/logo.png" alt="konduto logo">
       </a>
+      <div class="visible-xs mobile-lng">
+        <select class="selectpicker">
+          {% for language in site.data.navigation.language %}
+            <option value="{{ language.url }}" data-icon="{{ language.icon }}"></option>
+          {% endfor %}
+        </select>>
+      </div>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,7 +31,7 @@
         <li class="nav-btn">
           <a href="{{ site.data.navigation.button-url }}" class="btn btn-xs btn-mint">{{ site.data.navigation.button-title }}</a>
         </li>
-        <li>
+        <li class="hidden-xs">
           <select class="selectpicker">
             {% for language in site.data.navigation.language %}
               <option value="{{ language.url }}" data-icon="{{ language.icon }}"></option>

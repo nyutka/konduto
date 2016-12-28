@@ -8,11 +8,39 @@
 			padding: 10px 20px;
 			img {
 				height: 55px;
+				@include media-down(md) {
+					height: 35px;
+				}
+				@include media-down(sm) {
+					height: 43px;
+				}
 			}
+		}
+	}
+	.mobile-lng {
+		float: right;
+		margin-top: 11px;
+		button {
+			padding: 0 !important;
+		}
+	}
+	.navbar-toggle {
+		margin-top: 10px;
+		.icon-bar {
+			margin-top: 6px;
+			width: 30px;
+			background-color: $white;
 		}
 	}
 	.navbar-nav.nav > li {
 		line-height: $line-height-base;
+		@include media-down(md) {
+			line-height: 65px;
+		}
+		@include media-down(sm) {
+			line-height: 3.1;
+			margin-left: 15px;
+		}
 		a {
 			display: inline-block;
 		}
@@ -34,6 +62,15 @@
 					background-color: transparent;
 					color: $pink;
 				}
+				@include media-down(lg) {
+					padding: 0 15px;
+					font-size: 28px;
+				}
+				@include media-down(md) {
+					font-size: 23px;
+					padding: 0 6px;
+				}
+
 			}
 		}
 		& > .nav-btn {
@@ -44,6 +81,11 @@
 	.nav>.nav-link>a:hover {
 		background-color: transparent;
 		color: $pink
+	}
+	.navbar-collapse {
+		@include media-down(sm) {
+			background-color: rgba(0, 0, 0, 0.3);
+		}
 	}
 	.btn-group.bootstrap-select {
 		width: inherit !important;

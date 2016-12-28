@@ -20,12 +20,22 @@
 		letter-spacing: 1px;
 		font-weight: $font-weight-semibold;
 		padding: 20px 50px;
+		@include media-down(sm) {
+			font-size: 20px;
+			width: 90%;
+			padding: 12px 0;
+		}
 	}
 	&.btn-sm {
 		font-size: 25px;
 		padding: 12px;
 		width: 250px;
 		font-weight: $font-weight-semibold;
+		@include media-down(sm) {
+			font-size: 22px;
+			width: 90%;
+			padding: 10px 0;
+		}
 	}
 	&.btn-xs {
 		font-size: 25px;
