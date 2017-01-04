@@ -28,9 +28,12 @@
 	@extend .icon;
 }
 .feature-icon {
-	@extend .big-icon;
+	height: 180px;
+	width: 100%;
+	max-width: 240px;
 	@extend .icon;
 	display: inline-block;
+	background-position: center bottom;
 }
 .social-icon {
 	@extend .icon;

@@ -16,11 +16,11 @@
 		color: $white;
 	}
 	.logos {
-		margin: 40px 0;
+		margin: 30px 0;
 		img {
 			width: 12%;
 			display: inline-block;
-			margin: 0 40px;
+			margin: 10px 40px;
 			@include media-down(sm) {
 				margin: 15px;
 				width: 27%;

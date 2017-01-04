@@ -1,28 +1,29 @@
 <div class="client-review {{ include.section.bg-color }}">
-	<div class="container">
+	<div class="container-fluid">
 		<blockquote>
-			<p>{{ include.section.review }}</p>
-			<cite>
+			<p class="col-lg-10 col-lg-offset-1">{{ include.section.review }}</p>
 			{% if include.section.avatar %}
+			<cite class="clearfix">
 				<div class="row v-center">
 					<div class="col-sm-10 col-xs-9">{{ include.section.author }}</div>
 					<div class="col-sm-2 col-xs-3 text-left"><img src="{{ site.baseurl}}/{{ include.section.avatar}}" class="rounded-image"></div>
 				</div>
 			{% else %}
+			<cite class="clearfix col-md-11">
 				{{ include.section.author }}
 			{% endif %}
 			</cite>
 		</blockquote>
 	</div>
 	{% if include.section.logos %}
-		<div class="client-logo">
-			<div class="container-fluid">
-				<div class="logos">
-					{% for logo in include.section.logos %}
-					<img src="{{ site.baseurl }}/{{ logo.img }}">
-					{% endfor %}
-				</div>
+	<div class="client-logo">
+		<div class="container-fluid">
+			<div class="logos">
+				{% for logo in include.section.logos %}
+				<img src="{{ site.baseurl }}/{{ logo.img }}">
+				{% endfor %}
 			</div>
 		</div>
+	</div>
 	{% endif %}
 </div>
