@@ -1,6 +1,3 @@
----
-layout: page
-title: Antifraude para e-commerce | Konduto
 sections:
 - template: hero
   header: 'Temosos planos ideaispara <b>exterminar a fraude</b> da sualoja'
@@ -46,6 +43,3 @@ sections:
   more-logo:
     more-logo-url: "#"
     more-logo-title: ">>  Veja todas as integrações"
----
-
-

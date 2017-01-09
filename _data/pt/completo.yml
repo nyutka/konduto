@@ -1,5 +1,3 @@
----
-layout: page
 title: Antifraude para e-commerce | Konduto
 sections:
 - template: hero
@@ -70,6 +68,3 @@ sections:
     - icon: img/03completo/icones/relatorios.png
       title: Painel e relatórios
       info: 'Área logada para você extrair relatórios sobre a análise de risco feita ao seu negócio. Plataforma fácil e totalmente intuitiva para a sua equipe!'
----
-
-

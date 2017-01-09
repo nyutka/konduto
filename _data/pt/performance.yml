@@ -1,6 +1,4 @@
----
-layout: page
-title: Antifraude para e-commerce | Konduto
+title:
 sections:
 - template: hero
   header: Análisesem <b>tempo real</b> para altos volumesde venda
@@ -70,6 +68,3 @@ sections:
     - icon: img/03completo/icones/relatorios.png
       title: Painel e relatórios
       info: 'Área logada para você gerenciar toda a análise de risco do seu negócio, aprovar pedidos e extrair relatórios. Plataforma fácil e totalmente intuitiva para a sua equipe'
----
-
-

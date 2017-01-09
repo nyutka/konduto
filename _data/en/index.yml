@@ -1,15 +1,13 @@
----
-layout: page
 title: Antifraude para e-commerce | Konduto
 sections:
 - template: hero
-  header: 'Tecnologia <b>inovadora</b> para combatera fraude on-line'
-  subtitle: O futuro da análisede risco chegou!
+  header: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec urna mi
+  subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   button:
-    title: Fale com a gente!
+    title: Lorem ipsum
     url: "#"
 - template: clients
-  title: Clientes que confiam na Konduto
+  title: Our clients
   logos:
     - img: img/01home/clients/ebanx.png
     - img: img/01home/clients/elo7.png
@@ -17,20 +15,20 @@ sections:
     - img: img/01home/clients/pedidosja.png
     - img: img/01home/clients/juspodivm.png
 - template: features
-  title: As novas armas para barrar a fraude
+  title: 
   features:
     - icon: img/01home/icons/inteligencia-artificial.png
-      title: Inteligência artificial
-      info: Algoritmos que detectam padrões de fraude que um humano não conseguiria identificar. Aprove mais pedidos sem mexer em regras
+      title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      info: Lorem ipsum dolor sit amet
     - icon: img/01home/icons/comportamento.png
-      title: Comportamento de navegação
-      info: Um fraudador se revela pela forma como navega em um site. Monitore o cliente desde o momento em que ele inicia o proceso de compra.
+      title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      info: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - icon: img/01home/icons/analise-mobile.png
-      title: Análise para apps
-      info: Não fique de olhos vendados para o que acontece na venda mobile. Temos uma solução incrível para detectar fraudes em aplicativos
+      title: Lorem ipsum
+      info: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 - template: testimonials
   bg-color: bg-light-red
-  review: “Fraudes nascompras on-line com os diascontados”
+  review: “Lorem ipsum dolor sit amet, consectetur”
   author: Diário do Comércio
   logos:
     - img: img/01home/media/diariodocomercio.png
@@ -39,11 +37,11 @@ sections:
     - img: img/01home/media/exame.png
     - img: img/01home/media/panrotas.png
 - template: plans
-  title: Os planos ideaispara o seunegócio
+  title: Lorem ipsum dolor sit amet
   plan:
     - title: Completo
       icon: img/01home/icons/completo.png
-      subtitle: Feito para lojas que não têm equipe interna de revisão
+      subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       subsections:
         - title: Análises automáticas e manuais
         - title: SLAs de respostas
@@ -53,7 +51,7 @@ sections:
       button-url: '#'
     - title: Performance
       icon: img/01home/icons/performance.png
-      subtitle: Ideal para operações de larga escala ou com entrega instantânea
+      subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       subsections:
         - title: Análises de fraude com altíssima precisão
         - title: Respostas em menos de 1 segundo
@@ -63,11 +61,11 @@ sections:
       button-url: '#'
 - template: testimonials
   bg-color: bg-red
-  review: “A Konduto aumentou minhaconversãoe acabou com as fraudes no meunegócio!”
+  review: “Lorem ipsum dolor sit amet, consectetur adipiscing elit.!”
   author: João das Couves <br> CEO do E-commerce do João
   avatar: img/01home/clients/avatar.png
 - template: partners
-  title: Integraçõese parcerias
+  title: Lorem ipsum dolor sit amet
   photos:
     - img: img/01home/partners/payzen.png
     - img: img/01home/partners/vtex.png
@@ -80,6 +78,3 @@ sections:
   more-logo:
     more-logo-url: "#"
     more-logo-title: ">> See all integrations"
----
-
-
