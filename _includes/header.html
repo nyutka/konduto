@@ -14,9 +14,9 @@
       <div class="visible-xs mobile-lng">
         <select class="selectpicker">
           {% for language in site.data.navigation.language %}
-            <option value="{{ site.baseurl_root }}/{{ language.url }}" data-icon="{{ language.icon }}"></option>
+            <option {% if site.lang == language.url %} selected {% endif %} value="{{ site.baseurl_root }}/{{ language.url }}" data-icon="{{ language.icon }}"></option>
           {% endfor %}
-        </select>>
+        </select>
       </div>
     </div>
 
@@ -34,9 +34,9 @@
         <li class="hidden-xs">
           <select class="selectpicker">
             {% for language in site.data.navigation.language %}
-              <option value="{{ site.baseurl_root }}/{{ language.url }}" data-icon="{{ language.icon }}"></option>
+              <option {% if site.lang == language.url %} selected {% endif %} value="{{ site.baseurl_root }}/{{ language.url }}" data-icon="{{ language.icon }}"></option>
             {% endfor %}
-          </select>>
+          </select>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
