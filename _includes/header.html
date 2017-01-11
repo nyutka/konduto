@@ -14,7 +14,7 @@
       <div class="visible-xs mobile-lng">
         <select class="selectpicker">
           {% for language in site.data.navigation.language %}
-            <option value="{{ language.url }}" data-icon="{{ language.icon }}"></option>
+            <option value="{{ site.baseurl_root }}/{{ language.url }}" data-icon="{{ language.icon }}"></option>
           {% endfor %}
         </select>>
       </div>
@@ -34,7 +34,7 @@
         <li class="hidden-xs">
           <select class="selectpicker">
             {% for language in site.data.navigation.language %}
-              <option value="{{ language.url }}" data-icon="{{ language.icon }}"></option>
+              <option value="{{ site.baseurl_root }}/{{ language.url }}" data-icon="{{ language.icon }}"></option>
             {% endfor %}
           </select>>
         </li>
