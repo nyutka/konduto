@@ -1,7 +1,0 @@
----
-layout: default
----
-
-{% for section in site.data[site.lang][page.pagename].sections %}
-	{% include sections/{{section.template}}.html section=section %}
-{% endfor%}
