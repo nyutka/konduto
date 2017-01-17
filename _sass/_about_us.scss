@@ -1,0 +1,55 @@
+.about_us {
+	p {
+		font-family: $roboto-font;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		color: $dark-grey;
+		font-size: $font-size-base-big;
+		padding: 0 30px;
+		@include media-down(sm) {
+			font-size: $font-size-base;
+			padding: 0;
+		}
+	}
+}
+.our-team {
+	.members {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+		& > [class*='col-'] {
+			margin-bottom: 40px;
+			display: flex;
+			flex-direction: column;
+		}
+		.team-avatar {
+			border: $border;
+			border-color: $dark-grey;
+			padding: 10px;
+			border-radius: 50%;
+			display: inline-block;
+			img {
+				border: 1px solid $dark-grey;
+				border-radius: 50%;
+			}
+		}
+		h5 {
+			color: $purple;
+			margin-top: 25px;
+		}
+		h4 {
+			color: $pink;
+		}
+		p {
+			color: $dark-grey;
+			font-family: $roboto-font;
+			margin-top: 15px;
+		}
+		a {
+			color: $dark-purple;
+			font-size: $font-size-base-big;
+		}
+	}
+}

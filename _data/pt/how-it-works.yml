@@ -1,0 +1,27 @@
+title: Antifraude para e-commerce | Konduto
+sections:
+- template: hero
+  header: 'Detectamos <b>mais fraudes</b> sem prejudicara suaconversão'
+- template: video
+  header: Quersaber como? Veja o vídeo
+  video-url: https://www.youtube.com/embed/RuhD4cvDLvk
+- template: phrase
+  bg-color: bg-orange
+  slogan: “ENTEDA A EFICIÊNCIA KONDUTO EM 5 ETAPAS”
+- template: principais
+  principals:
+    - icon: img/06-how-it-works/icons/comportamento.png
+      title: Antes da compra
+      info: 'O cliente entra no site do lojista, faz diferentes buscas e vê diversos produtos. A Konduto monitora dados como origem da visita, comparação de preços, tempo de permanência no site, páginas visitadas, número de produtos, troca de senha, digitação de dados (copiar e colar) etc.'
+    - icon: img/06-how-it-works/icons/pedidos-relacionados.png
+      title: No fechamento da compra
+      info: 'Assim que o cliente finaliza o pedido, a Konduto reúne as seguintes informações: comportamento de navegação, dados cadastrais, geolocalização, device fingerprint, tabelas de velocity etc.'
+    - icon: img/06-how-it-works/icons/tempo-real.png
+      title: Recomendação
+      info: 'Todas as informações obtidas pela Konduto passam pelo filtro de inteligência artificial, que fará em tempo real o cálculo de risco daquela transação. Em menos de 1 segundo, o sistema emite uma recomendação: APROVAR, REVISAR ou NEGAR'
+    - icon: img/06-how-it-works/icons/manrev.png
+      title: Revisão manual? Deixacom a gente!
+      info: Se você optar pelo plano Completo, a Konduto também realiza internamente a análise manual dos pedidos enviados para revisão. Esta atividade é fundamental para tornar o modelo de análise da sua loja ainda mais preciso, dia após dia. 
+    - icon: img/06-how-it-works/icons/custo-beneficio.png
+      title: Custo-benefício
+      info: 'A Konduto possui o melhor custo-benefício do mercado: temos as melhores análises por um preço bastante justo. Permitimos que você aumente a sua receita de vendas e reduza custos e prejuízo.' 

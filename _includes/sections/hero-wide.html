@@ -1,0 +1,13 @@
+<div class="hero">
+	<div class="container-fluid">
+		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1 col-sm-12 col-xs-12 text-center">
+			<h1 class="hero-heading">{{ include.section.header }}</h1>
+			{% if include.section.subtitle %}
+				<h2>{{ include.section.subtitle }}</h2>
+			{% endif %}
+			{% if include.section.button %}
+				<div><a href="{{ include.section.button.url }}" class="btn btn-orange btn-lg">{{ include.section.button.title }}</a></div>
+			{% endif %}
+		</div>
+	</div>
+</div>

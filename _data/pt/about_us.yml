@@ -1,0 +1,75 @@
+title: Antifraude para e-commerce | Konduto
+sections:
+- template: hero-wide
+  header: 'Criamos um antifraude incrível. Agora, queremos ajudar a <b>sua empresa!</b>'
+- template: clients
+  title: Alguns dos clientes que confiam na Konduto
+  logos:
+    - img: img/01home/clients/ebanx.png
+    - img: img/01home/clients/elo7.png
+    - img: img/01home/clients/pedidosja.png
+    - img: img/04performance/clients/apae.png
+    - img: img/04performance/clients/ouro_e_prata.png
+- template: about_us
+  header: Sobre a Konduto
+  our-photo: img/05about-us/kdt-about.jpg
+  paragraphs: 
+    - text: Nossa experiência com e-commerce, meios de pagamento, publicidade online e inteligência artificial nos motivou a criar um antifraude completamente inovador para o mercado.
+    - text: Sabemos que um fraudador se revela pela maneira como navega em um site ou aplicativo. O comportamento de um usuário em um site pode dizer muito sobre o seu real interesse em fazer uma compra - muito mais do que um cadastro, um número de documento ou um cartão de crédito.
+    - text: Foi com isso em mente que fundamos a Konduto, em fevereiro de 2014. Formamos um time apaixonado por tecnologia e machine learning e criamos uma solução capaz de fazer análises precisas em tempo real, acelerando o checkout das vendas e reduzindo custos importantíssimos na operação. 
+- template: review
+  bg-color: bg-mint
+  review: “Eles estão barrando fraudes no e-commercecom Inteligência Artificial”
+  author: O Futuro das Coisas | Leia entrevista completa
+- template: our_team
+  header: Nossaequipe
+  members:
+    - photo: img/01home/clients/avatar.png
+      name: Milton Tavares Neto
+      position: (Co-fundador)
+      info: Ele adora entender o que os dados podem nos contar. Com experiência em publicidade online, ele é apaixonado por inteligência artificial, machine learning e estatística. É engenheiro da computação pela Universidade de São Paulo e tem um Master em Engenharia pela Télécom Paristech e pela Ecole Polytechnique.
+    - photo: img/01home/clients/avatar.png
+      name: Daniel Bento
+      position: (Co-fundador)
+      info: Ele é um cara apaixonado por ideias e negócios, talvez por isso tenha se metido em tantas coisas diferentes. É co-fundador da empresa onde ajudou a construir o conceito do produto e da oferta comercial. Contador, com MBA em gestão empresarial e especialização em estratégia e inovação pela Wharton.
+    - photo: img/01home/clients/avatar.png
+      name: Tom Canabarro
+      position: (Co-fundador)
+      info: Sua experiência trabalhando em gateways de pagamento lhe mostrou em primeira mão como os lojistas grandes e pequenos sofrem com a fraude diariamente. Formado em Relações Internacionais, é apaixonado por tecnologia, infraestrutura e DevOps.
+    - photo: img/01home/clients/avatar.png
+      name: Raphael Sampaio
+      position: (Engenheiro)
+      info: É engenheiro de computação pela Escola Politécnica da Universidade de São Paulo. Além de gostar de programar, ele também é um grande fã de futebol, música e café.
+    - photo: img/01home/clients/avatar.png
+      name: André Alves
+      position: (Engenheiro
+      info: É engenheiro de computação pela Universidade Estadual de Campinas. Fã de jogos, é desenvolvedor indie em horas vagas. Apaixonado por inteligência artificial, aprendizado de máquina e tudo que pareça estranho. Longe do computador gosta de passeios que envolvam natureza
+    - photo: img/01home/clients/avatar.png
+      name: Adriano Oliveira
+      position: (Engenheiro)
+      info: Um engenheiro que gosta de máquinas, mas que gosta mais de pessoas do que de máquinas. É graduado em Engenharia de Computação pela Universidade de São Paulo e tem um Master em Engenharia de Gestão pelo Politecnico di Torino. Quando não está trabalhando ele gosta de escrever
+    - photo: img/01home/clients/avatar.png
+      name: Felipe Held
+      position: (Marketing)
+      info: É jornalista pela Faculdade Cásper Líbero e possui um Master em Marketing pela ESPM. Trabalhou em grandes redações online por 8 anos, quando decidiu entrar para o marketing. Apaixonado por bons textos, métricas de audiência, Beatles, Chaves, futebol, corridas de rua e cinema argentino.
+    - photo: img/01home/clients/avatar.png
+      name: Silmara Assunção
+      position: (Suporte)
+      info: Bacharel em Sistemas da Informação, adora qualidade de processos e desenvolvimento web. Fã de artes, está sempre envolvida com artesanato, música, literatura, cinema ou dança. Ama gatos, mangás, animes e livros. Quando não está trabalhando, gosta de passear com os amigos ou família.
+    - photo: img/01home/clients/avatar.png
+      name: Luiz Cufaro
+      position: (Comercial)
+      info: Tem sólida experiência na área comercial, adquirida ao longo dos anos em grandes empresas dos segmentos de meios de pagamento, e-commerce e TI. É formado em Educação Física, possui MBA em Gestão Empresarial e é especialista em fazer negócios. Gosta muito de esportes e, quando não está em calls e reuniões com nossos clientes, adora curtir o filho, a esposa, a família e os amigos.
+    - photo: img/01home/clients/avatar.png
+      name: Karin Valinho
+      position: (Análisede fraude)
+      info: É formada em Marketing pela Universidade Anhembi Morumbi, mas gosta mesmo de analisar vendas e detectar aquelas que são mais perigosas. Tem 7+ anos de experiência como analista de risco, barrando fraudes em empresas dos mais variados ramos de atuação. No tempo livre, gosta de fazer artesanato e é viciada em séries - ela chega a trocar minutos preciosos de sono por mais um episódio no Netflix.
+    - photo: img/01home/clients/avatar.png
+      name: Helder Holanda
+      position: (Estagiário| Engenheiro)
+      info: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+    - photo: img/01home/clients/avatar.png
+      name: Você?
+      position: Venhatrabalhar conosco!
+      info:  Quer nos ajudar a combater a fraude online? Mande o seu currículo para 
+      email: rh@konduto.com!

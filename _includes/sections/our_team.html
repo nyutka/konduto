@@ -1,0 +1,20 @@
+<div class="principal-features our-team">
+	<div class="container">
+		<h2 class="orange-title">{{ include.section.header }}</h2>
+		<div class="row members">
+			{% for member in include.section.members %}
+			<div class="col-md-4 col-sm-6 text-center">
+				<div><div class="text-center team-avatar">
+					<img src="{{ site.baseurl_root }}/{{ member.photo }}">
+				</div></div>
+				<h5>{{ member.name }}</h5>
+				<h4>{{ member.position }}</h4>
+				<p>{{ member.info }}</p>
+				{% if member.email %}
+				<a  href="mailto:{{ member.email }}">{{ member.email }}</a>
+				{% endif %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

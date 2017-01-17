@@ -1,0 +1,11 @@
+<div class="principal-features about_us">
+	<div class="container">
+		<h2 class="orange-title">{{ include.section.header }}</h2>
+		<div class="bordered-image text-center">
+			<img src="{{ site.baseurl_root }}/{{ include.section.our-photo }}">
+		</div>
+		{% for paragraph in include.section.paragraphs %}
+			<p>{{ paragraph.text }}</p>
+		{% endfor %}
+	</div>
+</div>
