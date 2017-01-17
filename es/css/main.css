@@ -113,6 +113,14 @@ blockquote {
         blockquote cite .v-center, blockquote div .v-center {
           margin-top: 0px; } }
 
+.review {
+  padding: 40px 0; }
+  .review blockquote {
+    padding: 0; }
+  .review cite {
+    margin-top: 20px;
+    font-size: 22px; }
+
 .p-20 {
   padding: 40px 0; }
   .p-20 h1.hero-heading {
@@ -203,6 +211,17 @@ blockquote {
     .slogan div b {
       font-weight: normal;
       color: #3c0861; }
+
+.bordered-image {
+  margin-bottom: 40px; }
+  .bordered-image img, .bordered-image iframe {
+    padding: 30px;
+    border: 3px dotted #b8b6b9;
+    width: 100%;
+    border-radius: 25px; }
+    @media (max-width: 767px) {
+      .bordered-image img, .bordered-image iframe {
+        padding: 10px; } }
 
 .btn {
   position: relative;
@@ -353,7 +372,7 @@ blockquote {
   margin-bottom: 80px; }
   .plans .plan-box {
     margin: 50px 10px 0 10px;
-    border: 3px dashed #b8b6b9;
+    border: 3px dotted #b8b6b9;
     border-radius: 25px;
     padding: 40px 30px 30px 60px;
     text-align: center; }
@@ -423,6 +442,50 @@ blockquote {
       @media (max-width: 767px) {
         .principal-features .features .description {
           width: 68%; } }
+
+.about_us p {
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #7b787d;
+  font-size: 22px;
+  padding: 0 30px; }
+  @media (max-width: 767px) {
+    .about_us p {
+      font-size: 18px;
+      padding: 0; } }
+
+.our-team .members {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
+  .our-team .members > [class*='col-'] {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column; }
+  .our-team .members .team-avatar {
+    border: 3px dotted #b8b6b9;
+    border-color: #7b787d;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block; }
+    .our-team .members .team-avatar img {
+      border: 1px solid #7b787d;
+      border-radius: 50%; }
+  .our-team .members h5 {
+    color: #65457c;
+    margin-top: 25px; }
+  .our-team .members h4 {
+    color: #c758a0; }
+  .our-team .members p {
+    color: #7b787d;
+    font-family: "Roboto Slab", serif;
+    margin-top: 15px; }
+  .our-team .members a {
+    color: #3c0861;
+    font-size: 22px; }
 
 footer.footer {
   background-color: #e8e8e8; }
