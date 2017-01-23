@@ -12,17 +12,34 @@
 		&:nth-child(2n+1) {
 			.icon {
 				float: right;
+				@include media-down(sm) {
+					float: inherit;
+					text-align: center;
+				}
 			}
 			.description {
 				float: left;
+				@include media-down(sm) {
+					float: inherit;
+					text-align: center;
+				}
 			}
 		}
 		&:nth-child(2n) {
 			.icon {
 				float: left;
+				@include media-down(sm) {
+					float: inherit;
+					text-align: center;
+					display: inline-block;
+				}
 			}
 			.description {
 				float: right;
+				@include media-down(sm) {
+					float: inherit;
+					text-align: center;
+				}
 			}
 		}
 		.icon {
@@ -32,7 +49,7 @@
 				max-height: 140px;
 			}
 			@include media-down(sm) {
-				width: 28%;
+				width: 100%;
 			}
 		}
 		.description {
@@ -41,7 +58,7 @@
 				margin-bottom: 0;
 			}
 			@include media-down(sm) {
-				width: 68%;
+				width: 100%;
 			}
 		}
 	}

@@ -23,6 +23,17 @@
 		button {
 			padding: 0 !important;
 		}
+		.filter-option  {
+			font-size: $font-size-h3;
+			color: $white;
+			margin-right: -15px;
+			padding: 8px 23px 0 0;
+		}
+		 .dropdown-menu.open .text {
+		 	font-size: $font-size-h3;
+			color: $white;
+			padding-right: 8px;
+		 }
 	}
 	.navbar-toggle {
 		margin-top: 10px;

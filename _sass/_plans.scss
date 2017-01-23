@@ -34,6 +34,9 @@
 			text-align: left;
 			margin-bottom: 20px;
 			font-family: $roboto-font;
+			@include media-down(sm) {
+				text-align: center;
+			}
 		}
 		.btn-orange{
 			margin-top: 70px;

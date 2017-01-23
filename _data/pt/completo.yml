@@ -28,7 +28,7 @@ sections:
       info: Algoritmos que detectam padrões de fraude que um humano não conseguiria identificar.
 - template: testimonials
   bg-color: bg-mint
-  review: “A Kondutosanounossoproblema com fraudadoresde cartão. Houvetambém umasignificativa reduçãode custos”
+  review: “A Konduto sanou noss oproblema com fraudadoresde cartão. Houvetambém umasignificativa reduçãode custos”
   author: Caíque Dourado <br> e-commerce manager da Editora Juspodivm
   avatar: img/01home/clients/avatar.png
 - template: features

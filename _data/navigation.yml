@@ -16,7 +16,10 @@ button-url: "#"
 language:
   - icon: pt-icon
     url: ""
+    name: PT
   - icon: eng-icon
     url: "en"
+    name: EN
   - icon: es-icon
     url: "es"
+    name: ES

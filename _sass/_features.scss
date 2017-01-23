@@ -9,6 +9,9 @@
 		color: $dark-grey;
 		font-family: $roboto-font;
 		margin-bottom: 40px;
+		@include media-down(sm) {
+			display: none;
+		}
 	}
 	&.no-spacing {
 		h3 {

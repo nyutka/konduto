@@ -4,6 +4,9 @@
 	padding-bottom: 30px;
 	h2 {
 		margin-bottom: 50px;
+		@include media-down(sm) {
+			display: none;
+		}
 	}
 	.btn {
 		margin-bottom: 40px;
