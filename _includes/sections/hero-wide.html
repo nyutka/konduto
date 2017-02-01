@@ -1,7 +1,7 @@
-<div class="hero">
+<div class="hero ">
 	<div class="container-fluid">
 		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1 col-sm-12 col-xs-12 text-center">
-			<h1 class="hero-heading">{{ include.section.header }}</h1>
+			<h1 class="hero-heading {% if section.header-class %}{{ include.section.header-class }}{% endif %}">{{ include.section.header }}</h1>
 			{% if include.section.subtitle %}
 				<h2>{{ include.section.subtitle }}</h2>
 			{% endif %}

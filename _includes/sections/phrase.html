@@ -1,5 +1,8 @@
 <div class="slogan {{ include.section.bg-color }}">
 	<div class="container">
 		<div>{{ include.section.slogan }}</div>
+		{% if include.section.button %}
+			<a href="{{ include.section.button.button-url }}" class="btn btn-mint btn-lg">{{  include.section.button.button-title }}</a>
+		{% endif %}
 	</div>
 </div>

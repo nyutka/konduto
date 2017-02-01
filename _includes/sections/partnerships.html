@@ -1,0 +1,18 @@
+<div class="partnerships">
+		<h2 class="orange-title text-center">{{  include.section.title }}</h2>
+		{% for partner in include.section.partners %}
+		<div class="partners">
+			<div class="container">
+				<div class="icon">
+					<span style="background-image: url({{ site.baseurl  }}/{{ partner.icon }});" class="feature-icon"></span>
+				</div>
+				<div class="description ">
+					<p>{{ partner.info }}</p>
+					<div class="link">
+						<a href="{{ partner.link.url }}">{{ partner.link.title }}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+</div>

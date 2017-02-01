@@ -9,6 +9,7 @@ sections:
   bg-color: bg-orange
   slogan: “ENTEDA A EFICIÊNCIA KONDUTO EM 5 ETAPAS”
 - template: principais
+  page-class: mint
   principals:
     - icon: img/06-how-it-works/icons/comportamento.png
       title: Antes da compra

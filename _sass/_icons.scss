@@ -27,6 +27,22 @@
 	@extend .language-icon;
 	@extend .icon;
 }
+.resources-icon {
+	height: 160px;
+	width: 100%;
+	max-width: 240px;
+	@extend .icon;
+	display: inline-block;
+	background-position: center center;
+}
+.press-icon {
+	height: 80px;
+	width: 100%;
+	max-width: 200px;
+	@extend .icon;
+	display: inline-block;
+	background-position: center center;
+}
 .feature-icon {
 	height: 180px;
 	width: 100%;

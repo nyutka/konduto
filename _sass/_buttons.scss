@@ -19,7 +19,7 @@
 		font-size: 30px;
 		letter-spacing: 1px;
 		font-weight: $font-weight-semibold;
-		padding: 20px 50px;
+		padding: 15px 50px;
 		@include media-down(sm) {
 			font-size: 20px;
 			width: 90%;
@@ -58,6 +58,31 @@
 			3px 2px 0px $light-mint,2px 3px 0px $light-mint,
 			4px 3px 0px $light-mint,3px 4px 0px $light-mint,
 			5px 4px 0px $light-mint,4px 5px 0px $light-mint;	
+		}
+		&.btn-sm {
+			font-family: $roboto-font;
+			margin-top: 6px;
+			box-shadow: 1px 0px 0px $light-mint,0px 1px 0px $light-mint,
+			2px 1px 0px $light-mint,1px 2px 0px $light-mint,
+			3px 2px 0px $light-mint,2px 3px 0px $light-mint,
+			4px 3px 0px $light-mint,3px 4px 0px $light-mint,
+			5px 4px 0px $light-mint,4px 5px 0px $light-mint,	
+			6px 5px 0px $light-mint,5px 6px 0px $light-mint;	
+		}
+		&.btn-lg {
+			font-family: $roboto-font;
+			margin-top: 11px;
+			box-shadow: 1px 0px 0px $light-mint,0px 1px 0px $light-mint,
+			2px 1px 0px $light-mint,1px 2px 0px $light-mint,
+			3px 2px 0px $light-mint,2px 3px 0px $light-mint,
+			4px 3px 0px $light-mint,3px 4px 0px $light-mint,
+			5px 4px 0px $light-mint,4px 5px 0px $light-mint,	
+			6px 5px 0px $light-mint,5px 6px 0px $light-mint,	
+			7px 6px 0px $light-mint,6px 7px 0px $light-mint,	
+			8px 7px 0px $light-mint,7px 8px 0px $light-mint,	
+			9px 8px 0px $light-mint,8px 9px 0px $light-mint,	
+			10px 9px 0px $light-mint,9px 10px 0px $light-mint,	
+			11px 10px 0px $light-mint,10px 11px 0px $light-mint;	
 		}
 	}
 	&.btn-orange {
@@ -101,6 +126,32 @@
 			9px 8px 0px $light-orange,8px 9px 0px $light-orange,	
 			10px 9px 0px $light-orange,9px 10px 0px $light-orange,	
 			11px 10px 0px $light-orange,10px 11px 0px $light-orange;	
+		}
+	}
+	&.btn-purple {
+		background-color: $dark-purple;
+		border: solid 1px $dark-purple;
+		font-family: $buttons-font-family;
+		&:active {
+			box-shadow: 0px 0px 0px $dark-purple !important;
+		}
+		&:hover,
+		&:focus {
+			background-color: $dark-purple;
+		}
+		&.btn-lg {
+			margin-top: 11px;
+			box-shadow: 1px 0px 0px $purple,0px 1px 0px $purple,
+			2px 1px 0px $purple,1px 2px 0px $purple,
+			3px 2px 0px $purple,2px 3px 0px $purple,
+			4px 3px 0px $purple,3px 4px 0px $purple,
+			5px 4px 0px $purple,4px 5px 0px $purple,	
+			6px 5px 0px $purple,5px 6px 0px $purple,	
+			7px 6px 0px $purple,6px 7px 0px $purple,	
+			8px 7px 0px $purple,7px 8px 0px $purple,	
+			9px 8px 0px $purple,8px 9px 0px $purple,	
+			10px 9px 0px $purple,9px 10px 0px $purple,	
+			11px 10px 0px $purple,10px 11px 0px $purple;	
 		}
 	}
 }

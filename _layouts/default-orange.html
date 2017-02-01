@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  <body>
+
+    {% include header.html %}
+
+    {% for section in site.data[site.lang][page.pagename].sections %}
+		{% include sections/{{section.template}}.html section=section %}
+	{% endfor%}
+
+    {% include footer-orange.html %}
+
+    {% include foot.html %}
+
+  </body>
+
+</html>

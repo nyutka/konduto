@@ -1,0 +1,55 @@
+title:
+sections:
+- template: hero-wide
+  header-class: orange
+  header: Os melhores conteúdos para vocêse <b>proteger da fraude</b>
+  subtitle: Baixenossos materiaise saibacomo lidar com este problema
+- template: resources
+  resources:
+    - logo: img/10resources/icons/livro.png
+      title: E-bookse whitepapers
+      lists:
+        - title: '- O submundo da fraude no e-commerce'
+        - title: '- Desvendamos o crime dos testadores de cartão'
+    - logo: img/10resources/icons/report-raiox-2.png
+      title: Relatórios
+      lists:
+        - title: '- Raio-X da fraude no e-commerce brasileiro - 2016'
+        - title: '- Raio-X da fraude no e-commerce brasileiro – 1º semestre'
+    - logo: img/10resources/icons/calculadora.png
+      title: Cases de sucesso
+      lists:
+        - title: '- EBANX: Economia de R$ 3 milhões em chargebacks'
+        - title: '- Editora Juspodivm: fim dos testadores de cartão'
+        - title: '- Viação Ouro e Prata: 99% menos chargebacks!'
+        - title: '- Constance: Fraudes? Com a Konduto não temos mais'
+- template: phrase
+  bg-color: bg-pink
+  slogan: Receba nossos conteúdos direto no seu e-mail!
+  button:
+    button-url: '#'
+    button-title: Assinar newsletter
+- template: press
+  title: Konduto na imprensa
+  presses:
+    - title: Per ea vide saperet, ut mazim labore sea
+      info: Lorem ipsum dolor sit amet, cu amet quando usu. Facer singulis te vis, eu affert fierent consetetur ius?
+      logo: img/10resources/media/infomoney.png
+    - title: Lõrem ipsum dolor sít amet, éx dicunt àlbucíu
+      info: Dúo ut prímis évertitur, est êvertí cotidiéque ut. Dúó feugiát elígendi perículis ne, nõ vim munêre delênit põstulãnt.
+      logo: img/10resources/media/pegn.png
+    - title: Duis eléctrãm sít in, in íisquê disséntias vim, feugaít
+      info: At ius iriure nóstrum. Sit nêmore molestiaé complectitur in, ut dícát ómnium delénítí cum
+      logo: img/10resources/media/record.png
+    - title: Vím ut dicunt rêprimique, véreár sápíêntem
+      info: Pêr id homêro véreâr platonem. Eós id çáúsàe eirmód, mâgná saepê sçribentúr sed id, võlúptúa reférrentur duô ut. 
+      logo: img/10resources/media/startupi.png
+    - title: Percipit fãcilisí taçimátês te vêl, débet homêró in
+      info: Ãlterum vivendúm cónsectetúer no vis. Latinê côpiõsáê définitiones est ad. Eu pro evertitúr voluptâtum dísséntias.
+      logo: img/10resources/media/exame.png
+    - title: Ad pro tótâ pósteà própriáê, nec vêro eloquentiãm ad.
+      info: Utamur assuéverít an qúi. Seâ ne nullàm persius detracto. Sea an àliá nóluisse àrgúmentum
+      logo: img/10resources/media/valor.png
+    - title: Referrentúr adversâríum éós id, nec id aêque solet
+      info: Tê ubiqué séntentíãe persêquêris cum, êã legimus dignissim sít, hàs cú úllum iustó tempóribus
+      logo: img/10resources/media/canaltech.png

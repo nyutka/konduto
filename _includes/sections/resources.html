@@ -1,0 +1,19 @@
+<div class="resources">
+	<div class="container">
+		{% for resource in include.section.resources %}
+		<div class="row">
+			<div class="col-md-3 col-sm-3">
+				<div class="text-center"><span style="background-image: url({{ site.baseurl  }}/{{ resource.logo }});" class="resources-icon"></span></div>
+			</div>
+			<div class="col-md-9 col-sm-9">
+				<h3>{{ resource.title }}</h3>
+				<ul>
+					{% for list in resource.lists %}
+					<li>{{ list.title }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

@@ -11,6 +11,20 @@
 	.btn {
 		margin-bottom: 40px;
 	}
+	.hero-heading.orange {
+		b {
+			color: $orange;
+			display: block;
+		}
+	}
+	.hero-heading.new-line {
+		b {
+			display: block;
+			@include media-down(sm) {
+				display: inherit;
+			}
+		}
+	}
 }
 .hero-clinets {
 	background-color: $purple;
@@ -32,5 +46,13 @@
 				width: 38%;
 			}
 		}
+	}
+}
+.subheader {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	.btn {
+		font-family: $roboto-font;
+		text-align: left;
 	}
 }

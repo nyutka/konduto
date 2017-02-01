@@ -1,4 +1,4 @@
-<div class="principal-features">
+<div class="principal-features {% if include.section.page-class %}{{ include.section.page-class }}{% endif %}">
 	<div class="container">
 		<h2 class="orange-title">{{ include.section.title }}</h2>
 		{% for principal in include.section.principals %}

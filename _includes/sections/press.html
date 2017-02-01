@@ -1,0 +1,20 @@
+<div class="press">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1 col-sm-12">
+				<h2 class="purple-title">{{ include.section.title }}</h2>
+				{% for press in include.section.presses %}
+				<div class="row">
+						<div class="col-md-9 col-sm-9">
+							<h3>{{ press.title }}</h3>
+							<p>{{ press.info }}</p>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="text-center"><span style="background-image: url({{ site.baseurl  }}/{{ press.logo }});" class="press-icon"></span></div>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

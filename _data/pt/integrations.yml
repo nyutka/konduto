@@ -1,0 +1,74 @@
+title:
+sections:
+- template: hero-wide
+  header-class: new-line
+  header: Integraçãocom as principais <b>plataformas de e-commerce</b>
+  subtitle: Se a sualojavirtual usa algumaplataforma, ficaainda mais fácil integrar
+- template: subheader
+  title: Souumaplataforma de e-commercee quero ser parceiroda Konduto
+  button:
+    url: '#'
+    title: Quero integrar
+- template: partnerships
+  title: Integrações e parcerias
+  partners:
+    - icon: img/07integrations/payzen.png
+      info: A PayZen é o gateway online da Lyra Network. É uma plataforma de pagamento online integrada a bancos, administradoras de cartões de crédito e facilitadores. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/vtex.png
+      info: A VTEX é uma plataforma de e-commerce com um software omnichannel, que permite integrar todo o relacionamento com os consumidores. Está presente em 15 países, com mais de 1.600 clientes. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/magento.png
+      info: Magento é o sistema de e-commerce open source mais utilizado no mundo. A plataforma é uma das soluções mais completas no mercado atualmente. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/vindi.png
+      info: A Vindi é uma empresa brasileira de tecnologia e pagamentos especializada em cobrança recorrente, ideal para empresas de assinatura, serviços, SaaS, academias e e-commerces, dentre outros. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/rj_consultores.png
+      info: A RJ Consultores é líder mundial em software de venda de passagens para transporte rodoviário de passageiros. A empresa possui mais de 400 clientes em todo o mundo e vende mensalmente mais de 60 milhões de passagens. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/rodosoft.png
+      info: Empresa que desenvolve sistemas e fornece soluções informatizadas para o segmento de transporte rodoviário de passageiros. A Rodosoft é referência junto a companhias que atendem o Rio Grande do Sul. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/dotstore.png
+      info: A Dotstore é uma plataforma de e-commerce omnichannel que permite o gerenciamento da loja virtual de maneira fácil e prática a partir do painel de controle, sem necessidade de conhecimento de HTML ou programação. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/iugu.png
+      info: A iugu é uma infraestrutura financeira criada para atender aos novos modelos de negocios digitais, especialmente empresas que buscam escalar a operação.
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/webstorm.png
+      info: A Webstorm é uma plataforma de e-commerce 100% customizável e com um sistema de gerenciamento intuitivo e fácil de ser utilizado.
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/betalabs.png
+      info: A Betalabs oferece sistemas de gestão (ERP), plataforma de e-commerce e software sob medida na nuvem, para pequenas, médias e grandes empresas. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/logo.png
+      info: A QuadLabs desenvolveu uma tecnologia de e-commerce voltada para o segmento de turismo. A solução da empresa é específica para agentes e intermediadores de viagens. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
+    - icon: img/07integrations/irroba.png
+      info: A Irroba E-commerce desenvolve plataformas e outras soluções para e-commerces, tanto para o mercado B2B como para o B2C. 
+      link:
+        url: '#'
+        title: '>> Saiba mais como integrar'
