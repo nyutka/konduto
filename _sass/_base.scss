@@ -31,6 +31,21 @@ blockquote {
 		}
 	}
 }
+input.form-control {
+	border-color: $grey;
+	border-radius: 0;
+	border-width: 2px;
+	font-size: 18px;
+	font-weight: normal;
+	box-shadow: none;
+	outline: none;
+	&:hover,
+	&:focus {
+		border-color: $grey;
+		box-shadow: none;
+		outline: none;
+	}
+}
 .review {
 	padding: 40px 0;
 	blockquote {

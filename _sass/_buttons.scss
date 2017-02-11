@@ -85,6 +85,27 @@
 			11px 10px 0px $light-mint,10px 11px 0px $light-mint;	
 		}
 	}
+	&.btn-pink {
+		background-color: $pink;
+		border: solid 1px $pink;
+		font-family: $buttons-font-family;
+		&:active {
+			box-shadow: 0px 0px 0px $pink !important;
+		}
+		&:hover,
+		&:focus {
+			background-color: $pink;
+		}
+		&.btn-xs {
+			font-size: 20px;
+			margin-top: 5px;
+			box-shadow: 1px 0px 0px $light-pink,0px 1px 0px $light-pink,
+			2px 1px 0px $light-pink,1px 2px 0px $light-pink,
+			3px 2px 0px $light-pink,2px 3px 0px $light-pink,
+			4px 3px 0px $light-pink,3px 4px 0px $light-pink,
+			5px 4px 0px $light-pink,4px 5px 0px $light-pink;	
+		}
+	}
 	&.btn-orange {
 		background-color: $orange;
 		border: solid 1px $orange;

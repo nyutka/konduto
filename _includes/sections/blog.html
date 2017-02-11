@@ -1,0 +1,59 @@
+<div class="blog-page">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
+				<article class="blog-posts">
+				{% for post in site.posts %}
+					<div class="blog-post-box">
+						{{ post.url }}
+						<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+						<p>{{ post.content | truncatewords: 20 }}</p>
+						<div class="author-date">
+							<span>{{ include.section.date-name }} {{ post.author }}</span>
+							<span class="date">{{ post.date | date_to_string }}</span>
+						</div>
+					</div>
+				{% endfor %}
+				</article>
+			</div>
+			<div class="col-lg-4 col-md-5 col-sm-5 col-xs-12">
+				<div class=" right-column">
+					<div class="more-post">
+						<div class="header">
+							<h3 class="text-center">{{ include.section.more-post-title }}</h3>
+						</div>
+						<div class="body">
+							{% for post in site.posts limit:5 %}
+							<a href="{{ site.baseurl_root }}{{  post.url }}"><h5>{{ post.title }}</h5></a>
+							{% endfor %}
+						</div>
+					</div>
+					<div class="subscribe">
+						<div class="header">
+							<h3 class="text-center">{{ include.section.newsletter-title }}</h3>
+						</div>
+						<div class="body">
+							<h4>{{ include.section.subscribe-title }}</h4>
+							<form>
+								<input type="email" required placeholder="Inserir e-mail" class="form-control">
+								<div class="text-center">
+									<button type="sybmit" class="btn btn-xs btn-pink">{{ include.section.button-title }}</button>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="continue-reading">
+						<div class="header">
+							<h3 class="text-center">{{ include.section.reading-title }}</h3>
+						</div>
+						<div class="body">
+							{% for book in include.section.book-links %}
+							<a href="{{ bool.url }}"><h5> >> {{ book.title }}</h5></a>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

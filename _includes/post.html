@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row post-page">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <div class="date">Publicado em {{ page.date }} <span>|</span> {% include read_time.html %}</div>
+      <div class="row">
+        {% if page.author-image %}
+        <div class="col-md-2 col-sm-3 col-xs-3 author-image">
+          <img src="{{ page.author-image }}" class="img-responisve">
+        </div>
+        <div class="col-md-10 col-sm-9 xol-xs-9 author">
+            {% if page.author-position %}
+            {{ author-position }}
+            {% endif %}
+        </div>
+        {% else %}
+        <div class="col-md-12 author">
+            {{ page.author }}
+            {% if page.author-position %}
+            {{ author-position }}
+            {% endif %}
+        </div>
+        {% endif %}
+      </div>
+      <h2 class="orange-title text-left">{{ page.title }}</h2>
+      <h3 class="text-left">{{ page.subtitle }}</h3>
+      <div class="post">
+        {{ page.image }}
+        {{ content }}
+      </div>
+
+      {% if page.previous or page.next %}
+        {% if page.next %}
+          <div class=" post-nav">
+              <h2><a href="{{ page.next.url | prepend:site.baseurl }}/"><span>Next up:</span> {{ page.next.title }}</a></h2>
+              <p>{{ page.next.excerpt | markdownify | truncatewords: 20 }}</p>
+          </div>
+        {% endif %}
+        {% if page.previous %}
+          <div class="post-nav">
+            <h2><a href="{{ page.previous.url | prepend:site.baseurl }}/"><span>Previous story:</span> {{ page.previous.title }}</a></h2>
+            <p>{{ page.previous.excerpt | markdownify | truncatewords: 20 }}</p>
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+    {% if site.info.disqus.shortname %}
+    <section>
+    <div id="disqus_thread"></div>
+    {% include _disqus.html %}
+    </section>
+    {% endif %}
+  </div>
+</div>

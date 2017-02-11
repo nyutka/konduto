@@ -9,7 +9,7 @@
 			img {
 				height: 55px;
 				@include media-down(md) {
-					height: 35px;
+					height: 45px;
 				}
 				@include media-down(sm) {
 					height: 43px;
@@ -45,8 +45,9 @@
 	}
 	.navbar-nav.nav > li {
 		line-height: $line-height-base;
+		padding-top: 10px;
 		@include media-down(md) {
-			line-height: 65px;
+			padding-top: 3px;
 		}
 		@include media-down(sm) {
 			line-height: 3.1;
@@ -79,7 +80,7 @@
 				}
 				@include media-down(md) {
 					font-size: 23px;
-					padding: 0 6px;
+					padding: 0 5px;
 				}
 
 			}
@@ -105,6 +106,9 @@
 			border: none;
 			outline: none;
 			padding: 0 30px;
+			@include media-down(md) {
+				padding: 0 15px;
+			}
 			&:hover,
 			&:focus {
 				outline: none !important;
