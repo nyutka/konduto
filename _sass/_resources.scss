@@ -37,6 +37,11 @@
 	}
 }
 .press {
+	h2.purple-title {
+		@include media-down(sm) {
+			display: none;
+		}
+	}
 	.container .row:last-child {
 		border-bottom: none;
 	}

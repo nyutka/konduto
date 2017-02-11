@@ -5,7 +5,7 @@
       <h2 class="orange-title text-left">{{ page.title }}</h2>
       <h3 class="text-left">{{ page.subtitle }}</h3>
       {% if page.author-image %}
-      <div class="row v-center">
+      <div class="row v-center autor-info">
         <div class="col-md-2 col-sm-2 col-xs-4 text-center">
           <div class="author-image" style="background-image: url({{ page.author-image }});"></div>
         </div>
@@ -17,7 +17,7 @@
         </div>
       </div>
       {% else %}
-      <div>
+      <div class="autor-info">
           <div class="author">{{ page.author }}</div>
           {% if page.author-position %}
           <div class="position">{{ author-position }}</div>
