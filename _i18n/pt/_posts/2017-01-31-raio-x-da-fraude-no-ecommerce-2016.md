@@ -4,7 +4,6 @@ categories: pt
 date: '2017-02-01-T10:39:00-03:00'
 title: "Tentativas de fraude on-line recuam em 2016, mas aumentam no mobile"
 subtitle: "Divulgamos a versão consolidada de 2016 do mais completo estudo sobre fraudes no e-commerce brasileiro"
-author-image: http://placehold.it/350x150"
 excerpt: "Confira o relatório Raio-X da Fraude no E-commerce Brasileiro, com dados exclusivos sobre o ano de 2016"
 author: felipe
 ---
