@@ -518,26 +518,29 @@ input.form-control {
     margin-bottom: 30px;
     color: #b8b6b9;
     font-size: 22px; }
-  .post-page .author-image {
-    border-radius: 100px;
-    height: 85px;
-    width: 85px;
-    background-position: center center;
-    display: inline-block;
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .post-page .author {
-    font-family: "Roboto Slab", serif;
-    text-transform: capitalize;
-    font-size: 18px;
-    font-weight: 600;
-    color: #3c0861; }
-  .post-page .position {
-    font-family: "Roboto Slab", serif;
-    font-size: 18px;
-    font-weight: normal;
-    display: block;
-    color: #3c0861; }
+  .post-page .autor-info {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    .post-page .autor-info .author-image {
+      border-radius: 100px;
+      height: 85px;
+      width: 85px;
+      background-position: center center;
+      display: inline-block;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .post-page .autor-info .author {
+      font-family: "Roboto Slab", serif;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-weight: 600;
+      color: #3c0861; }
+    .post-page .autor-info .position {
+      font-family: "Roboto Slab", serif;
+      font-size: 18px;
+      font-weight: normal;
+      display: block;
+      color: #3c0861; }
   .post-page .post {
     border-bottom: 3px dotted #e8e8e8; }
     .post-page .post p {
@@ -734,6 +737,9 @@ input.form-control {
           text-align: center;
           font-size: 18px; } }
 
+@media (max-width: 767px) {
+  .press h2.purple-title {
+    display: none; } }
 .press .container .row:last-child {
   border-bottom: none; }
 .press .row {
