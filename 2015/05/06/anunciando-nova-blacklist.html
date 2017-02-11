@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Anunciando a nova blacklist - </title>
+
+	<link rel="stylesheet" href="/konduto/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/konduto/css/font-awesome.css">
+	<link rel="stylesheet" href="/konduto/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="/konduto/css/main.css">
+  
+</head>
+
+  <body>
+
+    <nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div class="visible-xs mobile-lng">
+        <select class="selectpicker">
+          
+            <option  value="/konduto/">PT</option>
+          
+            <option  value="/konduto/en">EN</option>
+          
+            <option  value="/konduto/es">ES</option>
+          
+        </select>
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/konduto/img/header/logo.png" alt="konduto logo">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/planos">Planos</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/completo">Como funciona</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/performance">Integrações</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/blog">Blog</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/">Ajuda</a>
+            
+        </li>
+        
+        <li class="nav-btn">
+          <a href="/konduto#" class="btn btn-xs btn-mint">Login</a>
+        </li>
+        <li class="hidden-xs">
+          <select class="selectpicker">
+            
+              <option  value="/konduto/" data-icon="pt-icon"></option>
+            
+              <option  value="/konduto/en" data-icon="eng-icon"></option>
+            
+              <option  value="/konduto/es" data-icon="es-icon"></option>
+            
+          </select>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container">
+  <div class="row post-page">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <div class="date">Publicado em May 06, 2015 <span>|</span> <span class="reading-time">
+  
+  
+    3 mins
+  
+</span></div>
+      <h2 class="orange-title text-left">Anunciando a nova blacklist</h2>
+      <h3 class="text-left"></h3>
+      
+      <div>
+          <div class="author">tom</div>
+          
+      </div>
+      
+      <div class="post">
+        
+        <p>Estamos anunciando hoje o lançamento de mais uma funcionalidade que os nossos clientes vêm pedido: uma <strong>blacklist dedicada e completa</strong>, incluindo uma <strong>API só dela</strong> e a habilidade de <strong>importar listas externas</strong>.</p>
+
+<p>Até então, se você quisesse bloquear um endereço ou um email, era preciso criar ou editar uma regra customizada que negava pedidos com aquelas informaçōes. A partir de hoje, vocês verão a nova opção no seu menu de Configuraçōes para gerenciar exclusivamente os endereços e e-mails da lista negra, sem precisar mais mexer em regra nenhuma.</p>
+
+<h2 id="mas-primeiro-o-que--uma-blacklist">Mas primeiro, o que é uma blacklist?</h2>
+
+<p>A blacklist, ou lista negra ou lista negativa, é uma forma de agrupar informaçōes ruins e que devem ser descartados imediatamente. Entende-se que todos os registros contidos na blacklist já foram confirmados como sendo ruins, seja por um algoritmo ou por uma pessoa.</p>
+
+<p>Na análise de pedidos, ela é usada para negar qualquer pedido que contenha aqueles dados - por exemplo, um e-mail que já sabemos ser de um fraudador ou um endereço que frequentemente resulta em contestaçōes.</p>
+
+<p>Há três formas de adicionar entradas na lista: uma a uma, importando um CSV, ou automaticamente via API.</p>
+
+<h2 id="insero-manual-pelo-portal">Inserção manual pelo Portal</h2>
+
+<p>Clique na opção de <strong>Configuraçōes</strong> e depois em <strong>Blacklists</strong>:</p>
+
+<p><img src="/images/blacklist-post/pt/blacklist_menu.png" alt="Blacklist" /></p>
+
+<p>Você verá esta tela, mostrando as entradas mais recentes nas listas de endereço e de e-mails:</p>
+
+<p><img src="/images/blacklist-post/pt/blacklist_home.png" alt="Blacklist" /></p>
+
+<p>Para adicionar um registro manualmente, clique em <strong>Nova entrada</strong> e digite o valor que deseja cadastrar na lista:</p>
+
+<p><img src="/images/blacklist-post/pt/blacklist_manual_entry.png" alt="Blacklist" /></p>
+
+<p>Pronto! A próxima transação que for analisada já levará em conta este registro.</p>
+
+<p><img src="/images/blacklist-post/pt/blacklist_manual_confirm.png" alt="Blacklist" /></p>
+
+<p><strong>Notou o campo “data de expiração”?</strong></p>
+
+<p>Se você não quer deixar um registro permanentemente na blacklist, mas deseja apenas bloqueá-los por algum tempo, então use a data de expiração.</p>
+
+<p><img src="/images/blacklist-post/pt/blacklist_expires_in.png" alt="Blacklist" /></p>
+
+<p>Ao atingir a data limite, o sistema irá remover aquele registro da Blacklist, e novos pedidos que contém aquelas informaçōes serão aprovados.</p>
+
+<h2 id="importando-um-csv">Importando um CSV</h2>
+
+<p>Se você tem uma lista de registros que deseja importar em massa, então esta opção é para você! Clique no botão importar:</p>
+
+<p><img src="/images/blacklist-post/pt/blacklist_csv_import.png" alt="Blacklist" /></p>
+
+<p>E selecione o arquivo que contém os dados:</p>
+
+<p><img src="/images/blacklist-post/pt/blacklist_csv_select.png" alt="Blacklist" /></p>
+
+<p>O arquivo precisa estar no formato CSV e não pode ser maior do que 2MB. Mais informaçōes sobre o formato podem ser encontradas no Portal:</p>
+
+<p><img src="/images/blacklist-post/pt/blacklist_csv_success.png" alt="Blacklist" /></p>
+
+<h2 id="utilizando-a-api">Utilizando a API</h2>
+
+<p>A nova API de Blacklist permite que você automatize o gerenciamento ou importação dos registros.</p>
+
+<p>Com ela, você pode adicionar um novo registro, consultar se um dado está na lista, atualizar a data de expiração daquele registro e também remover a entrada da lista negra.</p>
+
+<p>Para adicionar um e-mail à blacklist basta fazer o seguinte post:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>curl -u T738D516F09CAB3A2C1EE: -X POST <span class="se">\</span>
+-H <span class="s1">'Content-Type: application/json; charset=UTF-8'</span> <span class="se">\</span>
+-d <span class="s1">'{"email_address":"fulana@exemplo.com.br","days_to_expire":30}'</span> <span class="se">\</span>
+https://api.konduto.com/v1/blacklist/email</code></pre></figure>
+
+<p>Você pode encontrar a documentação completa do endpoint de blacklist em <a href="https://docs.konduto.com">docs.konduto.com</a>.</p>
+
+<p>Agradecemos sempre as sugestōes que os nossos clientes nos enviam! É com esta parceria que vamos melhorando o serviço e oferecendo novas funcionalidades. Continuem mandando!</p>
+
+<h2 id="quer-saber-mais">Quer saber mais?</h2>
+
+<p>Envie um e-mail para <strong>oi@konduto.com</strong> e teremos o prazer em ajudar!</p>
+
+<p>Conecte-se com a Konduto também nas redes sociais: <a href="https://www.linkedin.com/company/konduto">Linkedin</a>, <a href="https://www.facebook.com/konduto">Facebook</a> e <a href="https://twitter.com/Konduto_">Twitter</a></p>
+
+
+      </div>
+
+      
+        
+          <div class=" post-nav">
+              <h2>
+                
+                <a href="/konduto/2015/05/27/fraude-amiga.html" ><span>Next up:</span> Fraude amiga?</a></h2>
+                
+              <p><p>Um chargeback nem sempre é fraude. Descubra o que é a fraude amiga e o que você pode fazer a...</p>
+          </div>
+        
+        
+          <div class="post-nav">
+            <h2>
+              
+              <a href="/konduto/2015/04/09/coisas-que-voce-acha-que-sabe-sobre-ips-sqn.html"><span>Previous story:</span> Coisas que você acha que sabe sobre IPs, só que não</a></h2>
+              
+            <p><p>Os filmes nos ensinaram que tudo se resolve rastreando o IP do usuário. Só que na vida real não é...</p>
+          </div>
+        
+      
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer">
+	<div class="container">
+		<div class="row">
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Konduto</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Como funciona
+						</a></li>
+						
+						<li><a href="#">
+						
+						Planos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Quem somos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Termos
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Conteúdos</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Blog
+						</a></li>
+						
+						<li><a href="#">
+						
+						Newsletter
+						</a></li>
+						
+						<li><a href="#">
+						
+						Reportse e-books
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Deve Suporte</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Ajuda
+						</a></li>
+						
+						<li><a href="#">
+						
+						API
+						</a></li>
+						
+						<li><a href="#">
+						
+						Integrações
+						</a></li>
+						
+						<li><a href="#">
+						
+						Magento
+						</a></li>
+						
+						<li><a href="#">
+						
+						Status
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Contato</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-phone"></i>
+						
+						(11) 4063-6461
+						</a></li>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-envelope-o"></i>
+						
+						oi@konduto.com
+						</a></li>
+						
+					</ul>
+				</div>
+			
+		</div>
+		<div class="social-links text-center">
+				<ul>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/facebook.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/linkedin.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/twitter.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/github.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/google.png);"></span>
+						</a>
+					</li>
+					
+				</ul>
+		</div>
+	</div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/konduto/js/bootstrap.min.js"></script>
+<script src="/konduto/js/bootstrap-select.min.js"></script>
+<script src="/konduto/js/main.js"></script>
+
+  </body>
+
+</html>

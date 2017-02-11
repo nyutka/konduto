@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Las principales causas de fraude en el e-commerce, 1ª Parte: Autenticación del cliente - </title>
+
+	<link rel="stylesheet" href="/konduto/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/konduto/css/font-awesome.css">
+	<link rel="stylesheet" href="/konduto/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="/konduto/css/main.css">
+  
+</head>
+
+  <body>
+
+    <nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div class="visible-xs mobile-lng">
+        <select class="selectpicker">
+          
+            <option  value="/konduto/">PT</option>
+          
+            <option  value="/konduto/en">EN</option>
+          
+            <option  selected  value="/konduto/es">ES</option>
+          
+        </select>
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/konduto/es/img/header/logo.png" alt="konduto logo">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/es/planos">Planos</a>
+          
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/es/completo">Como funciona</a>
+          
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/es/performance">Integrações</a>
+          
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/es/blog">Blog</a>
+          
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/es/">Ajuda</a>
+          
+        </li>
+        
+        <li class="nav-btn">
+          <a href="/konduto#" class="btn btn-xs btn-mint">Login</a>
+        </li>
+        <li class="hidden-xs">
+          <select class="selectpicker">
+            
+              <option  value="/konduto/" data-icon="pt-icon"></option>
+            
+              <option  value="/konduto/en" data-icon="eng-icon"></option>
+            
+              <option  selected  value="/konduto/es" data-icon="es-icon"></option>
+            
+          </select>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container">
+  <div class="row post-page">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <div class="date">Publicado em June 29, 2016 <span>|</span> <span class="reading-time">
+  
+  
+    4 mins
+  
+</span></div>
+      <h2 class="orange-title text-left">Las principales causas de fraude en el e-commerce, 1ª Parte: Autenticación del cliente</h2>
+      <h3 class="text-left">En la primera parte, hablaremos acerca de la autenticación del usuario por medio de internet</h3>
+      
+      <div>
+          <div class="author">tom</div>
+          
+      </div>
+      
+      <div class="post">
+        
+        <p>El fraude es una realidad a la que está expuesto el que dirige un negocio. Alguien puede darle billetes falsos al cajero, o un cheque sin fondos o usar una tarjeta clonada y datos falsos. En la mayor parte de los casos, solo lo descubrirás tras haber sido engañado y aprenderás alguna lección por el camino.</p>
+
+<p>Esta entrada, dividida en dos partes, abordará los principales factores que contribuyen al fraude en la web: la dificultad en <strong>autenticar el cliente</strong>, y la facilidad en <strong>conseguir números de tarjetas de crédito</strong>.</p>
+
+<p>##Autenticación: ¿quién eres tú?</p>
+
+<p><img src="/images/160629-whoru.gif" alt="whoru" /></p>
+
+<p>Autenticar a alguien implica confiar en una institución que garantiza la identidad de esa persona. El gobierno es la primera que recordamos, ya que este emite el Documento Nacional de Identidad (DNI) o el carné de conducir, que sirven para comprobar nuestra identidad. La documentación autenticada en oficina notarial tiene casi el mismo valor que la oficial, pues tanto el gobierno como nosotros confiamos en el proceso.</p>
+
+<p>Hay también la autenticación no de identidad, pero de «posesión» de una información. Un e-mail que solicite la confirmación de la dirección o un SMS con un código de activación son los ejemplos más corrientes. Con eso, no se puede autenticar tu identidad, pero se puede saber que tenías este teléfono en el momento del SMS. El PayPal, por ejemplo, realiza un cobro en tu tarjeta pasando un token en la factura, que debes confirmar después. Eso implica que tienes acceso a la factura de la tarjeta y que, por tanto, eres el propietario.</p>
+
+<p>Hasta aquí todo bien. Pero ninguno de estos modos de autenticación es fácil de usar en el e-commerce. Solicitar documentos digitalizados al cliente es una mala experiencia («¿No confía en mí?») y las consultas del número de identificación fiscal (NIF/RUC) solo indican a quién le pertenece. No permiten garantizar que la persona que se encuentra al otro lado de la pantalla es quien dice ser.</p>
+
+<p><img src="/images/160629-itsme.gif" alt="itsme" /></p>
+
+<p>La manera más obvia sería validar quién es el propietario de la tarjeta que está realizando la compra. Esta tecnología ya existe y se conoce como <strong>3D Secure</strong>. Hoy las banderas Visa, por medio del su programa Verified by Visa, y Mastercard, usando el Mastercard SecureCode, ofrecen la posibilidad de introducir la contraseña de tu tarjeta o el token de tu banco para validar que es el propietario el que está comprando. Si la compra se autentica con contraseña, la tienda ya no corre riesgo: aunque se llegue a un chargeback, el que se hace cargo es el banco. ¿Estupendo, no?</p>
+
+<p>El problema es que esta tecnología tiene una pésima aceptación por gran parte de los consumidores. ¡Un estudio reveló que <strong>la tasa de conversión puede caer hasta el 50% cuando una tienda usa el 3D Secure</strong>! Así, merece más la pena correr el riesgo de fraude que perder a la mitad de los compradores.</p>
+
+<p>Muchas empresas están trabajando para intentar solucionar el problema de la autenticación. Una apuesta es la biometría. El reciente lanzamiento del ApplePay utiliza la impresión digital del propietario del celular para autenticar el pago, pero solo funciona con iPhones y algunos pocos bancos. Y existe controversia sobre cómo Apple implementó esto.</p>
+
+<p>Mientras no surja una solución universal, simple de usar y segura, lo mejor es tener siempre en mente lo siguiente: no hay forma de comprobar quién está al otro lado.</p>
+
+<p><strong>Te puede interesar</strong><br />
+<a href="https://blog.konduto.com/es/2016/04/cosas-que-no-sabias-acerca-de-tarjeta-de-credito/?utm_source=konduto&amp;utm_medium=blog-es&amp;utm_campaign=conteudo">5 cosas que no sabías acerca de la tarjeta de crédito</a><br />
+<a href="https://blog.konduto.com/es/2016/05/que-hacer-al-recibir-el-primer-chargeback/?utm_source=konduto&amp;utm_medium=blog-es&amp;utm_campaign=conteudo">¿Qué hacer al recibir el primer chargeback?</a><br />
+<a href="https://blog.konduto.com/es/2016/05/que-es-un-fraude-amigo/?utm_source=konduto&amp;utm_medium=blog-es&amp;utm_campaign=conteudo">¿Fraude amigo?: sabe lo que es y aprende como evitarlo</a></p>
+
+<h2 id="acerca-de-konduto">Acerca de Konduto</h2>
+
+<p>Somos una startup que desarrolló una <strong>tecnología innovadora para impedir el fraude en línea</strong>. Nuestros análisis son completos y no se basan tan solo en la combinación de datos de registro, como el e-mail y el número de identificación. Monitoreamos también el comportamiento de navegación del cliente desde el instante en que este entra en tu página web o aplicación móvile hasta el momento en que finaliza la compra.</p>
+
+<p>La solución antifraude Konduto es más eficiente y con respuesta en tiempo real, para no perjudicar tu operación. Detectamos los pedidos que son realmente sospechosos: de este modo, tú reduces los costos con revisiones manuales al mismo tiempo en que vendes más y sufres menos fraudes.</p>
+
+<h2 id="quieres-saber-ms">¿Quieres saber más?</h2>
+
+<p>Contacta nuestro equipo comercial a través del e-mail <strong>hola@konduto.com</strong></p>
+
+<p>Conéctate con Konduto también en las redes sociales: <a href="https://www.linkedin.com/company/konduto">Linkedin</a> y <a href="https://www.facebook.com/konduto">Facebook</a></p>
+
+      </div>
+
+      
+        
+          <div class=" post-nav">
+              <h2>
+                
+                <a href="/konduto/es/2016/07/11/principales-causas-de-fraude-en-el-ecommerce-2parte.html"><span>Next up:</span> Las principales causas de fraude en el e-commerce, 2ª Parte: Fuga de datos</a></h2>
+                
+              <p><p>En esta segunda parte, hablaremos acerca de la seguridad y de la fuga de datos sensibles</p>
+</p>
+          </div>
+        
+        
+          <div class="post-nav">
+            <h2>
+              
+              <a href="/konduto/es/2016/06/22/conoce-4-mitos-acerca-de-ips.html"><span>Previous story:</span> Cosas que piensas que sabes acerca de IPs, pero no</a></h2>
+              
+            <p><p>¿Cuál es mi IP? Depende… ¡no tienes un IP propio!</p>
+</p>
+          </div>
+        
+      
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer">
+	<div class="container">
+		<div class="row">
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Konduto</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Como funciona
+						</a></li>
+						
+						<li><a href="#">
+						
+						Planos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Quem somos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Termos
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Conteúdos</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Blog
+						</a></li>
+						
+						<li><a href="#">
+						
+						Newsletter
+						</a></li>
+						
+						<li><a href="#">
+						
+						Reportse e-books
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Deve Suporte</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Ajuda
+						</a></li>
+						
+						<li><a href="#">
+						
+						API
+						</a></li>
+						
+						<li><a href="#">
+						
+						Integrações
+						</a></li>
+						
+						<li><a href="#">
+						
+						Magento
+						</a></li>
+						
+						<li><a href="#">
+						
+						Status
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Contato</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-phone"></i>
+						
+						(11) 4063-6461
+						</a></li>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-envelope-o"></i>
+						
+						oi@konduto.com
+						</a></li>
+						
+					</ul>
+				</div>
+			
+		</div>
+		<div class="social-links text-center">
+				<ul>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/es/img/footer/facebook.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/es/img/footer/linkedin.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/es/img/footer/twitter.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/es/img/footer/github.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/es/img/footer/google.png);"></span>
+						</a>
+					</li>
+					
+				</ul>
+		</div>
+	</div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/konduto/js/bootstrap.min.js"></script>
+<script src="/konduto/js/bootstrap-select.min.js"></script>
+<script src="/konduto/js/main.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Você sabe para que serve o HTTPS no seu site? - </title>
+
+	<link rel="stylesheet" href="/konduto/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/konduto/css/font-awesome.css">
+	<link rel="stylesheet" href="/konduto/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="/konduto/css/main.css">
+  
+</head>
+
+  <body>
+
+    <nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div class="visible-xs mobile-lng">
+        <select class="selectpicker">
+          
+            <option  value="/konduto/">PT</option>
+          
+            <option  value="/konduto/en">EN</option>
+          
+            <option  value="/konduto/es">ES</option>
+          
+        </select>
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/konduto/img/header/logo.png" alt="konduto logo">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/planos">Planos</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/completo">Como funciona</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/performance">Integrações</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/blog">Blog</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/">Ajuda</a>
+            
+        </li>
+        
+        <li class="nav-btn">
+          <a href="/konduto#" class="btn btn-xs btn-mint">Login</a>
+        </li>
+        <li class="hidden-xs">
+          <select class="selectpicker">
+            
+              <option  value="/konduto/" data-icon="pt-icon"></option>
+            
+              <option  value="/konduto/en" data-icon="eng-icon"></option>
+            
+              <option  value="/konduto/es" data-icon="es-icon"></option>
+            
+          </select>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container">
+  <div class="row post-page">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <div class="date">Publicado em November 04, 2015 <span>|</span> <span class="reading-time">
+  
+  
+    2 mins
+  
+</span></div>
+      <h2 class="orange-title text-left">Você sabe para que serve o HTTPS no seu site?</h2>
+      <h3 class="text-left">O cliente se sente mais seguro em um ambiente HTTPS, mas isso não quer dizer, necessariamente, que ele esteja seguro</h3>
+      
+      <div>
+          <div class="author">tom</div>
+          
+      </div>
+      
+      <div class="post">
+        
+        <p><img src="/images/151023-https-executivo.jpg" alt="HTTPS" />
+<small><em>Imagem: Dollar Photoclub</em></small></p>
+
+<p>Quem está abrindo um e-commerce com certeza irá ouvir em algum momento que precisa de um certificado de segurança, aquele <strong>HTTPS</strong> na cor verde que aparece na barra de endereço do navegador. No passado dava um trabalhão botar no site, mas hoje em dia os preços e a instalação deixaram tudo mais fácil. Tem até <a href="http://blog.cloudflare.com/introducing-universal-ssl/">SSL (Secure Socket Layer) de graça</a> e com <a href="https://letsencrypt.org">emissão automática</a>!</p>
+
+<p><strong>Leia também</strong><br />
+<a href="https://blog.konduto.com/pt/2015/04/coisas-que-voce-acha-que-sabe-sobre-ips-sqn?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Coisas que você acha que sabe sobre IPs - só que não!</a><br />
+<a href="https://blog.konduto.com/pt/2015/02/as-causas-da-fraude-parte-1?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Saiba as principais causas de fraude no e-commerce - Parte 1: Autenticação do cliente</a><br />
+<a href="https://blog.konduto.com/pt/2014/10/porque-checar-apenas-nome-e-cpf-ja-nao-e-suficiente-na-analise-manual?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Quer evitar fraudes? Checar apenas nomes e CPF não é mais suficiente</a></p>
+
+<p>A verdade é que o certificado de segurança é uma <strong>peça fundamental</strong> não só do comércio eletrônico, mas da internet de uma forma geral. Ele é o pilar do “centro de confiança” da grande rede de computadores. Mas, apesar de sua importância, pouca gente sabe o que ele realmente faz. Vamos resolver isso já!</p>
+
+<h2 id="https--como-um-documento-de-identidade">HTTPS é como um documento de identidade</h2>
+
+<p>A primeira função do certificado SSL é garantir que aquele site <strong>é realmente quem ele diz ser</strong>, uma espécie de “credencial”. Há diversas formas de mascarar o endereço no navegador, e alguns ataques fingem ser o www.SiteDoSeuBanco.com.br quando na verdade não são.</p>
+
+<p>O SSL resolve isso. <strong>Só o dono do domínio facebook.com consegue colocar um HTTPS no site do Facebook</strong>. Idem para o seu banco. Logo, quando você acessa um site com certificado de segurança, pode ter certeza de que não é uma cópia.</p>
+
+<h2 id="o-cliente-se-sente-mais-seguro">O cliente se sente mais seguro</h2>
+
+<p>A outra importante função do SSL é criptografar a <strong>comunicação entre o navegador do cliente e o seu site</strong>. Ele cria um túnel seguro pelo qual as duas pontas se comunicam - <strong>ningúem</strong> consegue bisbilhotar o que passa por ali, nem o que foi digitado. Isso é especialmente importante quando você pede <strong>senha</strong> ou <strong>número de cartão</strong>!</p>
+
+<p>O consumidor já está treinado para buscar o HTTPS na barra de endereços, então o SSL faz o trabalho duplo de garantir uma <strong>comunicação segura</strong> e dar <strong>sossego ao cliente</strong>.</p>
+
+<p>É importante entender que o trabalho do certificado digital termina aí. O SSL não atesta sobre as atividades do site, sobre o que ele faz com as informações digitadas ou se ele realmente é um e-commerce estabelecido.</p>
+
+<p>O fato de o site <strong><u>não</u></strong> ter SSL acende uma luz vermelha, mas o fato de ele ter o HTTPS <strong>não significa necessariamente que ele é idôneo</strong>.</p>
+
+<h2 id="sobre-a-konduto">Sobre a Konduto</h2>
+
+<p>Somos uma startup brasileira fundada em 2014 que desenvolveu um sistema antifraude ainda mais inteligente para o e-commerce. Nossa tecnologia se baseia no comportamento de navegação do usuário e, a partir daí, é capaz de aprovar mais pedidos ao mesmo tempo em que diminui os índices de chargebacks dos lojistas. Tudo isso em tempo real, com uma análise de fraude em até 1 segundo!</p>
+
+<p>Conecte-se com a Konduto também nas redes sociais: <a href="https://www.linkedin.com/company/konduto">Linkedin</a>, <a href="https://www.facebook.com/konduto">Facebook</a> e <a href="https://twitter.com/Konduto_">Twitter</a></p>
+
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fkonduto%2Fvideos%2F613187352119217%2F&amp;show_text=1&amp;width=560" width="560" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+<p><strong>Quer saber mais? Ficou alguma dúvida? Fale com a gente no <a href="mailto:oi@konduto.com">oi@konduto.com</a>!</strong></p>
+
+
+      </div>
+
+      
+        
+          <div class=" post-nav">
+              <h2>
+                
+                <a href="/konduto/2015/11/11/dicas-para-evitar-fraudes-no-black-friday.html" ><span>Next up:</span> 5 dicas para lojistas evitarem fraudes (e faturarem mais) na Black Friday</a></h2>
+                
+              <p><p>Espera-se que as fraudes na Black Friday atinjam R$ 30 milhões. Saiba como se proteger para não fazer parte dessa...</p>
+          </div>
+        
+        
+          <div class="post-nav">
+            <h2>
+              
+              <a href="/konduto/2015/10/28/black-friday-fraudes-aumentam.html"><span>Previous story:</span> A Black Friday vem aí! Mas e as fraudes, vão aumentar?</a></h2>
+              
+            <p><p>Um dos dias mais importantes do ano para o comércio brasileiro, a Black Friday promete fomentar as vendas no País....</p>
+          </div>
+        
+      
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer">
+	<div class="container">
+		<div class="row">
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Konduto</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Como funciona
+						</a></li>
+						
+						<li><a href="#">
+						
+						Planos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Quem somos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Termos
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Conteúdos</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Blog
+						</a></li>
+						
+						<li><a href="#">
+						
+						Newsletter
+						</a></li>
+						
+						<li><a href="#">
+						
+						Reportse e-books
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Deve Suporte</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Ajuda
+						</a></li>
+						
+						<li><a href="#">
+						
+						API
+						</a></li>
+						
+						<li><a href="#">
+						
+						Integrações
+						</a></li>
+						
+						<li><a href="#">
+						
+						Magento
+						</a></li>
+						
+						<li><a href="#">
+						
+						Status
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Contato</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-phone"></i>
+						
+						(11) 4063-6461
+						</a></li>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-envelope-o"></i>
+						
+						oi@konduto.com
+						</a></li>
+						
+					</ul>
+				</div>
+			
+		</div>
+		<div class="social-links text-center">
+				<ul>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/facebook.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/linkedin.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/twitter.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/github.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/google.png);"></span>
+						</a>
+					</li>
+					
+				</ul>
+		</div>
+	</div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/konduto/js/bootstrap.min.js"></script>
+<script src="/konduto/js/bootstrap-select.min.js"></script>
+<script src="/konduto/js/main.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Inteligência artificial: afinal, o que é machine learning? - </title>
+
+	<link rel="stylesheet" href="/konduto/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/konduto/css/font-awesome.css">
+	<link rel="stylesheet" href="/konduto/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="/konduto/css/main.css">
+  
+</head>
+
+  <body>
+
+    <nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div class="visible-xs mobile-lng">
+        <select class="selectpicker">
+          
+            <option  value="/konduto/">PT</option>
+          
+            <option  value="/konduto/en">EN</option>
+          
+            <option  value="/konduto/es">ES</option>
+          
+        </select>
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/konduto/img/header/logo.png" alt="konduto logo">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/planos">Planos</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/completo">Como funciona</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/performance">Integrações</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/blog">Blog</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/">Ajuda</a>
+            
+        </li>
+        
+        <li class="nav-btn">
+          <a href="/konduto#" class="btn btn-xs btn-mint">Login</a>
+        </li>
+        <li class="hidden-xs">
+          <select class="selectpicker">
+            
+              <option  value="/konduto/" data-icon="pt-icon"></option>
+            
+              <option  value="/konduto/en" data-icon="eng-icon"></option>
+            
+              <option  value="/konduto/es" data-icon="es-icon"></option>
+            
+          </select>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container">
+  <div class="row post-page">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <div class="date">Publicado em January 30, 2015 <span>|</span> <span class="reading-time">
+  
+  
+    3 mins
+  
+</span></div>
+      <h2 class="orange-title text-left">Inteligência artificial: afinal, o que é machine learning?</h2>
+      <h3 class="text-left">Entenda como as máquinas conseguem aprender sozinhas e qual o impacto disso na nossa vida</h3>
+      
+      <div>
+          <div class="author">tom</div>
+          
+      </div>
+      
+      <div class="post">
+        
+        <p>A internet já tem <a href="http://www1.folha.uol.com.br/tec/2014/11/1553088-internet-ja-tem-quase-3-bilhoes-de-usuarios-no-mundo-diz-onu.shtml">3 bilhões de usuários</a> em todo o mundo, e cada um deles é um gerador de conteúdo. Nós produzimos e coletamos mais informações do que nunca. São artigos, desenhos, poemas, fotos, vídeos, podcasts, pesquisas e posts de cada usuário da internet. Para se ter uma ideia, estima-se que 90% da informação gerada na história foi criada nos <a href="http://www.sciencedaily.com/releases/2013/05/130522085217.htm">últimos 2 anos</a>.</p>
+
+<p><strong>Leia também</strong><br />
+<a href="https://blog.konduto.com/pt/2015/04/coisas-que-voce-acha-que-sabe-sobre-ips-sqn?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Coisas que você acha que sabe sobre IPs - só que não!</a><br />
+<a href="https://blog.konduto.com/pt/2015/01/tinha-uma-senha-no-meio-do-caminho?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Compra online sem login? Conheça o case do botão de R$ 1 bilhão</a><br />
+<a href="https://blog.konduto.com/pt/2014/09/5-coisas-que-voce-nao-sabia-sobre-cartao-de-credito?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">5 coisas que você não sabia sobre cartões de crédito</a></p>
+
+<p>Agora que temos esta quantidade de dados imensa, “só” nos resta entendê-la. Temos que filtrar o que não é importante para poder enxergar e aprender com o relevante. Mas, com a enchente de informação, como podemos saber o que jogamos fora e o que analisamos?</p>
+
+<p>É ai que entra o <em>machine learning</em>, ou “aprendizado de máquina”. Esta área da ciência da computação trata justamente disso: elaborar sistemas capazes de analisar e aprender rapidamente aquilo que os humanos demorariam muito tempo.</p>
+
+<p>Quer um exemplo? Imagine que você quer criar um filtro anti-spam. Uma das primeiras regras seria bloquear algumas palavras claramente características em spams, como “viagra”, e anexos suspeitos, como arquivos de extensão “.exe”. Talvez também links para download de outros arquivos executáveis. Em seguida, você iria filtrar e-mails que tentam imitar mensagens oficiais de bancos, mas que deixasse passar os comunicados legítimos. Tem também os vigaristas que se dizem <a href="http://pt.wikipedia.org/wiki/Fraude_nigeriana">príncipes nigerianos</a>, e outras histórias absurdas para arrancar dinheiro de você. Ah, não se esqueça dos e-mails marketing de lojas das quais você nunca ouviu falar - e nem quer.</p>
+
+<p>No final das contas, a lista de regras e exceçōes fica tão grande que se torna difícil de gerenciar. A cada novo e-mail legítimo que fica preso, você precisa mexer nas regras de novo. É um caos.</p>
+
+<h2 id="automatizando-as-decises">Automatizando as decisões</h2>
+
+<p>Usando <em>machine learning</em> você não precisa dizer que e-mails com a palavra “viagra” provavelmente são spam. A ideia por trás dessas técnicas é identificar características comuns em várias mensagens que você, e outras centenas de pessoas, marcaram como spam no passado, sem explicitamente apontar quais são estas características.</p>
+
+<p>O sistema deve ser capaz de entender “todos estes spams têm em comum a palavra ‘viagra’. Acho que vou barrar”. <em>Ele aprende sozinho, baseado no que o seus usuários humanos dizem</em>. (Para quem quiser saber mais, este <a href="https://moderncrypto.org/mail-archive/messaging/2014/000780.html">relato de um engenheiro do Google</a> sobre a luta contra o spam é muito interessante [inglês]).</p>
+
+<p>Machine Learning tem inúmeras aplicaçōes: processamento de imagens (como as tags automáticas nas fotos do Facebook), reconhecimento de voz, carros que dirigem sozinhos e <em>até prever padrōes de navegação fraudulentos</em> - sim, é o nosso caso <em><a href="https://www.konduto.com/pt/how-it-works?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo/">aqui na Konduto</a></em>! ;).</p>
+
+<p>O potencial da tecnologia é tal que o fundo de venture capital Andreessen Horowitz colocou <a href="http://a16z.com/2015/01/22/machine-learning-big-data">Big Data+Machine Learning</a> como uma das 16 coisas que eles estão buscando para investir, e a Harvard Business Review chegou a dizer que o Data Scientist é <a href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century/">a profissão mais sexy do século 21</a>. Será?</p>
+
+<p>Não sei se a coisa chega a este ponto, mas não podemos negar que, nesta era da informação, quem conseguir navegar melhor vai se dar muito bem.</p>
+
+<h2 id="quer-saber-mais">Quer saber mais?</h2>
+
+<p>Mande uma mensagem para a gente no e-mail <strong>oi@konduto.com</strong>, teremos o prazer em ajudar!</p>
+
+<p>Conecte-se com a Konduto também nas redes sociais: <a href="https://www.linkedin.com/company/konduto">Linkedin</a>, <a href="https://www.facebook.com/konduto">Facebook</a> e <a href="https://twitter.com/Konduto_">Twitter</a></p>
+
+      </div>
+
+      
+        
+          <div class=" post-nav">
+              <h2>
+                
+                <a href="/konduto/2015/02/26/as-causas-da-fraude-parte-1.html" ><span>Next up:</span> As principais causas de fraude no e-commerce - Parte 1: Autenticação do cliente</a></h2>
+                
+              <p><p>Na primeira parte deste post vamos tratar de algumas das fontes da fraude na internet.</p>
+</p>
+          </div>
+        
+        
+          <div class="post-nav">
+            <h2>
+              
+              <a href="/konduto/2015/01/14/tinha-uma-senha-no-meio-do-caminho.html"><span>Previous story:</span> Compra online sem login? Conheça o case do botão de R$ 1 bilhão</a></h2>
+              
+            <p><p>A grande maioria dos sites tem o mesmo fluxo de checkout. Todos os e-commerces fazem assim, todo mundo já está...</p>
+          </div>
+        
+      
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer">
+	<div class="container">
+		<div class="row">
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Konduto</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Como funciona
+						</a></li>
+						
+						<li><a href="#">
+						
+						Planos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Quem somos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Termos
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Conteúdos</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Blog
+						</a></li>
+						
+						<li><a href="#">
+						
+						Newsletter
+						</a></li>
+						
+						<li><a href="#">
+						
+						Reportse e-books
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Deve Suporte</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Ajuda
+						</a></li>
+						
+						<li><a href="#">
+						
+						API
+						</a></li>
+						
+						<li><a href="#">
+						
+						Integrações
+						</a></li>
+						
+						<li><a href="#">
+						
+						Magento
+						</a></li>
+						
+						<li><a href="#">
+						
+						Status
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Contato</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-phone"></i>
+						
+						(11) 4063-6461
+						</a></li>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-envelope-o"></i>
+						
+						oi@konduto.com
+						</a></li>
+						
+					</ul>
+				</div>
+			
+		</div>
+		<div class="social-links text-center">
+				<ul>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/facebook.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/linkedin.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/twitter.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/github.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/google.png);"></span>
+						</a>
+					</li>
+					
+				</ul>
+		</div>
+	</div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/konduto/js/bootstrap.min.js"></script>
+<script src="/konduto/js/bootstrap-select.min.js"></script>
+<script src="/konduto/js/main.js"></script>
+
+  </body>
+
+</html>

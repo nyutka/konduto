@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>As principais causas de fraude no e-commerce - Parte 1: Autenticação do cliente - </title>
+
+	<link rel="stylesheet" href="/konduto/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/konduto/css/font-awesome.css">
+	<link rel="stylesheet" href="/konduto/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="/konduto/css/main.css">
+  
+</head>
+
+  <body>
+
+    <nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div class="visible-xs mobile-lng">
+        <select class="selectpicker">
+          
+            <option  value="/konduto/">PT</option>
+          
+            <option  value="/konduto/en">EN</option>
+          
+            <option  value="/konduto/es">ES</option>
+          
+        </select>
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/konduto/img/header/logo.png" alt="konduto logo">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/planos">Planos</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/completo">Como funciona</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/performance">Integrações</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/blog">Blog</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/">Ajuda</a>
+            
+        </li>
+        
+        <li class="nav-btn">
+          <a href="/konduto#" class="btn btn-xs btn-mint">Login</a>
+        </li>
+        <li class="hidden-xs">
+          <select class="selectpicker">
+            
+              <option  value="/konduto/" data-icon="pt-icon"></option>
+            
+              <option  value="/konduto/en" data-icon="eng-icon"></option>
+            
+              <option  value="/konduto/es" data-icon="es-icon"></option>
+            
+          </select>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container">
+  <div class="row post-page">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <div class="date">Publicado em February 26, 2015 <span>|</span> <span class="reading-time">
+  
+  
+    3 mins
+  
+</span></div>
+      <h2 class="orange-title text-left">As principais causas de fraude no e-commerce - Parte 1: Autenticação do cliente</h2>
+      <h3 class="text-left">Na primeira parte vamos falar sobre autenticação do usuário por meio da internet</h3>
+      
+      <div>
+          <div class="author">tom</div>
+          
+      </div>
+      
+      <div class="post">
+        
+        <p>A fraude é uma realidade que faz parte de quem toca um negócio. Alguém pode te entregar notas falsas no caixa, passar um cheque sem fundo ou usar um cartão clonado e dados falsos. Na maioria dos casos você só descobre depois de levar o tombo e aprende uma lição ou outra no caminho.</p>
+
+<p>Este post, dividido em duas partes, vai tratar dos principais fatores que contribuem para a fraude na web: a dificuldade em <strong>autenticar o cliente</strong>, e a facilidade de <strong>conseguir números de cartōes de crédito</strong>.</p>
+
+<p><strong>Leia também</strong><br />
+<a href="https://blog.konduto.com/pt/2015/03/as-causas-da-fraude-parte-2?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Saiba as principais causas de fraude no e-commerce - Parte 2: Vazamento de dados</a>
+<a href="https://blog.konduto.com/pt/2015/01/tinha-uma-senha-no-meio-do-caminho?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Compra online sem login? Conheça o case do botão de R$ 1 bilhão</a><br />
+<a href="https://blog.konduto.com/pt/2014/11/5-indicadores-para-quem-faz-analise-de-risco-no-e-commerce?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Veja 5 indicadores de análise de risco no e-commerce</a></p>
+
+<h2 id="autenticao-quem--voc-mesmo">Autenticação: quem é você mesmo?</h2>
+
+<p>Autenticar alguém implica em confiar em uma instituição que garante a identidade daquela pessoa. O governo é a primeira que vem em mente, já que sacamos o RG ou a CNH para provar quem somos. Documentação autenticada em cartório tem quase o mesmo valor que a oficial, pois tanto o governo quanto nós confiamos no processo.</p>
+
+<p>Há também a autenticação não de identidade, mas sim de <em>“posse”</em> de uma informação. Um e-mail pedindo a confirmação do endereço ou um SMS com um código de ativação são os exemplos mais comuns. Com isso eu não posso autenticar quem você é, mas sei que você estava com este telefone no momento do SMS. O PayPal, por exemplo, faz uma cobrança no seu cartão passando um token na fatura e você precisa confirmá-lo depois. Isso implica que você tem acesso à fatura do cartão e que, portanto, é o seu dono.</p>
+
+<p>Até aí tudo bem. Mas nenhum destes modos de autenticação é fácil de se usar no e-commerce. Pedir documentos digitalizados para o cliente é uma experiência ruim (“<em>você não confia em mim?!</em>”) e as consultas de CPF só dizem a quem ele pertence. Não há como garantir que a pessoa do outro lado da tela é quem ela diz ser.</p>
+
+<p>A maneira mais óbvia seria validar quem é o dono do cartão que está fazendo aquela compra. Esta tecnologia já existe e é conhecida como <strong>3D Secure</strong>. Hoje as bandeiras Visa, por meio do seu programa <a href="https://www.visa.com.br/site/servicos/verified-by-visa">Verified by Visa</a>, e a Mastercard, usando o <a href="http://www.mastercard.us/securecode.html">Mastercard SecureCode</a>, oferecem a possibilidade de você digitar a senha do seu cartão ou o token do seu banco para validar que é o dono que está comprando. Se a compra for autenticada com senha, a loja não corre mais risco: mesmo se chegar um chargeback, quem arca é o banco. Legal, né?</p>
+
+<p>O problema é que esta tecnologia tem uma péssima aceitação por grande parte dos consumidores. <a href="https://www.adyen.com/home/about-adyen/press-releases/2014/3d-secure-worldwide-impact-conversion.html">Um estudo</a> viu que <strong>a taxa de conversão pode cair até 50% quando uma loja usa o 3D Secure no Brasil!</strong> Assim, vale mais a pena tomar fraude do que ter metade dos seus compradores desistindo.</p>
+
+<p>Muitas empresas estão trabalhando para tentar resolver o problema da autenticação. Uma aposta é a biometria. O recente lançamento do <a href="https://www.apple.com/br/pr/library/2014/09/09Apple-Announces-Apple-Pay.html">ApplePay</a> faz uso da impressão digital do dono do celular para autenticar o pagamento, mas só funciona com iPhones e alguns poucos bancos. E já <a href="https://tecnoblog.net/140839/touch-id-iphone-5s-ccc/">há controvérsias</a> sobre como isso foi implementado pela Apple.</p>
+
+<p>Enquanto não surgir uma solução universal, simples de usar e segura, o melhor é ter sempre em mente isto: não há como verificar quem está do outro lado.</p>
+
+<h2 id="quer-saber-mais">Quer saber mais?</h2>
+
+<p>Mande uma mensagem para a gente no e-mail <strong>oi@konduto.com</strong>, teremos o prazer em ajudar!</p>
+
+<p>Conecte-se com a Konduto também nas redes sociais: <a href="https://www.linkedin.com/company/konduto">Linkedin</a>, <a href="https://www.facebook.com/konduto">Facebook</a> e <a href="https://twitter.com/Konduto_">Twitter</a></p>
+
+      </div>
+
+      
+        
+          <div class=" post-nav">
+              <h2>
+                
+                <a href="/konduto/2015/03/28/as-causas-da-fraude-parte-2.html" ><span>Next up:</span> As principais causas de fraude no e-commerce - Parte 2: Vazamento de dados</a></h2>
+                
+              <p><p>Na segunda parte deste post, que fala sobre as fontes da fraude na internet, vamos tratar da segurança e vazamento...</p>
+          </div>
+        
+        
+          <div class="post-nav">
+            <h2>
+              
+              <a href="/konduto/2015/01/30/afinal-o-que-e-machine-learning.html"><span>Previous story:</span> Inteligência artificial: afinal, o que é machine learning?</a></h2>
+              
+            <p><p>Facebook, Google e claro, nós na Konduto, utilizamos machine learning</p>
+</p>
+          </div>
+        
+      
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer">
+	<div class="container">
+		<div class="row">
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Konduto</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Como funciona
+						</a></li>
+						
+						<li><a href="#">
+						
+						Planos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Quem somos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Termos
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Conteúdos</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Blog
+						</a></li>
+						
+						<li><a href="#">
+						
+						Newsletter
+						</a></li>
+						
+						<li><a href="#">
+						
+						Reportse e-books
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Deve Suporte</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Ajuda
+						</a></li>
+						
+						<li><a href="#">
+						
+						API
+						</a></li>
+						
+						<li><a href="#">
+						
+						Integrações
+						</a></li>
+						
+						<li><a href="#">
+						
+						Magento
+						</a></li>
+						
+						<li><a href="#">
+						
+						Status
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Contato</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-phone"></i>
+						
+						(11) 4063-6461
+						</a></li>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-envelope-o"></i>
+						
+						oi@konduto.com
+						</a></li>
+						
+					</ul>
+				</div>
+			
+		</div>
+		<div class="social-links text-center">
+				<ul>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/facebook.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/linkedin.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/twitter.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/github.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/google.png);"></span>
+						</a>
+					</li>
+					
+				</ul>
+		</div>
+	</div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/konduto/js/bootstrap.min.js"></script>
+<script src="/konduto/js/bootstrap-select.min.js"></script>
+<script src="/konduto/js/main.js"></script>
+
+  </body>
+
+</html>

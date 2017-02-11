@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Machine learning (e antifraude) não é magia: você precisa ensinar o sistema - </title>
+
+	<link rel="stylesheet" href="/konduto/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/konduto/css/font-awesome.css">
+	<link rel="stylesheet" href="/konduto/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="/konduto/css/main.css">
+  
+</head>
+
+  <body>
+
+    <nav class="navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div class="visible-xs mobile-lng">
+        <select class="selectpicker">
+          
+            <option  value="/konduto/">PT</option>
+          
+            <option  value="/konduto/en">EN</option>
+          
+            <option  value="/konduto/es">ES</option>
+          
+        </select>
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/konduto/img/header/logo.png" alt="konduto logo">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/planos">Planos</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/completo">Como funciona</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/performance">Integrações</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/blog">Blog</a>
+            
+        </li>
+        
+        <li class="nav-link">
+          
+            <a href="/konduto/">Ajuda</a>
+            
+        </li>
+        
+        <li class="nav-btn">
+          <a href="/konduto#" class="btn btn-xs btn-mint">Login</a>
+        </li>
+        <li class="hidden-xs">
+          <select class="selectpicker">
+            
+              <option  value="/konduto/" data-icon="pt-icon"></option>
+            
+              <option  value="/konduto/en" data-icon="eng-icon"></option>
+            
+              <option  value="/konduto/es" data-icon="es-icon"></option>
+            
+          </select>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container">
+  <div class="row post-page">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+      <div class="date">Publicado em April 18, 2016 <span>|</span> <span class="reading-time">
+  
+  
+    7 mins
+  
+</span></div>
+      <h2 class="orange-title text-left">Machine learning (e antifraude) não é magia: você precisa ensinar o sistema</h2>
+      <h3 class="text-left">A intervenção humana é crucial para o bom funcionamento do sistema</h3>
+      
+      <div>
+          <div class="author">felipe</div>
+          
+      </div>
+      
+      <div class="post">
+        
+        <p>Um dos ramos da tecnologia que evolui a passos mais largos com o intuito de facilitar o dia a dia da sociedade é o <strong>machine learning</strong>, ou aprendizado de máquina. Há alguns meses, listamos aqui no nosso blog <strong><a href="https://blog.konduto.com/pt/2015/12/20-tarefas-incriveis-que-machine-learning-pode-fazer/?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo-mlmagic">20 tarefas que já são executadas por sistemas computadorizados</a></strong>, e muitas delas já são praticamente indispensáveis para muitos de nós.</p>
+
+<p>Recentemente, o machine learning voltou a ganhar notoriedade na imprensa depois do <a href="http://www1.folha.uol.com.br/tec/2016/03/1749289-supercomputador-do-google-vence-torneio-de-go-contra-campeao-mundial.shtml">desafio de Go</a> (um jogo de estratégia bastante popular na Ásia), entre o campeão mundial Lee Se-Dol e o supercomputador AlphaGo, desenvolvido pela empresa Deep Mind, filial do Google. O sistema computadorizado, que “aprendeu” o jogo e se aperfeiçoou nas estratégias graças ao aprendizado de máquina, venceu quatro das cinco partidas, de maneira surpreendente. E o caso correu o mundo.</p>
+
+<p>Mas, por trás das telas dos computadores e dos smartphones, como as coisas funcionam? Magia?</p>
+
+<p><img src="/images/160417-magic.gif" alt="magic" /></p>
+
+<p>Não.</p>
+
+<p>Então um programador (ou uma equipe com muitos deles) escreve algumas linhas de códigos, aperta um botão e <em>voilà</em>, o sistema já está lendo milhões de dados, reconhecendo padrões, cruzando informações e resolvendo as nossas vidas?</p>
+
+<p>Também não. Há sim a inegável contribuição dos programadores para a criação do sistema de machine learning, mas tudo irá por água abaixo sem uma peça fundamental para a manutenção do sistema:</p>
+
+<p><img src="/images/160417-you.gif" alt="you" /></p>
+
+<p>É, você mesmo! Você, eu, todos nós que fazemos uso dos sistemas que utilizam machine learning para executar tarefas ou automatizar decisões.</p>
+
+<p>O aprendizado de máquina, por mais fantástico e inteligente que seja, precisa ser ensinado. <strong>O sistema tem que receber informações para aprender com elas</strong> e, assim, tomar as decisões que esperamos que ele tome. Caso contrário, todo o propósito do machine learning se perde.</p>
+
+<p><strong>Quer um exemplo?</strong></p>
+
+<p>Assim que você termina de assistir a um filme na Netflix pode aparecer uma opção para a avaliação daquele conteúdo. A sua recomendação rapidamente é digerida pelo algoritmo deles, que indicará o quanto você deve se interessar por determinado filme ou seriado com base naquilo que você e vários usuários já viram e avaliaram. Ou você achou mesmo que as indicações eram aleatórias e que, por passe de mágica, todas elas tinham TUDO a ver com o seu gosto cinematográfico?</p>
+
+<p>Esse modelo se aplica a vários outros serviços equipados de machine learning: Waze, filtros de spam de e-mails, exibição de determinados banners de publicidade online e <strong>detecção de fraudes no e-commerce</strong> - sim, é o nosso caso na <strong><a href="https://www.konduto.com/?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo-mlmagic">Konduto</a></strong>!</p>
+
+<h2 id="machine-learning-na-anlise-de-risco">Machine learning na análise de risco</h2>
+
+<p>A Konduto não exige que a área de risco das empresas crie centenas de regras manualmente e faça a calibragem ao longo da operação. O processo é <strong><a href="https://www.konduto.com/pt/how-it-works/?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo-mlmagic">muito mais simples</a></strong> para a operação: o nosso algoritmo aprende o comportamento de navegação e compra do cliente de cada loja e se adapta da melhor maneira possível para aquele estabelecimento.</p>
+
+<p>Assim, a cada dia que passa e a cada transação analisada, o nosso antifraude se torna mais capaz de aprovar mais pedidos automaticamente, enviar menos compras para a fila de revisão e barrar somente aquelas transações que sejam realmente suspeitas.</p>
+
+<p>Mas como o algoritmo aprende? Já vimos que não existe mágica quando falamos de machine learning. A “magia” só acontece se você ensinar o sistema, para que ele entenda que determinados comportamentos de clientes são suspeitos ou não, que são perfeitamente normais para o seu e-commerce. Afinal, o comportamento de navegação e compra de clientes de uma loja de smartphones é completamente diferente do comportamento de navegação e compra de clientes em uma loja de roupas.</p>
+
+<p>E, para ensinar o antifraude e extrair dele o máximo possível na detecção de fraudes, há duas maneiras: a primeira, e que faz parte do bê-a-bá da análise de risco, é realizar a <strong><a href="http://blog.konduto.com/pt/2016/02/precisamos-falar-sobre-revisao-manual/?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo-mlmagic">revisão manual</a></strong> dos pedidos que mais deixaram o algoritmo em dúvida. Esta atividade é importantíssima como tira-teima para diversas compras, sendo capaz de evitar um prejuízo altíssimo ou garantir um lucro interessante.</p>
+
+<p>Já a segunda atividade que você deve fazer para ensinar o algoritmo na detecção de fraudes é retroativa - e muitas vezes acaba sendo ignorada pelo e-commerce em geral, porque há a impressão equivocada de que não gerará resultado imediato para as empresas. Trata-se de mostrar para o antifraude os erros que ele cometeu, com as fraudes que a sua loja eventualmente acabou sofrendo mesmo estando com uma solução implementada. Você quer que o antifraude aprenda? Então você deve ensiná-lo! Não faz sentido?</p>
+
+<p><img src="/images/160417-mindblow.gif" alt="mindblow" /></p>
+
+<h2 id="treinar-o-antifraude-no--tempo-perdido">Treinar o antifraude não é tempo perdido</h2>
+
+<p>Nada melhor do que imagens para mostrar como é importante ensinar o antifraude sobre o modelo de risco do seu negócio. Vamos mostrar três gráficos, com dados de vendas enviadas para revisão, vendas negadas e vendas que se transformaram em chargebacks. Eles são hipotéticos e ilustram três cenários completamente distintos: o cenário <strong>ideal</strong>, com um algoritmo extremamente bem treinado em uma empresa que dás feedbacks ao sistema, revisa pedidos suspeitos manualmente e dá o feedback de eventuais chargebacks ao sistema, e aproveitando ao máximo o serviço.</p>
+
+<p>Já o segundo cenário apresenta um lojista que é mais cauteloso e decide negar automaticamente uma ou mais vendas marcadas apenas como suspeitas pelo algoritmo. Por fim, o terceiro cenário apresenta um lojista que igualmente não confia no que foi apresentado pela solução e acaba aprovando automaticamente transações consideradas suspeitas pela análise automática.</p>
+
+<p><strong>Cenário ideal</strong></p>
+
+<p><img src="/images/160417-graf-ideal.PNG" alt="ideal" /></p>
+
+<p>Note como as taxas de pedidos enviados para revisão, pedidos negados e chargebacks se mantêm estáveis ao longo do tempo. Neste cenário, as vendas enviadas para revisão manual tendem a ficar entre 10 e 12%, com a linha roxa, de vendas negadas por fraude, sempre na casa de 3%. Eventualmente, uma ou outra venda pode ser contestada pelo cliente, mas a taxa de chargebacks também se mantém próxima de 0,1%.</p>
+
+<p><strong>Muitas vendas negadas</strong></p>
+
+<p><img src="/images/160417-graf-nega-muito.PNG" alt="nega_muito" /></p>
+
+<p>Uma vez que a análise de risco do e-commerce passou a negar mais vendas consideradas suspeitas, sem revisá-las manualmente, o sistema aprendeu com este comportamento e se tornou extremamente conservador. Desta forma, muito mais vendas acabaram sendo tratadas como suspeitas de antemão, e consequentemente menos vendas foram aprovadas.</p>
+
+<p>Note, porém, a linha pontilhada, que indica a taxa real de fraudes do negócio: ela está muito abaixo da linha de vendas negadas. Isso significa que a loja está aprovando menos pedidos do que poderia (sim, ela está vendendo menos)e, por tabela, está deixando de ganhar um bom dinheiro.</p>
+
+<p><strong>Muitas vendas aprovadas</strong></p>
+
+<p><img src="/images/160417-graf-nega-pouco.PNG" alt="nega_pouco" /></p>
+
+<p>Já este caso apresenta um lojista que ignorou a recomendação de revisão, passou a aprovar pedidos considerados suspeitos pelo sistema e não alimentou o sistema posteriormente com dados de chargebacks. Logo, o modelo acabou se tornando permissivo demais, e vendas que inicialmente cairiam em um filtro de suspeita foram aprovadas. O resultado: muitas fraudes acabaram passando, em um nível muito acima do que era esperado, causando um prejuízo importante ao empreendimento.</p>
+
+<p>##Concluindo…</p>
+
+<p>Apesar de hipotéticos, os gráficos acima ilustram o conceito do machine learning: o sistema, por mais inteligente que seja, depende claramente da intervenção humana para atingir o máximo do seu potencial. Caso contrário, sem essa dedicação, a solução apresentará resultados muito aquém do esperado.</p>
+
+<p><strong>Leia também</strong><br />
+<a href="http://blog.konduto.com/pt/2016/01/dicas-emergenciais-evitar-fraudes?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Os chargebacks aumentaram? Aprenda 5 dicas emergenciais para se proteger</a><br />
+<a href="http://blog.konduto.com/pt/2014/09/5-coisas-que-voce-nao-sabia-sobre-cartao-de-credito/?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">5 coisas que você não sabia sobre cartão de crédito</a><br />
+<a href="http://blog.konduto.com/pt/2014/10/porque-checar-apenas-nome-e-cpf-ja-nao-e-suficiente-na-analise-manual/?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">Quer evitar fraudes? Checar apenas nomes e CPF não é mais suficiente</a></p>
+
+<h2 id="sobre-a-konduto">Sobre a Konduto</h2>
+
+<p>Somos uma startup que desenvolveu uma <strong><a href="http://konduto.com/?utm_source=konduto&amp;utm_medium=blog&amp;utm_campaign=conteudo">tecnologia inovadora para barrar fraudes no e-commerce</a></strong>. Analisamos como um cliente se comporta desde o primeiro momento em que acessa o seu site até o instante em que a compra é concluída e geramos em tempo real uma recomendação sobre aquela transação.</p>
+
+<p>Nosso sistema também reúne informações básicas como dados cadastrais, fingerprint e geolocalização, dentre outras, e passa todos estes dados por um filtro de inteligência artificial. A venda é analisada em menos de 1s, sem prejudicar ou causar transtorno à operação do lojista. Nosso algoritmo de machine learning aprende com cada análise e evolui com o passar do tempo, reduzindo cada vez mais o número de fraudes.</p>
+
+<h2 id="quer-saber-mais">Quer saber mais?</h2>
+
+<p>Mande uma mensagem para a gente no e-mail <strong>oi@konduto.com</strong>, teremos o prazer em ajudar!</p>
+
+<p>Conecte-se com a Konduto também nas redes sociais: <a href="https://www.linkedin.com/company/konduto">Linkedin</a>, <a href="https://www.facebook.com/konduto">Facebook</a> e <a href="https://twitter.com/Konduto_">Twitter</a></p>
+
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fkonduto%2Fvideos%2F613187352119217%2F&amp;show_text=1&amp;width=560" width="560" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+
+      </div>
+
+      
+        
+          <div class=" post-nav">
+              <h2>
+                
+                <a href="/konduto/2016/04/28/armadilhas-da-fraude-no-ecommerce.html" ><span>Next up:</span> Conheça 4 armadilhas que a fraude pode colocar no caminho do e-commerce</a></h2>
+                
+              <p><p>4 erros que você jamais pode cometer na análise de risco</p>
+</p>
+          </div>
+        
+        
+          <div class="post-nav">
+            <h2>
+              
+              <a href="/konduto/2016/04/15/cartao-de-credito-clonado-o-que-fazer.html"><span>Previous story:</span> Meu cartão de crédito foi clonado! E agora?</a></h2>
+              
+            <p><p>Onde meu cartão foi clonado? Devo parar de comprar pela internet?</p>
+</p>
+          </div>
+        
+      
+    </div>
+    
+  </div>
+</div>
+
+    <footer class="footer">
+	<div class="container">
+		<div class="row">
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Konduto</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Como funciona
+						</a></li>
+						
+						<li><a href="#">
+						
+						Planos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Quem somos
+						</a></li>
+						
+						<li><a href="#">
+						
+						Termos
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Conteúdos</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Blog
+						</a></li>
+						
+						<li><a href="#">
+						
+						Newsletter
+						</a></li>
+						
+						<li><a href="#">
+						
+						Reportse e-books
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Deve Suporte</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+						Ajuda
+						</a></li>
+						
+						<li><a href="#">
+						
+						API
+						</a></li>
+						
+						<li><a href="#">
+						
+						Integrações
+						</a></li>
+						
+						<li><a href="#">
+						
+						Magento
+						</a></li>
+						
+						<li><a href="#">
+						
+						Status
+						</a></li>
+						
+					</ul>
+				</div>
+			
+				<div class="col-md-3 col-sm-3">
+					<h5>Contato</h5>
+					<ul>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-phone"></i>
+						
+						(11) 4063-6461
+						</a></li>
+						
+						<li><a href="#">
+						
+							<i class="fa fa-envelope-o"></i>
+						
+						oi@konduto.com
+						</a></li>
+						
+					</ul>
+				</div>
+			
+		</div>
+		<div class="social-links text-center">
+				<ul>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/facebook.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/linkedin.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/twitter.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/github.png);"></span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<span class="social-icon" style="background-image: url(/konduto/img/footer/google.png);"></span>
+						</a>
+					</li>
+					
+				</ul>
+		</div>
+	</div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/konduto/js/bootstrap.min.js"></script>
+<script src="/konduto/js/bootstrap-select.min.js"></script>
+<script src="/konduto/js/main.js"></script>
+
+  </body>
+
+</html>
