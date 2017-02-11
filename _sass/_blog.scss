@@ -158,6 +158,29 @@
 		color: $grey;
 		font-size: $font-size-base-big;
 	}
+	.author-image {
+		border-radius: 100px;
+		height: 85px;
+		width: 85px;
+		background-position: center center;
+		display: inline-block;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.author {
+		font-family: $roboto-font;
+		text-transform: capitalize;
+		font-size: $font-size-base;
+		font-weight: 600;
+		color: $dark-purple;
+	}
+	.position {
+		font-family: $roboto-font;
+		font-size: $font-size-base;
+		font-weight: normal;
+		display: block;
+		color: $dark-purple;
+	}
 	.post {
 		border-bottom: 3px dotted $light-grey;
 		p {

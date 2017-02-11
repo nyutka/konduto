@@ -1,3 +1,4 @@
+<div class="blog-bg"></div>
 <div class="blog-page">
 	<div class="container">
 		<div class="row">
@@ -5,8 +6,11 @@
 				<article class="blog-posts">
 				{% for post in site.posts %}
 					<div class="blog-post-box">
-						{{ post.url }}
-						<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+						{% if site.lang == site.default_lang %}
+						<a href="{{ site.baseurl_root }}{{ post.url }}" ><h2>{{ post.title }}</h2></a>
+						{% else %}
+						<a href="{{ site.baseurl_root }}/{{ site.lang }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
+						{% endif %}
 						<p>{{ post.content | truncatewords: 20 }}</p>
 						<div class="author-date">
 							<span>{{ include.section.date-name }} {{ post.author }}</span>
@@ -24,7 +28,11 @@
 						</div>
 						<div class="body">
 							{% for post in site.posts limit:5 %}
-							<a href="{{ site.baseurl_root }}{{  post.url }}"><h5>{{ post.title }}</h5></a>
+								{% if site.lang == site.default_lang %}
+								<a href="{{ site.baseurl_root }}{{ post.url }}" ><h5>{{ post.title }}</h5></a>
+								{% else %}
+								<a href="{{ site.baseurl_root }}/{{ site.lang }}{{ post.url }}"><h5>{{ post.title }}</h5></a>
+								{% endif %}
 							{% endfor %}
 						</div>
 					</div>
@@ -48,7 +56,7 @@
 						</div>
 						<div class="body">
 							{% for book in include.section.book-links %}
-							<a href="{{ bool.url }}"><h5> >> {{ book.title }}</h5></a>
+							<a href="{{ book.url }}"><h5> >> {{ book.title }}</h5></a>
 							{% endfor %}
 						</div>
 					</div>

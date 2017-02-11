@@ -1,28 +1,29 @@
 <div class="container">
   <div class="row post-page">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-      <div class="date">Publicado em {{ page.date }} <span>|</span> {% include read_time.html %}</div>
-      <div class="row">
-        {% if page.author-image %}
-        <div class="col-md-2 col-sm-3 col-xs-3 author-image">
-          <img src="{{ page.author-image }}" class="img-responisve">
-        </div>
-        <div class="col-md-10 col-sm-9 xol-xs-9 author">
-            {% if page.author-position %}
-            {{ author-position }}
-            {% endif %}
-        </div>
-        {% else %}
-        <div class="col-md-12 author">
-            {{ page.author }}
-            {% if page.author-position %}
-            {{ author-position }}
-            {% endif %}
-        </div>
-        {% endif %}
-      </div>
+      <div class="date">Publicado em {{ page.date | date: '%B %d, %Y' }} <span>|</span> {% include read_time.html %}</div>
       <h2 class="orange-title text-left">{{ page.title }}</h2>
       <h3 class="text-left">{{ page.subtitle }}</h3>
+      {% if page.author-image %}
+      <div class="row v-center">
+        <div class="col-md-2 col-sm-2 col-xs-4 text-center">
+          <div class="author-image" style="background-image: url({{ page.author-image }});"></div>
+        </div>
+        <div class="col-md-10 col-sm-10 xol-xs-8 author">
+            <div class="author">{{ page.author }}</div>
+            {% if page.author-position %}
+            <div class="position">{{ author-position }}</div>
+            {% endif %}
+        </div>
+      </div>
+      {% else %}
+      <div>
+          <div class="author">{{ page.author }}</div>
+          {% if page.author-position %}
+          <div class="position">{{ author-position }}</div>
+          {% endif %}
+      </div>
+      {% endif %}
       <div class="post">
         {{ page.image }}
         {{ content }}
@@ -31,13 +32,23 @@
       {% if page.previous or page.next %}
         {% if page.next %}
           <div class=" post-nav">
-              <h2><a href="{{ page.next.url | prepend:site.baseurl }}/"><span>Next up:</span> {{ page.next.title }}</a></h2>
+              <h2>
+                {% if site.lang == site.default_lang %}
+                <a href="{{ site.baseurl_root }}{{  page.next.url }}" ><span>Next up:</span> {{ page.next.title }}</a></h2>
+                {% else %}
+                <a href="{{ site.baseurl_root }}/{{ site.lang }}{{  page.next.url }}"><span>Next up:</span> {{ page.next.title }}</a></h2>
+                {% endif %}
               <p>{{ page.next.excerpt | markdownify | truncatewords: 20 }}</p>
           </div>
         {% endif %}
         {% if page.previous %}
           <div class="post-nav">
-            <h2><a href="{{ page.previous.url | prepend:site.baseurl }}/"><span>Previous story:</span> {{ page.previous.title }}</a></h2>
+            <h2>
+              {% if site.lang == site.default_lang %}
+              <a href="{{ site.baseurl_root }}{{ page.previous.url }}"><span>Previous story:</span> {{ page.previous.title }}</a></h2>
+              {% else %}
+              <a href="{{ site.baseurl_root }}/{{ site.lang }}{{ page.previous.url }}"><span>Previous story:</span> {{ page.previous.title }}</a></h2>
+              {% endif %}
             <p>{{ page.previous.excerpt | markdownify | truncatewords: 20 }}</p>
           </div>
         {% endif %}

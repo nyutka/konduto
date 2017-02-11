@@ -25,11 +25,15 @@
       <ul class="nav navbar-nav navbar-right">
         {% for navigation in site.data.navigation.header-nav %}
         <li class="nav-link">
-          <a href="{{ navigation.url }}">{{ navigation.name }}</a>
+          {% if site.lang == site.default_lang %}
+            <a href="{{ site.baseurl_root }}/{{ navigation.url }}">{{ navigation.name }}</a>
+            {% else %}
+            <a href="{{ site.baseurl_root }}/{{ site.lang }}/{{ navigation.url }}">{{ navigation.name }}</a>
+          {% endif %}
         </li>
         {% endfor %}
         <li class="nav-btn">
-          <a href="{{ site.data.navigation.button-url }}" class="btn btn-xs btn-mint">{{ site.data.navigation.button-title }}</a>
+          <a href="{{ site.baseurl_root }}{{ site.data.navigation.button-url }}" class="btn btn-xs btn-mint">{{ site.data.navigation.button-title }}</a>
         </li>
         <li class="hidden-xs">
           <select class="selectpicker">
