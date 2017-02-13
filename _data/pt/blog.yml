@@ -1,7 +1,7 @@
 title: Blog
 sections:
 - template: blog
-  date-name: Por
+  author-name: Por
   more-post-title: ARTIGOS MAIS LIDOS
   newletter-title: NEWSLETTER
   subscribe-title: Cadastre-se para receber por e-mail os melhores artigos sobre prevenção à fraude!

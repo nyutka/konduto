@@ -52,6 +52,9 @@
 				font-style: italic;
 				font-size: $font-size-base-small;
 			}
+			.author {
+				text-transform: capitalize;
+			}
 		}
 	}
 	.right-column {

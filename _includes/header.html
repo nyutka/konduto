@@ -15,7 +15,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
+        {% if site.lang == site.default_lang %}
+        <a class="navbar-brand" href="/">
+        {% else %}
+        <a class="navbar-brand" href="{{ site.baseurl_root }}/{{ site.lang }}/">
+        {% endif %}
         <img src="{{ site.baseurl }}/img/header/logo.png" alt="konduto logo">
       </a>
     </div>
@@ -23,18 +27,36 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        {% for navigation in site.data.navigation.header-nav %}
-        <li class="nav-link">
-          {% if site.lang == site.default_lang %}
-            <a href="{{ site.baseurl_root }}/{{ navigation.url }}">{{ navigation.name }}</a>
-            {% else %}
-            <a href="{{ site.baseurl_root }}/{{ site.lang }}/{{ navigation.url }}">{{ navigation.name }}</a>
-          {% endif %}
-        </li>
-        {% endfor %}
-        <li class="nav-btn">
-          <a href="{{ site.baseurl_root }}{{ site.data.navigation.button-url }}" class="btn btn-xs btn-mint">{{ site.data.navigation.button-title }}</a>
-        </li>
+        {% if site.lang == site.default_lang %}
+          {% for navigation in site.data.navigation.pt.header-nav %}
+          <li class="nav-link">
+              <a href="{{ site.baseurl_root }}/{{ navigation.url }}">{{ navigation.name }}</a>
+          </li>
+          {% endfor %}
+          <li class="nav-btn">
+            <a href="{{ site.baseurl_root }}{{ site.data.navigation.pt.button-url }}" class="btn btn-xs btn-mint">{{ site.data.navigation.pt.button-title }}</a>
+          </li>
+
+        {% elsif site.lang == 'en' %}
+          {% for navigation in site.data.navigation.en.header-nav %}
+          <li class="nav-link">
+              <a href="{{ site.baseurl_root }}/{{ site.lang }}/{{ navigation.url }}">{{ navigation.name }}</a>
+          </li>
+          {% endfor %}
+          <li class="nav-btn">
+            <a href="{{ site.baseurl_root }}{{ site.data.navigation.en.button-url }}" class="btn btn-xs btn-mint">{{ site.data.navigation.en.button-title }}</a>
+          </li>
+        {% elsif site.lang == 'es' %}
+          {% for navigation in site.data.navigation.es.header-nav %}
+          <li class="nav-link">
+              <a href="{{ site.baseurl_root }}/{{ site.lang }}/{{ navigation.url }}">{{ navigation.name }}</a>
+          </li>
+          {% endfor %}
+          <li class="nav-btn">
+            <a href="{{ site.baseurl_root }}{{ site.data.navigation.en.button-url }}" class="btn btn-xs btn-mint">{{ site.data.navigation.en.button-title }}</a>
+          </li>
+        {% endif %}
+
         <li class="hidden-xs">
           <select class="selectpicker">
             {% for language in site.data.navigation.language %}

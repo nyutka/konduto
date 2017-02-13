@@ -1,11 +1,35 @@
 .plans {
 	margin-bottom: 80px;
+	@include media-up(md) {
+		.row {
+			display: table;
+			overflow-x: hidden;
+			width: 100%;
+			& > [class*='col-'] {
+				width: 50%;
+				height: 100%;
+				float: none;
+				vertical-align: top;
+				display: table-cell;
+			}
+		}
+	}
+	.row > [class*='col-']:nth-child(2n) {
+		.plan-box h3, h4 {
+			color: $mint;
+		}
+	}
 	.plan-box {
 		margin: 50px 10px 0 10px;
 		border: $border;
+		height: 100%;
 		border-radius: $border-radius;
 		padding: 40px 30px 30px 60px;
 		text-align: center;
+		@include media-down(md) {
+			margin: 0;
+			padding: 20px;
+		}
 		@include media-down(sm) {
 			margin: 10px 0;
 			padding: 20px;

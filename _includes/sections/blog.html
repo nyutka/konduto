@@ -13,8 +13,13 @@
 						{% endif %}
 						<p>{{ post.content | truncatewords: 20 }}</p>
 						<div class="author-date">
-							<span>{{ include.section.date-name }} {{ post.author }}</span>
-							<span class="date">{{ post.date | date_to_string }}</span>
+							<span class="author">{{ include.section.author-name }} {{ post.author }},</span>
+							{% assign months = "january|february|march|april|may|june|july|august|september|october|november|december" | split: "|" %}
+							{% assign m = post.date | date: "%-m" | minus: 1 %}
+							{% assign day = post.date | date: "%d" %}
+							{% assign month = months[m] %}
+							{% assign year = post.date | date: "%Y" %}
+							<span class="date">{{day}} {% t {{ month }} %} {{year}}</span>
 						</div>
 					</div>
 				{% endfor %}

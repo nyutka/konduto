@@ -1,7 +1,15 @@
 <div class="container">
   <div class="row post-page">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
-      <div class="date">Publicado em {{ page.date | date: '%B %d, %Y' }} <span>|</span> {% include read_time.html %}</div>
+      <div class="date">{% t published %}
+        {% assign months = "january|february|march|april|may|june|july|august|september|october|november|december" | split: "|" %}
+            {% assign m = page.date | date: "%-m" | minus: 1 %}
+            {% assign day = page.date | date: "%d" %}
+            {% assign month = months[m] %}
+            {% assign year = page.date | date: "%Y" %}
+            {{day}} {% t {{ month }} %} {{year}}
+          <span>|</span> {% include read_time.html %}
+      </div>
       <h2 class="orange-title text-left">{{ page.title }}</h2>
       <h3 class="text-left">{{ page.subtitle }}</h3>
       {% if page.author-image %}
