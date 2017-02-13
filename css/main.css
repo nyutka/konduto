@@ -117,6 +117,9 @@ blockquote {
     font-style: normal; }
     blockquote cite .v-center, blockquote div .v-center {
       margin-top: -25px; }
+      @media (max-width: 1199px) {
+        blockquote cite .v-center, blockquote div .v-center {
+          margin-top: -10px; } }
       @media (max-width: 991px) {
         blockquote cite .v-center, blockquote div .v-center {
           margin-top: -5px; } }
@@ -438,6 +441,8 @@ input.form-control {
         font-family: "Roboto Slab", serif;
         font-style: italic;
         font-size: 14px; }
+      .blog-page .blog-post-box .author-date .author {
+        text-transform: capitalize; }
   .blog-page .right-column {
     margin-right: 30px;
     margin-left: 30px; }
@@ -664,12 +669,30 @@ input.form-control {
 
 .plans {
   margin-bottom: 80px; }
+  @media (min-width: 768px) {
+    .plans .row {
+      display: table;
+      overflow-x: hidden;
+      width: 100%; }
+      .plans .row > [class*='col-'] {
+        width: 50%;
+        height: 100%;
+        float: none;
+        vertical-align: top;
+        display: table-cell; } }
+  .plans .row > [class*='col-']:nth-child(2n) .plan-box h3, .plans .row > [class*='col-']:nth-child(2n) h4 {
+    color: #27ccbf; }
   .plans .plan-box {
     margin: 50px 10px 0 10px;
     border: 3px dotted #b8b6b9;
+    height: 100%;
     border-radius: 25px;
     padding: 40px 30px 30px 60px;
     text-align: center; }
+    @media (max-width: 991px) {
+      .plans .plan-box {
+        margin: 0;
+        padding: 20px; } }
     @media (max-width: 767px) {
       .plans .plan-box {
         margin: 10px 0;
@@ -1065,7 +1088,8 @@ footer.footer {
           text-align: center; }
           .navbar .btn-group.bootstrap-select .dropdown-menu.open .dropdown-menu.inner li.selected {
             background-color: transparent;
-            outline: none; }
+            outline: none;
+            display: none; }
           .navbar .btn-group.bootstrap-select .dropdown-menu.open .dropdown-menu.inner li a {
             outline: none;
             height: 40px;
