@@ -540,7 +540,8 @@ input.form-control {
       text-transform: capitalize;
       font-size: 18px;
       font-weight: 600;
-      color: #3c0861; }
+      color: #3c0861;
+      display: inline-block; }
     .post-page .autor-info .position {
       font-family: "Roboto Slab", serif;
       font-size: 18px;
