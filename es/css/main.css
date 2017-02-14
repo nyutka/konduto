@@ -458,7 +458,8 @@ input.form-control {
         color: white;
         font-family: "Yanone Kaffeesatz", sans-serif;
         font-size: 32px;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        margin-bottom: 0 !important; }
     .blog-page .right-column .body {
       border: 1px dashed #b8b6b9;
       border-top: none; }
