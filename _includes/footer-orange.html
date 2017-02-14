@@ -1,13 +1,14 @@
 <footer class="footer">
 	<div class="bg-orange p-20 text-center">
+	{% if site.lang == site.default_lang %}
 		<div class="container-fluid">
-			<h1 class="hero-heading">{{ site.data.footer.orange-title }}</h1>
-			<div><a href="{{ site.data.footer.orange-button-url }}" class="btn btn-purple btn-lg">{{ site.data.footer.orange-button-title }}</a></div>
+			<h1 class="hero-heading">{{ site.data.footer.pt.title }}</h1>
+			<div><a href="{{ site.data.footer.pt.button-url }}" class="btn btn-orange btn-lg">{{ site.data.footer.pt.button-title }}</a></div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row">
-			{% for navigation in site.data.footer.navigation %}
+			{% for navigation in site.data.footer.pt.navigation %}
 				<div class="col-md-3 col-sm-3">
 					<h5>{{ navigation.title }}</h5>
 					<ul>
@@ -23,6 +24,55 @@
 				</div>
 			{% endfor %}
 		</div>
+	{% elsif site.lang == 'en' %}
+		<div class="container-fluid">
+			<h1 class="hero-heading">{{ site.data.footer.en.title }}</h1>
+			<div><a href="{{ site.data.footer.en.button-url }}" class="btn btn-orange btn-lg">{{ site.data.footer.en.button-title }}</a></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			{% for navigation in site.data.footer.en.navigation %}
+				<div class="col-md-3 col-sm-3">
+					<h5>{{ navigation.title }}</h5>
+					<ul>
+						{% for link in navigation.links %}
+						<li><a href="{{ link.url }}">
+						{% if link.icon %}
+							<i class="fa {{ link.icon }}"></i>
+						{% endif %}
+						{{ link.name }}
+						</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endfor %}
+		</div>
+	{% elsif site.lang == 'es' %}
+		<div class="container-fluid">
+			<h1 class="hero-heading">{{ site.data.footer.es.title }}</h1>
+			<div><a href="{{ site.data.footer.es.button-url }}" class="btn btn-orange btn-lg">{{ site.data.footer.es.button-title }}</a></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			{% for navigation in site.data.footer.es.navigation %}
+				<div class="col-md-3 col-sm-3">
+					<h5>{{ navigation.title }}</h5>
+					<ul>
+						{% for link in navigation.links %}
+						<li><a href="{{ link.url }}">
+						{% if link.icon %}
+							<i class="fa {{ link.icon }}"></i>
+						{% endif %}
+						{{ link.name }}
+						</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endfor %}
+		</div>
+	{% endif %}
 		<div class="social-links text-center">
 				<ul>
 					{% for icon in site.data.footer.social-icons %}

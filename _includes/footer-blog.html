@@ -1,7 +1,8 @@
 <footer class="footer">
 	<div class="container">
 		<div class="row">
-			{% for navigation in site.data.footer.navigation %}
+		{% if site.lang == site.default_lang %}
+			{% for navigation in site.data.footer.pt.navigation %}
 				<div class="col-md-3 col-sm-3">
 					<h5>{{ navigation.title }}</h5>
 					<ul>
@@ -17,6 +18,41 @@
 				</div>
 			{% endfor %}
 		</div>
+		{% elsif site.lang == 'en' %}
+			{% for navigation in site.data.footer.en.navigation %}
+				<div class="col-md-3 col-sm-3">
+					<h5>{{ navigation.title }}</h5>
+					<ul>
+						{% for link in navigation.links %}
+						<li><a href="{{ link.url }}">
+						{% if link.icon %}
+							<i class="fa {{ link.icon }}"></i>
+						{% endif %}
+						{{ link.name }}
+						</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endfor %}
+		</div>
+		{% elsif site.lang == 'es' %}
+			{% for navigation in site.data.footer.es.navigation %}
+				<div class="col-md-3 col-sm-3">
+					<h5>{{ navigation.title }}</h5>
+					<ul>
+						{% for link in navigation.links %}
+						<li><a href="{{ link.url }}">
+						{% if link.icon %}
+							<i class="fa {{ link.icon }}"></i>
+						{% endif %}
+						{{ link.name }}
+						</a></li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endfor %}
+		</div>
+		{% endif %}
 		<div class="social-links text-center">
 				<ul>
 					{% for icon in site.data.footer.social-icons %}
