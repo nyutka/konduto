@@ -2,15 +2,3 @@ title: Blog
 sections:
 - template: blog
   date-name: Por
-  more-post-title: ARTIGOS MAIS LIDOS
-  newletter-title: NEWSLETTER
-  subscribe-title: Cadastre-se para receber por e-mail os melhores artigos sobre prevenção à fraude!
-  button-title: Cadastrar
-  reading-title: OUTRAS LEITURAS
-  book-links:
-  - title: 'E-book: entenda o submundo dos fraudadores'
-    url: '#'
-  - title: 'Whitepaper: revelamos a fraude dos card testers'
-    url: '#'
-  - title: ' Relatório: Raio-X da Fraude no E-commerce'
-    url: '#'

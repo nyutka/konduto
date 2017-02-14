@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row post-page">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+    <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12">
       <div class="date">{% t published %}
         {% assign months = "january|february|march|april|may|june|july|august|september|october|november|december" | split: "|" %}
             {% assign m = page.date | date: "%-m" | minus: 1 %}
@@ -12,26 +12,17 @@
       </div>
       <h2 class="orange-title text-left">{{ page.title }}</h2>
       <h3 class="text-left">{{ page.subtitle }}</h3>
-      {% if page.author-image %}
+
       <div class="row v-center autor-info">
         <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-          <div class="author-image" style="background-image: url({{ page.author-image }});"></div>
+          <div class="author-image" style="background-image: url({{ site.authors.[page.author].image }});"></div>
         </div>
         <div class="col-md-10 col-sm-10 xol-xs-8 author">
-            <div class="author">{{ page.author }}</div>
-            {% if page.author-position %}
-            <div class="position">{{ author-position }}</div>
-            {% endif %}
+            <a href="{{ site.authors.[page.author].link }}"><div class="author">{{ site.authors.[page.author].name }}</div></a>
+            <div class="position">{{ site.authors.[page.author].bio }}</div>
         </div>
       </div>
-      {% else %}
-      <div class="autor-info">
-          <div class="author">{{ page.author }}</div>
-          {% if page.author-position %}
-          <div class="position">{{ author-position }}</div>
-          {% endif %}
-      </div>
-      {% endif %}
+
       <div class="post">
         {{ page.image }}
         {{ content }}
@@ -62,11 +53,47 @@
         {% endif %}
       {% endif %}
     </div>
-    {% if site.info.disqus.shortname %}
-    <section>
-    <div id="disqus_thread"></div>
-    {% include _disqus.html %}
-    </section>
-    {% endif %}
+    <div class="blog-page col-lg-4 col-md-5 col-sm-5 col-xs-12">
+      <div class=" right-column">
+        <div class="more-post">
+          <div class="header">
+            <h3 class="text-center">{% t more-post-title %}</h3>
+          </div>
+          <div class="body">
+            {% for post in site.posts limit:5 %}
+              {% if site.lang == site.default_lang %}
+              <a href="{{ site.baseurl_root }}{{ post.url }}" ><h5>{{ post.title }}</h5></a>
+              {% else %}
+              <a href="{{ site.baseurl_root }}/{{ site.lang }}{{ post.url }}"><h5>{{ post.title }}</h5></a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="subscribe">
+          <div class="header">
+            <h3 class="text-center">{% t newsletter-title %}</h3>
+          </div>
+          <div class="body">
+            <h4>{% t subscribe-title %}</h4>
+            <form>
+              <input type="email" required placeholder="Inserir e-mail" class="form-control">
+              <div class="text-center">
+                <button type="sybmit" class="btn btn-xs btn-pink">{% t button-title %}</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="continue-reading">
+          <div class="header">
+            <h3 class="text-center">{% t reading-title %}</h3>
+          </div>
+          <div class="body">
+            {% for book in  site.translations[site.lang].book-links %}
+            <a href="{{ book.url }}"><h5> >> {{ book.title }}</h5></a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

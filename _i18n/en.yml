@@ -12,3 +12,16 @@ november: November
 december: December
 
 published: Published on
+
+more-post-title: ARTIGOS MAIS LIDOS
+newsletter-title: Newsletter
+subscribe-title: Subscribe us
+button-title: Subscribe
+reading-title: Read more
+book-links:
+  - title: 'E-book: entenda o submundo dos fraudadores'
+    url: '#'
+  - title: 'Whitepaper: revelamos a fraude dos card testers'
+    url: '#'
+  - title: ' Relatório: Raio-X da Fraude no E-commerce'
+    url: '#'

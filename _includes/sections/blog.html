@@ -11,7 +11,7 @@
 						{% else %}
 						<a href="{{ site.baseurl_root }}/{{ site.lang }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
 						{% endif %}
-						<p>{{ post.content | truncatewords: 20 }}</p>
+						<p>{{ post.subtitle }}</p>
 						<div class="author-date">
 							<span class="author">{{ include.section.author-name }} {{ post.author }},</span>
 							{% assign months = "january|february|march|april|may|june|july|august|september|october|november|december" | split: "|" %}
@@ -28,42 +28,42 @@
 			<div class="col-lg-4 col-md-5 col-sm-5 col-xs-12">
 				<div class=" right-column">
 					<div class="more-post">
-						<div class="header">
-							<h3 class="text-center">{{ include.section.more-post-title }}</h3>
-						</div>
-						<div class="body">
-							{% for post in site.posts limit:5 %}
-								{% if site.lang == site.default_lang %}
-								<a href="{{ site.baseurl_root }}{{ post.url }}" ><h5>{{ post.title }}</h5></a>
-								{% else %}
-								<a href="{{ site.baseurl_root }}/{{ site.lang }}{{ post.url }}"><h5>{{ post.title }}</h5></a>
-								{% endif %}
-							{% endfor %}
-						</div>
+					  <div class="header">
+					    <h3 class="text-center">{% t more-post-title %}</h3>
+					  </div>
+					  <div class="body">
+					    {% for post in site.posts limit:5 %}
+					      {% if site.lang == site.default_lang %}
+					      <a href="{{ site.baseurl_root }}{{ post.url }}" ><h5>{{ post.title }}</h5></a>
+					      {% else %}
+					      <a href="{{ site.baseurl_root }}/{{ site.lang }}{{ post.url }}"><h5>{{ post.title }}</h5></a>
+					      {% endif %}
+					    {% endfor %}
+					  </div>
 					</div>
 					<div class="subscribe">
-						<div class="header">
-							<h3 class="text-center">{{ include.section.newsletter-title }}</h3>
-						</div>
-						<div class="body">
-							<h4>{{ include.section.subscribe-title }}</h4>
-							<form>
-								<input type="email" required placeholder="Inserir e-mail" class="form-control">
-								<div class="text-center">
-									<button type="sybmit" class="btn btn-xs btn-pink">{{ include.section.button-title }}</button>
-								</div>
-							</form>
-						</div>
+					  <div class="header">
+					    <h3 class="text-center">{% t newsletter-title %}</h3>
+					  </div>
+					  <div class="body">
+					    <h4>{% t subscribe-title %}</h4>
+					    <form>
+					      <input type="email" required placeholder="Inserir e-mail" class="form-control">
+					      <div class="text-center">
+					        <button type="sybmit" class="btn btn-xs btn-pink">{% t button-title %}</button>
+					      </div>
+					    </form>
+					  </div>
 					</div>
 					<div class="continue-reading">
-						<div class="header">
-							<h3 class="text-center">{{ include.section.reading-title }}</h3>
-						</div>
-						<div class="body">
-							{% for book in include.section.book-links %}
-							<a href="{{ book.url }}"><h5> >> {{ book.title }}</h5></a>
-							{% endfor %}
-						</div>
+					  <div class="header">
+					    <h3 class="text-center">{% t reading-title %}</h3>
+					  </div>
+					  <div class="body">
+					    {% for book in  site.translations[site.lang].book-links %}
+					    <a href="{{ book.url }}"><h5> >> {{ book.title }}</h5></a>
+					    {% endfor %}
+					  </div>
 					</div>
 				</div>
 			</div>
