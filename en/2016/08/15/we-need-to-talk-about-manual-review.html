@@ -422,6 +422,54 @@ But if the sale was legitimate, you would not profit $200.</p>
 		</div>
 	</div>
 </footer>
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<form id="form-registration">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<div class="text-center modal-header">
+					<h2 class="form-title">Want to know more?</h2>
+					<br>
+					<p class="form-subtitle">Fill our your information to get started. We will contact you shortly!</p>
+				</div>
+				<div class="form-group">
+					<input type="text" name="name" class="text-input form-control" placeholder="Full name" required="required">
+				</div>
+				<div class="form-group">
+					<input type="text" name="company" class="text-input form-control" placeholder="Company" required="required">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" name="email" class="text-input" placeholder="you@example.com" required="required">
+				</div>
+				<div class="form-group">
+					<input type="number" class="form-control" name="phone" class="text-input" placeholder="Phone" required="required">
+				</div>
+				<div class="form-group">
+					<select required name="tx_amount" class="form-select form-control">
+						<option selected disabled value="">Monthly transactions</option>
+						<option value="0">Less than 100</option>
+						<option value="100">Between 100 and 1K</option>
+						<option value="1000">Between 1K and 5K</option>
+						<option value="5000">Between 5K and 20K</option>
+						<option value="20000">More than 20K</option>
+					</select>
+				</div>
+				<!-- <input type="hidden" name="locale" id="locale" value="en"> -->
+				<div class="form-group text-center">
+					<input type="submit" value="Let's go!" class="submit btn btn-mint btn-sm">
+					<div>
+						<div class="load alert alert-success hidden" id="loading">
+							<i class="fa fa-spinner fa-pulse fa-fw"></i>
+						</div>
+					</div>
+					<div><div class="alert alert-success hidden" id="success">Success</div></div>
+					<div><div class="alert alert-danger hidden" id="danger">Error</div></div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

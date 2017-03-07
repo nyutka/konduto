@@ -127,7 +127,7 @@ blockquote {
         blockquote cite .v-center, blockquote div .v-center {
           margin-top: 0px; } }
 
-input.form-control {
+input.form-control, select.form-control {
   border-color: #b8b6b9;
   border-radius: 0;
   border-width: 2px;
@@ -135,8 +135,8 @@ input.form-control {
   font-weight: normal;
   box-shadow: none;
   outline: none; }
-  input.form-control:hover, input.form-control:focus {
-    border-color: #b8b6b9;
+  input.form-control:hover, input.form-control:focus, select.form-control:hover, select.form-control:focus {
+    border-color: #7b787d;
     box-shadow: none;
     outline: none; }
 
@@ -250,18 +250,47 @@ input.form-control {
       .bordered-image img, .bordered-image iframe {
         padding: 10px; } }
 
+.alert {
+  color: #ffffff;
+  border-radius: 0;
+  font-size: 25px;
+  padding: 12px;
+  width: 250px;
+  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  margin-top: 6px;
+  border: none; }
+  @media (max-width: 767px) {
+    .alert {
+      font-size: 22px;
+      width: 90%;
+      padding: 10px 0; } }
+  .alert.alert-success {
+    background-color: #27ccbf;
+    box-shadow: 1px 0px 0px #86e0d9, 0px 1px 0px #86e0d9, 2px 1px 0px #86e0d9, 1px 2px 0px #86e0d9, 3px 2px 0px #86e0d9, 2px 3px 0px #86e0d9, 4px 3px 0px #86e0d9, 3px 4px 0px #86e0d9, 5px 4px 0px #86e0d9, 4px 5px 0px #86e0d9, 6px 5px 0px #86e0d9, 5px 6px 0px #86e0d9; }
+  .alert.alert-danger {
+    background-color: #dd293e;
+    box-shadow: 1px 0px 0px #e59ca5, 0px 1px 0px #e59ca5, 2px 1px 0px #e59ca5, 1px 2px 0px #e59ca5, 3px 2px 0px #e59ca5, 2px 3px 0px #e59ca5, 4px 3px 0px #e59ca5, 3px 4px 0px #e59ca5, 5px 4px 0px #e59ca5, 4px 5px 0px #e59ca5, 6px 5px 0px #e59ca5, 5px 6px 0px #e59ca5; }
+
 .btn {
   position: relative;
   color: #ffffff;
   border-radius: 0;
   transition: margin-top 0.4s ease, margin-left 0.4s ease, box-shadow 0.4s ease;
   margin-left: 5px;
-  will-change: transform; }
+  will-change: transform;
+  outline: none; }
   .btn:active {
+    outline: none;
     transition: margin-top 0.4s ease, margin-left 0.4s ease, box-shadow 0.4s ease;
     margin-left: 5px;
     margin-top: 5px; }
+  .btn .btn.active.focus, .btn .btn.active:focus,
+  .btn .btn.focus, .btn .btn:active.focus,
+  .btn .btn:active:focus, .btn .btn:focus {
+    outline: none; }
   .btn:hover, .btn:focus {
+    outline: none !important;
     background-color: #27ccbf;
     color: #ffffff; }
   .btn.btn-lg {
@@ -392,6 +421,40 @@ input.form-control {
 .social-icon {
   height: 60px;
   width: 60px; }
+
+#form-registration .form-group {
+  margin-bottom: 20px; }
+#form-registration input.form-control, #form-registration select.form-control {
+  font-family: "Roboto Slab", serif;
+  height: 40px;
+  border-radius: 2px;
+  border-width: 1px; }
+#form-registration select.form-control option {
+  font-family: "Roboto Slab", serif;
+  padding: 6px 12px;
+  border-color: #b8b6b9; }
+#form-registration h2, #form-registration p {
+  font-family: "Roboto Slab", serif; }
+#form-registration h2 {
+  color: #333; }
+#form-registration p {
+  margin-bottom: 30px; }
+
+.modal .modal-content {
+  padding: 20px 40px; }
+.modal .close {
+  position: absolute;
+  top: 5px;
+  right: 25px; }
+  .modal .close span {
+    font-size: 50px; }
+
+.form-group > div {
+  display: inline-block;
+  text-align: center; }
+
+.hidden {
+  display: none; }
 
 .blog-bg {
   background-image: url(../img/08blog/img.png);
