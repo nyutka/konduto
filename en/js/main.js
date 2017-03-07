@@ -27,7 +27,7 @@
 
 		$.ajax({
 			type        : 'GET',
-			url         : 'https://hooks.zapier.com/hooks/catch/441374/m56vc3', // the url where we want to POST
+			url         : 'https://hooks.zapier.com/hooks/catch/441374/mwaedh', // the url where we want to POST
 			data        : formData,
 			dataType    : 'json'
 		})
