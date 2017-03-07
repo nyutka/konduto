@@ -6,7 +6,7 @@
 				<h2>{{ include.section.subtitle }}</h2>
 			{% endif %}
 			{% if include.section.button %}
-				<div><a href="{{ include.section.button.url }}" class="btn btn-orange btn-lg">{{ include.section.button.title }}</a></div>
+				<div><a href="{{ include.section.button.url }}" data-toggle="modal" data-target="#myModal" class="btn btn-orange btn-lg">{{ include.section.button.title }}</a></div>
 			{% endif %}
 		</div>
 	</div>

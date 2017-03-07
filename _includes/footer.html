@@ -3,7 +3,7 @@
 {% if site.lang == site.default_lang %}
 		<div class="container-fluid">
 			<h1 class="hero-heading">{{ site.data.footer.pt.title }}</h1>
-			<div><a href="{{ site.data.footer.pt.button-url }}" class="btn btn-orange btn-lg">{{ site.data.footer.pt.button-title }}</a></div>
+			<div><a data-toggle="modal" data-target="#myModal" class="btn btn-orange btn-lg">{{ site.data.footer.pt.button-title }}</a></div>
 		</div>
 	</div>
 	<div class="container">
@@ -27,7 +27,7 @@
 {% elsif site.lang == 'en' %}
 		<div class="container-fluid">
 			<h1 class="hero-heading">{{ site.data.footer.en.title }}</h1>
-			<div><a href="{{ site.data.footer.en.button-url }}" class="btn btn-orange btn-lg">{{ site.data.footer.en.button-title }}</a></div>
+			<div><a data-toggle="modal" data-target="#myModal" class="btn btn-orange btn-lg">{{ site.data.footer.en.button-title }}</a></div>
 		</div>
 	</div>
 	<div class="container">
@@ -51,7 +51,7 @@
 {% elsif site.lang == 'es' %}
 		<div class="container-fluid">
 			<h1 class="hero-heading">{{ site.data.footer.es.title }}</h1>
-			<div><a href="{{ site.data.footer.es.button-url }}" class="btn btn-orange btn-lg">{{ site.data.footer.es.button-title }}</a></div>
+			<div><a data-toggle="modal" data-target="#myModal" class="btn btn-orange btn-lg">{{ site.data.footer.es.button-title }}</a></div>
 		</div>
 	</div>
 	<div class="container">

@@ -34,7 +34,7 @@ blockquote {
 		}
 	}
 }
-input.form-control {
+input.form-control, select.form-control {
 	border-color: $grey;
 	border-radius: 0;
 	border-width: 2px;
@@ -44,11 +44,11 @@ input.form-control {
 	outline: none;
 	&:hover,
 	&:focus {
-		border-color: $grey;
+		border-color: $dark-grey;
 		box-shadow: none;
 		outline: none;
 	}
-}
+} 
 .review {
 	padding: 40px 0;
 	blockquote {

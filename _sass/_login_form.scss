@@ -1,0 +1,47 @@
+#form-registration {
+	.form-group {
+		margin-bottom: 20px;
+	}
+	input.form-control, select.form-control {
+		font-family: $roboto-font;
+		height: 40px;
+		border-radius: 2px;
+		border-width: 1px;
+	}
+	select.form-control option {
+		font-family: $roboto-font;
+		padding: 6px 12px;
+		border-color: $grey;
+	}
+	h2, p {
+		font-family: $roboto-font;
+	}
+	h2 {
+		color: #333;
+
+	}
+	p {
+		margin-bottom:30px;
+	}
+}
+.send-btn {}
+.modal {
+	.modal-content {
+		padding: 20px 40px;
+	}
+	.close {
+		position: absolute;
+		top: 5px;
+		right: 25px;
+		span {
+			font-size: 50px;
+		}
+	}
+}
+.form-group > div {
+	display: inline-block;
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
