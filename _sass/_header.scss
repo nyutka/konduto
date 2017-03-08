@@ -57,6 +57,15 @@
 			display: inline-block;
 		}
 	}
+	.language-btn {
+		min-width: 108px;
+		@include media-down(md) {
+			min-width: 77px;
+		}
+		@include media-down(sm) {
+			min-width: 28px;
+		}
+	}
 	.navbar-nav.nav {
 		& > .nav-link {
 			&.active {

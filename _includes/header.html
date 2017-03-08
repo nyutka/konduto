@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <div class="visible-xs mobile-lng">
+      <div class="visible-xs mobile-lng language-btn">
         <select class="selectpicker">
           {% for language in site.data.navigation.language %}
             <option {% if site.lang == language.url %} selected {% endif %} value="{{ site.baseurl_root }}/{{ language.url }}">{{ language.name }}</option>
@@ -29,7 +29,7 @@
       <ul class="nav navbar-nav navbar-right">
         {% if site.lang == site.default_lang %}
           {% for navigation in site.data.navigation.pt.header-nav %}
-          <li class="nav-link">
+          <li class="nav-link {% if page.pagename == navigation.nav %}active{% endif %}">
               <a href="{{ site.baseurl_root }}/{{ navigation.url }}">{{ navigation.name }}</a>
           </li>
           {% endfor %}
@@ -39,7 +39,7 @@
 
         {% elsif site.lang == 'en' %}
           {% for navigation in site.data.navigation.en.header-nav %}
-          <li class="nav-link">
+          <li class="nav-link {% if page.pagename == navigation.nav %}active{% endif %}">
               <a href="{{ site.baseurl_root }}/{{ site.lang }}/{{ navigation.url }}">{{ navigation.name }}</a>
           </li>
           {% endfor %}
@@ -48,7 +48,7 @@
           </li>
         {% elsif site.lang == 'es' %}
           {% for navigation in site.data.navigation.es.header-nav %}
-          <li class="nav-link">
+          <li class="nav-link {% if page.pagename == navigation.nav %}active{% endif %}">
               <a href="{{ site.baseurl_root }}/{{ site.lang }}/{{ navigation.url }}">{{ navigation.name }}</a>
           </li>
           {% endfor %}
@@ -57,7 +57,7 @@
           </li>
         {% endif %}
 
-        <li class="hidden-xs">
+        <li class="hidden-xs language-btn">
           <select class="selectpicker">
             {% for language in site.data.navigation.language %}
               <option {% if site.lang == language.url %} selected {% endif %} value="{{ site.baseurl_root }}/{{ language.url }}" data-icon="{{ language.icon }}"></option>

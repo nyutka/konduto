@@ -1,14 +1,19 @@
 pt:
   header-nav:
   - name: Planos
+    nav: planos
     url: planos
   - name: Como funciona
+    nav: completo
     url: completo
   - name: Integrações
+    nav: performance
     url: performance
   - name: Blog 
+    nav: blog
     url: blog
   - name: Ajuda
+    nav: 
     url:  
   button-title: Login 
   button-url: "#"
@@ -16,12 +21,16 @@ pt:
 en:
   header-nav:
   - name: Plans
+    nav: planos
     url: planos
   - name: How It Works
+    nav: completo
     url: completo
   - name: Performance
+    nav: performance
     url: performance
-  - name: Blog 
+  - name: Blog
+    nav: blog
     url: blog
   
   button-title: Login 
@@ -30,14 +39,19 @@ en:
 es:
   header-nav:
   - name: Planos
+    nav: planos
     url: planos
   - name: Como funciona
+    nav: completo
     url: completo
   - name: Integrações
+    nav: performance
     url: performance
-  - name: Blog 
+  - name: Blog
+    nav:  blog
     url: blog
   - name: Ajuda
+    nav: 
     url: 
   
   button-title: Login 
