@@ -1,10 +1,11 @@
 ---
+title: Polícia prende quadrilha que aprendeu a fraudar com vídeos na internet
+date: 2016-09-29 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-09-29-T10:39:00-03:00'
-title: "Polícia prende quadrilha que aprendeu a fraudar com vídeos na internet"
-subtitle: "Fraudadores usavam dados pessoais como matéria-prima para fraudes on-line"
-excerpt: "Criminosos faziam compras fraudulentas após obterem acesso a dados pessoais das vítimas"
+subtitle: Fraudadores usavam dados pessoais como matéria-prima para fraudes on-line
+excerpt: Criminosos faziam compras fraudulentas após obterem acesso a dados pessoais
+  das vítimas
 author: felipe
 ---
 

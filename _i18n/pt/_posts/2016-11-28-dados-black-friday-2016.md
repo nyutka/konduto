@@ -1,10 +1,12 @@
 ---
+title: 'Sucesso da Black Friday: vendas aumentam em até 94% sobre “dia comum”'
+date: 2016-11-28 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-11-28-T10:39:00-03:00'
-title: "Sucesso da Black Friday: vendas aumentam em até 94% sobre “dia comum”"
-subtitle: "Números da Black Friday mostram quase o dobro de vendas em comparação a um dia normal no e-commerce"
-excerpt: "Números da Black Friday mostram quase o dobro de vendas em comparação a um dia normal no e-commerce"
+subtitle: Números da Black Friday mostram quase o dobro de vendas em comparação a
+  um dia normal no e-commerce
+excerpt: Números da Black Friday mostram quase o dobro de vendas em comparação a um
+  dia normal no e-commerce
 author: felipe
 ---
 

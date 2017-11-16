@@ -1,10 +1,12 @@
 ---
-layout: post		
-date: '2015-12-01T18:10:00-03:00'
-title: "Análise de risco em tempo real: como evitar fraudes sem prejudicar o bom cliente?"		
-subtitle: "A tecnologia pode ser uma aliada importante do lojista para uma tomada de decisão tão importante"
-excerpt: "Como detectar fraudes quando você não possui tempo hábil para revisar uma compra suspeita?"		
-author: felipe		
+title: 'Análise de risco em tempo real: como evitar fraudes sem prejudicar o bom cliente?'
+date: 2015-12-01 21:10:00 Z
+layout: post
+subtitle: A tecnologia pode ser uma aliada importante do lojista para uma tomada de
+  decisão tão importante
+excerpt: Como detectar fraudes quando você não possui tempo hábil para revisar uma
+  compra suspeita?
+author: felipe
 ---
 
 Para a maioria dos varejistas online, o caminho que um pedido faz após a finalização da compra é bem parecido: a primeira coisa que acontece é a **autorização de pagamento**, para ver se o cartão é válido e tem fundos; depois vem o **antifraude**, que avalia se o pedido pode ser despachado ou se merece uma análise manual. Neste ponto, muitos varejistas também **checam o estoque** para garantir que o produto ainda está lá. Se a análise de risco estiver OK, o lojista, então, encaminha a operação para **manuseio e despacho**. E pronto, acabou.

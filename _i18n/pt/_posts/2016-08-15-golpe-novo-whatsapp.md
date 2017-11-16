@@ -1,10 +1,12 @@
 ---
+title: Novo WhatsApp? Cuidado, é fraude!
+date: 2016-08-15 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-08-15-T10:39:00-03:00'
-title: "Novo WhatsApp? Cuidado, é fraude!"
-subtitle: "Tentativa de phishing promete uma nova versão do WhatsApp para roubar dados de cartão de crédito"
-excerpt: "Vírus para celulares Android bloqueia a Google Play e tenta roubar os dados de cartão do usuário"
+subtitle: Tentativa de phishing promete uma nova versão do WhatsApp para roubar dados
+  de cartão de crédito
+excerpt: Vírus para celulares Android bloqueia a Google Play e tenta roubar os dados
+  de cartão do usuário
 author: felipe
 ---
 

@@ -1,10 +1,11 @@
 ---
+title: Não fale perto da sua TV. Ela pode ser uma espiã!
+date: 2016-03-10 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-03-10T10:39:00-03:00'
-title: 'Não fale perto da sua TV. Ela pode ser uma espiã!'
-subtitle: 'Será que isso é verdade? Uma Smart TV pode mesmo captar nossas informações pessoais?'
-excerpt: 'Sim, uma Smart TV pode te ouvir. Mas essa não deve ser a sua maior preocupação...'
+subtitle: Será que isso é verdade? Uma Smart TV pode mesmo captar nossas informações
+  pessoais?
+excerpt: Sim, uma Smart TV pode te ouvir. Mas essa não deve ser a sua maior preocupação...
 author: felipe
 ---
 

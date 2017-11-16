@@ -1,10 +1,12 @@
 ---
+title: 'PROMOÇÃO: Passagens aéreas pela metade do preço! É fraude?'
+date: 2016-06-10 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-06-10-T10:39:00-03:00'
-title: "PROMOÇÃO: Passagens aéreas pela metade do preço! É fraude?"
-subtitle: "Entenda como funciona a fraude de passagens aéreas, golpe bastante comum no e-commerce atualmente"
-excerpt: "Como supostos agentes de viagens conseguem obter descontos de até 65% sobre o valor de uma passagem?"
+subtitle: Entenda como funciona a fraude de passagens aéreas, golpe bastante comum
+  no e-commerce atualmente
+excerpt: Como supostos agentes de viagens conseguem obter descontos de até 65% sobre
+  o valor de uma passagem?
 author: felipe
 ---
 

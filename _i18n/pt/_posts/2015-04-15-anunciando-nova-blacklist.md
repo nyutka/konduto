@@ -1,13 +1,15 @@
 ---
+title: Anunciando a nova blacklist
+date: 2015-05-06 18:42:00 Z
 layout: post
-date: '2015-05-06T15:42:00-03:00'
-title: "Anunciando a nova blacklist"
-excerpt: "A nossa nova blacklist tem até uma API dedicada. Saiba mais sobre esta nova
-funcionalidade, que já está no ar!"
+excerpt: A nossa nova blacklist tem até uma API dedicada. Saiba mais sobre esta nova
+  funcionalidade, que já está no ar!
 cover_image: blacklist-post/cover.jpg
-cover_image_caption: "Image by <a href='https://www.flickr.com/photos/perspective/'>Elvert Barnes</a>"
+cover_image_caption: Image by <a href='https://www.flickr.com/photos/perspective/'>Elvert
+  Barnes</a>
 author: tom
 ---
+
 Estamos anunciando hoje o lançamento de mais uma funcionalidade que os nossos clientes vêm pedido: uma **blacklist dedicada e completa**, incluindo uma **API só dela** e a habilidade de **importar listas externas**.
 
 Até então, se você quisesse bloquear um endereço ou um email, era preciso criar ou editar uma regra customizada que negava pedidos com aquelas informaçōes. A partir de hoje, vocês verão a nova opção no seu menu de Configuraçōes para gerenciar exclusivamente os endereços e e-mails da lista negra, sem precisar mais mexer em regra nenhuma.

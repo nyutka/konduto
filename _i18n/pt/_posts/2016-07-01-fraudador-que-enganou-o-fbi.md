@@ -1,10 +1,10 @@
 ---
+title: Conheça a história do fraudador que ludibriou o FBI (mais de uma vez!)
+date: 2016-07-01 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-07-01-T10:39:00-03:00'
-title: "Conheça a história do fraudador que ludibriou o FBI (mais de uma vez!)"
-subtitle: "Jovem hacker conseguiu enganar a maior agência policial do mundo, duas vezes"
-excerpt: "Quando nem o FBI conseguiu conter a crescente de crimes cibernéticos"
+subtitle: Jovem hacker conseguiu enganar a maior agência policial do mundo, duas vezes
+excerpt: Quando nem o FBI conseguiu conter a crescente de crimes cibernéticos
 author: felipe
 ---
 

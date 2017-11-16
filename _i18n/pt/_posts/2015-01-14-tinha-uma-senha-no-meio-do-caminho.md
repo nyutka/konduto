@@ -1,11 +1,13 @@
 ---
+title: Compra online sem login? Conheça o case do botão de R$ 1 bilhão
+date: 2015-01-14 14:01:00 Z
 layout: post
-date: '2015-01-14T11:01:00-03:00'
-title: "Compra online sem login? Conheça o case do botão de R$ 1 bilhão"
-subtitle: "Como forçar o cliente a se registrar pode reduzir as vendas"
-excerpt: "A grande maioria dos sites tem o mesmo fluxo de checkout. Todos os e-commerces fazem assim, todo mundo já está acostumado. Por que mudar?"
+subtitle: Como forçar o cliente a se registrar pode reduzir as vendas
+excerpt: A grande maioria dos sites tem o mesmo fluxo de checkout. Todos os e-commerces
+  fazem assim, todo mundo já está acostumado. Por que mudar?
 author: tom
 ---
+
 Convido você a puxar na memória a última vez que comprou pela internet. Visualize a navegação, você comparando preços, escolhendo o produto e colocando no carrinho. Chegou a hora de pagar, e todos sabemos o que vem a seguir: você vai ter que se lembrar daquela senha.
 
 **Leia também**  

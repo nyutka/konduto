@@ -1,11 +1,11 @@
 ---
+title: 'Desvendamos a fraude dos testadores de cartão: entenda como funciona!'
+date: 2016-12-09 11:39:00 Z
 layout: post
-categories: pt		
-date: '2016-12-09T08:39:00-03:00'
-title: "Desvendamos a fraude dos testadores de cartão: entenda como funciona!"		
-subtitle: "Konduto expõe uma das fraudes que mais ameaçam o e-commerce"
-excerpt: "Saiba como você pode proteger o seu negócio desta prática traiçoeira e perigosa"		
-author: felipe	
+categories: pt
+subtitle: Konduto expõe uma das fraudes que mais ameaçam o e-commerce
+excerpt: Saiba como você pode proteger o seu negócio desta prática traiçoeira e perigosa
+author: felipe
 ---
 
 ![whitepaper](/images/161212-whitepaper-testers.png)

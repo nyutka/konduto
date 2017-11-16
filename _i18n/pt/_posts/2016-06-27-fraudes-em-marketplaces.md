@@ -1,10 +1,11 @@
 ---
+title: Cuidado, seu marketplace pode virar caixa eletrônico para fraudadores!
+date: 2016-06-27 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-06-27-T10:39:00-03:00'
-title: "Cuidado, seu marketplace pode virar caixa eletrônico para fraudadores!"
-subtitle: "Quando um criminoso é ao mesmo tempo lojista e cliente no próprio marketplace"
-excerpt: "Entenda como fraudadores podem ameaçar o rentável modelo de negócios dos marketplaces"
+subtitle: Quando um criminoso é ao mesmo tempo lojista e cliente no próprio marketplace
+excerpt: Entenda como fraudadores podem ameaçar o rentável modelo de negócios dos
+  marketplaces
 author: felipe
 ---
 

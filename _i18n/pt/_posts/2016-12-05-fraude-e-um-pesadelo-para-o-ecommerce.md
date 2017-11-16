@@ -1,10 +1,11 @@
 ---
+title: A fraude é um pesadelo para o e-commerce (mas não deveria ser)
+date: 2016-12-08 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-12-08-T10:39:00-03:00'
-title: "A fraude é um pesadelo para o e-commerce (mas não deveria ser)"
-subtitle: "Não é o medo da fraude que protege uma loja virtual, mas a boa administração do risco"
-excerpt: "A fraude não deve ser menosprezada, mas um bom empreendedor jamais pode supervalorizá-la"
+subtitle: Não é o medo da fraude que protege uma loja virtual, mas a boa administração
+  do risco
+excerpt: A fraude não deve ser menosprezada, mas um bom empreendedor jamais pode supervalorizá-la
 author: felipe
 ---
 

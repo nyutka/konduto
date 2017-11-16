@@ -1,10 +1,12 @@
 ---
+title: Como usar Big Data para barrar fraudes na internet?
+date: 2016-11-09 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-11-09-T10:39:00-03:00'
-title: "Como usar Big Data para barrar fraudes na internet?"
-subtitle: "Big Data é um dos assuntos mais quentes do momento... mas poucos sabem que ele pode ajudar o e-commerce a barrar fraudes"
-excerpt: "Empresas como Facebook e Google fazem uso massivo de Big Data. Por que seu e-commerce ainda não?"
+subtitle: Big Data é um dos assuntos mais quentes do momento... mas poucos sabem que
+  ele pode ajudar o e-commerce a barrar fraudes
+excerpt: Empresas como Facebook e Google fazem uso massivo de Big Data. Por que seu
+  e-commerce ainda não?
 author: felipe
 ---
 

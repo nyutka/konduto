@@ -1,10 +1,11 @@
 ---
+title: Europa deflagra operação antifraude e prende 42 criminosos profissionais
+date: 2016-11-07 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-11-07-T10:39:00-03:00'
-title: "Europa deflagra operação antifraude e prende 42 criminosos profissionais"
-subtitle: "Mais de dez países se uniram para iniciar o combate à fraude on-line"
-excerpt: "Criminosos teriam feito mais de 3 mil compras ilegais, causando prejuízo superior a R$ 12,5 milhões"
+subtitle: Mais de dez países se uniram para iniciar o combate à fraude on-line
+excerpt: Criminosos teriam feito mais de 3 mil compras ilegais, causando prejuízo
+  superior a R$ 12,5 milhões
 author: felipe
 ---
 

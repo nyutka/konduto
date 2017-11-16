@@ -1,11 +1,11 @@
 ---
+title: Don't talk near your TV. It can be a spy!
+date: 2016-12-03 11:39:00 Z
 layout: post
-categories: en		
-date: '2016-12-03T08:39:00-03:00'
-title: "Don't talk near your TV. It can be a spy!"		
-subtitle: "Is that true? A Smart TV can actually capture our personal information?"
-excerpt: "Is that true? A Smart TV can actually capture our personal information?"		
-author: felipe		
+categories: en
+subtitle: Is that true? A Smart TV can actually capture our personal information?
+excerpt: Is that true? A Smart TV can actually capture our personal information?
+author: felipe
 ---
 
 Shhhhh! Quiet or the TV may hear us...

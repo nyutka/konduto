@@ -1,11 +1,13 @@
 ---
+title: 'Real-time risk analysis: how to avoid frauds without harming the good client?'
+date: 2016-10-03 11:39:00 Z
 layout: post
-categories: en		
-date: '2016-10-03T08:39:00-03:00'
-title: "Real-time risk analysis: how to avoid frauds without harming the good client?"		
-subtitle: "Technology can be an important ally of the store owner for such an important decision."
-excerpt: "Technology can be an important ally of the store owner for such an important decision."		
-author: felipe		
+categories: en
+subtitle: Technology can be an important ally of the store owner for such an important
+  decision.
+excerpt: Technology can be an important ally of the store owner for such an important
+  decision.
+author: felipe
 ---
 
 For most online retailers, the route an order follows after the purchase is finished is very similar: the first thing that happens is the **payment authorization**, checking if the card is valid and if it has enough balance, then, **anti-fraud**, evaluating if the order can be shipped or if a **[manual analysis](https://blog.konduto.com/en/2016/08/we-need-to-talk-about-manual-review/?utm_source=konduto&utm_medium=blog-en&utm_campaign=conteudo)** is required. At this point, many retailers also **check the inventory** to ensure the product is still there. If the risk analysis is OK, the retailer forwards the operation to **handling and shipping**. And that is it.

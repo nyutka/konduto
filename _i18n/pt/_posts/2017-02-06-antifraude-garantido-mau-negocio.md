@@ -1,10 +1,11 @@
 ---
+title: Por que antifraude garantido é um mau negócio para o lojista?
+date: 2017-02-06 13:39:00 Z
 layout: post
 categories: pt
-date: '2017-02-06-T10:39:00-03:00'
-title: "Por que antifraude garantido é um mau negócio para o lojista?"
-subtitle: "Muitas vezes, para ter fraude zero, um lojista deixa de ganhar muito dinheiro..."
-excerpt: "Há uma conta que não fecha quando o assunto é antifraude garantido. E isso é ruim para o lojista"
+subtitle: Muitas vezes, para ter fraude zero, um lojista deixa de ganhar muito dinheiro...
+excerpt: Há uma conta que não fecha quando o assunto é antifraude garantido. E isso
+  é ruim para o lojista
 author: felipe
 ---
 

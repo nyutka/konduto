@@ -1,10 +1,12 @@
 ---
+title: 'O submundo da fraude no e-commerce: baixe e-book grátis!'
+date: 2016-05-18 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-05-18-T10:39:00-03:00'
-title: "O submundo da fraude no e-commerce: baixe e-book grátis!"
-subtitle: "E-book exclusivo explica como funciona um dos crimes que mais ameaça as lojas virtuais no Brasil e no mundo"
-excerpt: "Baixe nosso e-book grátis e descubra detalhes de um dos crimes que mais ameaça as lojas virtuais no Brasil e no mundo"
+subtitle: E-book exclusivo explica como funciona um dos crimes que mais ameaça as
+  lojas virtuais no Brasil e no mundo
+excerpt: Baixe nosso e-book grátis e descubra detalhes de um dos crimes que mais ameaça
+  as lojas virtuais no Brasil e no mundo
 author: felipe
 ---
 

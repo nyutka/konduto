@@ -1,10 +1,12 @@
 ---
+title: Quanto tempo leva para chegar um chargeback?
+date: 2016-11-28 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-11-28-T10:39:00-03:00'
-title: "Quanto tempo leva para chegar um chargeback?"
-subtitle: "Pouquíssimas fraudes são descobertas em menos de 10 dias. A maioria pode demorar mais de um mês!"
-excerpt: "Quando um cartão clonado é bloqueado, as vendas fraudulentas não são automaticamente canceladas junto ao lojista..."
+subtitle: Pouquíssimas fraudes são descobertas em menos de 10 dias. A maioria pode
+  demorar mais de um mês!
+excerpt: Quando um cartão clonado é bloqueado, as vendas fraudulentas não são automaticamente
+  canceladas junto ao lojista...
 author: felipe
 ---
 

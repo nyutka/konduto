@@ -1,10 +1,11 @@
 ---
+title: Criminosos clonam cartões de Portugal para fraudes no Brasil
+date: 2016-05-30 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-05-30-T10:39:00-03:00'
-title: "Criminosos clonam cartões de Portugal para fraudes no Brasil"
-subtitle: "Caso não foi noticiado pela imprensa brasileira, mas afetou e-commerces do nosso País"
-excerpt: "Golpe transcontinental afetou correntistas de um banco português"
+subtitle: Caso não foi noticiado pela imprensa brasileira, mas afetou e-commerces
+  do nosso País
+excerpt: Golpe transcontinental afetou correntistas de um banco português
 author: felipe
 ---
 

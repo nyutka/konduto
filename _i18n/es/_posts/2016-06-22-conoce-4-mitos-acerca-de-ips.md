@@ -1,8 +1,8 @@
 ---
+title: Cosas que piensas que sabes acerca de IPs, pero no
+date: 2016-06-22 13:39:00 Z
 layout: post
 categories: es
-date: '2016-06-22-T10:39:00-03:00'
-title: "Cosas que piensas que sabes acerca de IPs, pero no"
 subtitle: "¿Cuál es mi IP? Depende... ¡no tienes un IP propio!"
 excerpt: "¿Cuál es mi IP? Depende... ¡no tienes un IP propio!"
 author: tom

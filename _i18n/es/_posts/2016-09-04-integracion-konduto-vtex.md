@@ -1,10 +1,11 @@
 ---
+title: Clientes VTEX ya pueden contar con la protección de Konduto!
+date: 2016-09-04 13:39:00 Z
 layout: post
 categories: es
-date: '2016-09-04-T10:39:00-03:00'
-title: "Clientes VTEX ya pueden contar con la protección de Konduto!"
-subtitle: "Comerciantes que utilizan la plataforma VTEX pueden integrar Konduto de una forma muy sencilla"
-excerpt: "Konduto ha dado un importante paso en el combate al fraude en línea"
+subtitle: Comerciantes que utilizan la plataforma VTEX pueden integrar Konduto de
+  una forma muy sencilla
+excerpt: Konduto ha dado un importante paso en el combate al fraude en línea
 author: felipe
 ---
 

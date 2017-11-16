@@ -1,10 +1,12 @@
 ---
+title: 'BBC encontra itens absurdos à venda na deep web: inclusive cartões clonados'
+date: 2016-08-03 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-08-03-T10:39:00-03:00'
-title: "BBC encontra itens absurdos à venda na deep web: inclusive cartões clonados"
-subtitle: "A chamada internet oculta pode ser ponto de venda de armas, drogas e até cartões clonados"
-excerpt: "A chamada internet oculta pode ser ponto de venda de armas, drogas e até cartões clonados"
+subtitle: A chamada internet oculta pode ser ponto de venda de armas, drogas e até
+  cartões clonados
+excerpt: A chamada internet oculta pode ser ponto de venda de armas, drogas e até
+  cartões clonados
 author: felipe
 ---
 

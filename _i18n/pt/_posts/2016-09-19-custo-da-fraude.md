@@ -1,10 +1,11 @@
 ---
+title: Você sabe calcular o custo da fraude da sua loja virtual?
+date: 2016-09-19 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-09-19-T10:39:00-03:00'
-title: "Você sabe calcular o custo da fraude da sua loja virtual?"
-subtitle: "Às vezes, fraude zero não significa que o custo da fraude também será zero..."
-excerpt: "A conta parece simples, mas não é só calcular o total de chargebacks recebidos no mês"
+subtitle: Às vezes, fraude zero não significa que o custo da fraude também será zero...
+excerpt: A conta parece simples, mas não é só calcular o total de chargebacks recebidos
+  no mês
 author: felipe
 ---
 

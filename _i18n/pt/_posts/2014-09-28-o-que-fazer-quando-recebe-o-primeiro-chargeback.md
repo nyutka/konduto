@@ -1,11 +1,14 @@
 ---
-layout: post
-date: '2014-09-28T17:26:00-03:00'
 title: O que fazer quando você recebe o seu primeiro chargeback?
-subtitle: "Antes de tudo, não entre em pânico! Ainda é possível tentar revertê-lo e se prevenir para o futuro!"
-excerpt: "O primeiro chargeback pode chocar, mas não é o fim do mundo. Saiba o que você precisa fazer para entender o que aconteceu e tentar recuperá-lo."
+date: 2014-09-28 20:26:00 Z
+layout: post
+subtitle: Antes de tudo, não entre em pânico! Ainda é possível tentar revertê-lo e
+  se prevenir para o futuro!
+excerpt: O primeiro chargeback pode chocar, mas não é o fim do mundo. Saiba o que
+  você precisa fazer para entender o que aconteceu e tentar recuperá-lo.
 author: milton
 ---
+
 Me diga se isto é familiar: você abriu a sua loja virtual há algum tempo e acompanha de perto cada pedido que chega. Olha um por um. Você começa a ver o número de pedidos aumentando, talvez alguém menciona a sua loja em uma rede social. Tudo está indo bem, até o dia em que ele chega: **o seu primeiro chargeback**.
 
 **Baixe grátis**   

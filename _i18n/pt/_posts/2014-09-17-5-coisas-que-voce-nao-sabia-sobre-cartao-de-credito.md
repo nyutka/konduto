@@ -1,10 +1,12 @@
 ---
-layout: post
-date: '2014-09-17T14:32:00-03:00'
 title: 5 coisas que você não sabia sobre cartão de crédito
-excerpt: "Na hora de fazer uma compra na internet, nem o nome e nem o CPF do cliente valem muito na autenticação. Confira outros segredos"
+date: 2014-09-17 17:32:00 Z
+layout: post
+excerpt: Na hora de fazer uma compra na internet, nem o nome e nem o CPF do cliente
+  valem muito na autenticação. Confira outros segredos
 author: tom
 ---
+
 ![5 coisas que você não sabia sobre cartão de crédito](/images/credit_card_facts.jpg)
 O cartão de crédito é hoje o meio de pagamento mais usado na internet, chegando a mais de 70% das compras. Uma das maiores vantagens do meio de pagamento é a facilidade: além de você receber uma aprovação imediata, sem esperar a compensação de bancos ou contar dias úteis, ainda é possível parcelar as compras. 
 

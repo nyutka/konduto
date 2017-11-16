@@ -1,11 +1,11 @@
 ---
+title: You need to evaluate a very important thing in your e-commerce
+date: 2016-11-03 11:39:00 Z
 layout: post
-categories: en		
-date: '2016-11-03T08:39:00-03:00'
-title: "You need to evaluate a very important thing in your e-commerce"		
-subtitle: "Are you really letting your fear of fraud end your e-commerce?"
-excerpt: "Are you really letting your fear of fraud end your e-commerce?"		
-author: daniel		
+categories: en
+subtitle: Are you really letting your fear of fraud end your e-commerce?
+excerpt: Are you really letting your fear of fraud end your e-commerce?
+author: daniel
 ---
 
 I have recently received many e-mails and private messages from entrepreneurs asking why I always make the same question to sites that are struggling to service: what is the payment method used?

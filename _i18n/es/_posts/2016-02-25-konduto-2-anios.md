@@ -1,10 +1,11 @@
 ---
+title: "¡Konduto celebra 2 años! Pero ¿qué hemos aprendido hasta aquí?"
+date: 2016-02-25 13:39:00 Z
 layout: post
 categories: es
-date: '2016-02-25T10:39:00-03:00'
-title: '¡Konduto celebra 2 años! Pero ¿qué hemos aprendido hasta aquí?'
-subtitle: "El antifraude más inteligente del e-commerce latinoamericano conmemora dos años de vida"
-excerpt: "Si pudiéramos volver en el tiempo, nos daríamos estes cinco consejos"
+subtitle: El antifraude más inteligente del e-commerce latinoamericano conmemora dos
+  años de vida
+excerpt: Si pudiéramos volver en el tiempo, nos daríamos estes cinco consejos
 author: tom
 ---
 

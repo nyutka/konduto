@@ -1,11 +1,13 @@
 ---
+title: Konduto completa 2 anos! Mas o que aprendemos até aqui?
+date: 2016-02-25 13:39:00 Z
 layout: post
-date: '2016-02-25T10:39:00-03:00'
-title: 'Konduto completa 2 anos! Mas o que aprendemos até aqui?'
-subtitle: "O antifraude mais inteligente do e-commerce brasileiro está comemorando dois anos de vida. "
-excerpt: "Se pudéssemos voltar no tempo, daríamos estas cinco dicas para nós mesmos"
+subtitle: 'O antifraude mais inteligente do e-commerce brasileiro está comemorando
+  dois anos de vida. '
+excerpt: Se pudéssemos voltar no tempo, daríamos estas cinco dicas para nós mesmos
 author: tom
 ---
+
 O mês de fevereiro foi muito especial para a **[Konduto](https://www.konduto.com/?utm_source=konduto&utm_medium=blog&utm_campaign=conteudo-2a)**, pois comemoramos  2 anos de vida! 
 
 ![celebration](/images/160225-celebrate.gif)

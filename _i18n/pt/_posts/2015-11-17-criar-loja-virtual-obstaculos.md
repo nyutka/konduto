@@ -1,11 +1,14 @@
 ---
-layout: post		
-date: '2015-11-17T18:10:00-03:00'
-title: "Vai criar uma loja virtual? Veja quais obstáculos você deve ultrapassar"		
-subtitle: "Operação, propaganda, automação, análise de risco... há uma sequência a ser seguida - não obrigatória, mas recomendável"
-excerpt: "A partir da Pirâmide de Maslow, pensamos em algumas hierarquias que o lojista deve escalar enquanto atua em sua loja online"		
-author: tom		
+title: Vai criar uma loja virtual? Veja quais obstáculos você deve ultrapassar
+date: 2015-11-17 21:10:00 Z
+layout: post
+subtitle: Operação, propaganda, automação, análise de risco... há uma sequência a
+  ser seguida - não obrigatória, mas recomendável
+excerpt: A partir da Pirâmide de Maslow, pensamos em algumas hierarquias que o lojista
+  deve escalar enquanto atua em sua loja online
+author: tom
 ---
+
 ![5dicas](/images/151117-obstaculos-ecommerce.jpg)
 <small>*Imagem: Dollar Photoclub*</small>
 

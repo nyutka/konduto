@@ -1,10 +1,11 @@
 ---
+title: Como uma garotinha de 6 anos expôs uma brecha na proteção biométrica?
+date: 2017-01-26 13:39:00 Z
 layout: post
 categories: pt
-date: '2017-01-26-T10:39:00-03:00'
-title: "Como uma garotinha de 6 anos expôs uma brecha na proteção biométrica?"
-subtitle: "A menininha com os óculos thug life também ensinou que não há fraude zero no e-commerce"
-excerpt: "Spoiler: ela não é uma mente do mal, só queria capturar alguns Pokémon!"
+subtitle: A menininha com os óculos thug life também ensinou que não há fraude zero
+  no e-commerce
+excerpt: 'Spoiler: ela não é uma mente do mal, só queria capturar alguns Pokémon!'
 author: felipe
 ---
 

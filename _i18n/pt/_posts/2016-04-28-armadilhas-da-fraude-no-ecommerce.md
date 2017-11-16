@@ -1,10 +1,11 @@
 ---
+title: Conheça 4 armadilhas que a fraude pode colocar no caminho do e-commerce
+date: 2016-04-28 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-04-28T10:39:00-03:00'
-title: "Conheça 4 armadilhas que a fraude pode colocar no caminho do e-commerce"
-subtitle: "Combater a fraude não é uma tarefa fácil, mas não cair nestas tentações certamente tornará seu caminho muito mais tranquilo"
-excerpt: "4 erros que você jamais pode cometer na análise de risco"
+subtitle: Combater a fraude não é uma tarefa fácil, mas não cair nestas tentações
+  certamente tornará seu caminho muito mais tranquilo
+excerpt: 4 erros que você jamais pode cometer na análise de risco
 author: felipe
 ---
 

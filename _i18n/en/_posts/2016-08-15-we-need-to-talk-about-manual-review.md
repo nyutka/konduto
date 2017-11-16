@@ -1,12 +1,15 @@
 ---
+title: We need to talk about manual review
+date: 2016-08-15 13:39:00 Z
 layout: post
 categories: en
-date: '2016-08-15-T10:39:00-03:00'
-title: "We need to talk about manual review"
-subtitle: "Is performing this check, which can add a new cost to your operation, really worth it?"
-excerpt: "Is performing this check, which can add a new cost to your operation, really worth it?"
+subtitle: Is performing this check, which can add a new cost to your operation, really
+  worth it?
+excerpt: Is performing this check, which can add a new cost to your operation, really
+  worth it?
 author: felipe
 ---
+
 Congratulations, your company has just completed the integration with an anti-fraud solution! Now you only have to wait for the arrival of recommendations on which sales must be approved and which should be denied, due to fraud risk and that is it, right?
 
 Hummm... no, it's not quite that, actually.

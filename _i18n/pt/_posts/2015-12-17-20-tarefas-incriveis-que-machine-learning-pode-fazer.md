@@ -1,11 +1,15 @@
 ---
+title: Conheça 20 tarefas incríveis executadas por machine learning
+date: 2015-12-17 21:39:00 Z
 layout: post
-date: '2015-12-17T18:39:00-03:00'
-title: "Conheça 20 tarefas incríveis executadas por machine learning"
-subtitle: "Você sabia? O aprendizado de máquina está presente em vários setores da sociedade: lazer, transporte, publicidade, comércio eletrônico, medicina, investigação criminal, proteção ambiental"
-excerpt: "Machine learning é um termo cada vez mais em evidência no mercado. Mas o que essa tecnologia já é capaz de fazer?"
+subtitle: 'Você sabia? O aprendizado de máquina está presente em vários setores da
+  sociedade: lazer, transporte, publicidade, comércio eletrônico, medicina, investigação
+  criminal, proteção ambiental'
+excerpt: Machine learning é um termo cada vez mais em evidência no mercado. Mas o
+  que essa tecnologia já é capaz de fazer?
 author: felipe
 ---
+
 Já dedicamos no nosso blog um post apenas para **[explicar o que é machine learning](http://blog.konduto.com/pt/2015/01/afinal-o-que-e-machine-learning?utm_source=konduto&utm_medium=blog&utm_campaign=conteudo)**, ou aprendizado de máquina: uma área da ciência da computação que cria sistemas capazes de “treinar” computadores para executar tarefas com cada vez mais precisão. Talvez a gente não perceba, mas essa tecnologia está cada vez mais presente no nosso dia a dia... e a tendência é que essa relação só aumente nos próximos anos.
 
 Machine learning é tão sexy (tecnologicamente falando) que os sistemas permitem **extensas análises de dados, reconhecimento de padrões, cruzamento de informações e geração de insights**. Tudo isso ocorrendo em frações de segundo e em uma escala gigantesca!

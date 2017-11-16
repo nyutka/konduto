@@ -1,9 +1,11 @@
 ---
+title: 5 facts you didn't know about credit cards in Brazil
+date: 2016-04-25 17:32:00 Z
 layout: post
 categories: en
-date: '2016-04-25T14:32:00-03:00'
-title: "5 facts you didn't know about credit cards in Brazil"
-excerpt: "Credit cards are the main e-commerce payment method today, reaching over 70% of purchases in Brazil. Check out some secret facts you might not know about the credit card in Brazil"
+excerpt: Credit cards are the main e-commerce payment method today, reaching over
+  70% of purchases in Brazil. Check out some secret facts you might not know about
+  the credit card in Brazil
 author: tom
 ---
 

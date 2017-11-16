@@ -1,11 +1,14 @@
 ---
-layout: post
-date: '2016-02-04T10:39:00-03:00'
 title: Precisamos falar sobre revisão manual
-subtitle: "Será que realizar essa verificação, que pode adicionar um novo custo à sua operação, realmente vale a pena?"
-excerpt: "Como a sua loja virtual está executando esta atividade? Ou pior: será que você nem está fazendo essa verificação?"
+date: 2016-02-04 13:39:00 Z
+layout: post
+subtitle: Será que realizar essa verificação, que pode adicionar um novo custo à sua
+  operação, realmente vale a pena?
+excerpt: 'Como a sua loja virtual está executando esta atividade? Ou pior: será que
+  você nem está fazendo essa verificação?'
 author: felipe
 ---
+
 Parabéns, a sua empresa acabou de concluir a integração com uma solução antifraude! Agora é só aguardar a chegada das recomendações sobre quais vendas devem ser aprovadas e quais devem ser negadas por risco de fraude e pronto, certo?
 
 Hummm… não, não é bem assim. 

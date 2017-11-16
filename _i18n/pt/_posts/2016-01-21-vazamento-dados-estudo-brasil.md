@@ -1,11 +1,14 @@
 ---
+title: 'Estudo: Brasil é o país mais vulnerável para vazamento de dados'
+date: 2016-01-21 21:39:00 Z
 layout: post
-date: '2016-01-21T18:39:00-03:00'
-title: "Estudo: Brasil é o país mais vulnerável para vazamento de dados"
-subtitle: "Risco de vazamento de dados no Brasil disparou quase sete pontos percentuais, superando a Índia"
-excerpt: "O nosso País também é o mais propício a falhas de segurança em decorrência do erro humano"
+subtitle: Risco de vazamento de dados no Brasil disparou quase sete pontos percentuais,
+  superando a Índia
+excerpt: O nosso País também é o mais propício a falhas de segurança em decorrência
+  do erro humano
 author: felipe
 ---
+
 ![foto de abre](/images/160121-foto-abre.jpg)
 <small>Imagem: Dollar Photoclub</small>
 

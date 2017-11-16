@@ -1,12 +1,15 @@
 ---
+title: 5 indicators for those who perform risk analysis in e-commerce
+date: 2016-06-14 13:39:00 Z
 layout: post
 categories: en
-date: '2016-06-14-T10:39:00-03:00'
-title: "5 indicators for those who perform risk analysis in e-commerce"
-subtitle: "Chargebacks, manual reviews, rejections, automatic approvals. Do you know all of this by heart?"
-excerpt: "Chargebacks, manual reviews, rejections, automatic approvals. Do you know all of this by heart?"
+subtitle: Chargebacks, manual reviews, rejections, automatic approvals. Do you know
+  all of this by heart?
+excerpt: Chargebacks, manual reviews, rejections, automatic approvals. Do you know
+  all of this by heart?
 author: tom
 ---
+
 Everyone who manages an e-commerce has some indexes at the tip of their tongue: number of invoiced orders, average ticket, unique visitors, conversion rate, and so forth.
 
 When you do your risk analysis on the orders, there are specific metrics to know how your operation is doing. See the key indicators below:

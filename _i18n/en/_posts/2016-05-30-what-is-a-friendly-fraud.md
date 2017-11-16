@@ -1,12 +1,13 @@
 ---
+title: What is a friendly fraud?
+date: 2016-05-30 13:39:00 Z
 layout: post
 categories: en
-date: '2016-05-30-T10:39:00-03:00'
-title: "What is a friendly fraud?"
-subtitle: "A chargeback is not always a fraud."
-excerpt: "A chargeback is not always a fraud."
+subtitle: A chargeback is not always a fraud.
+excerpt: A chargeback is not always a fraud.
 author: tom
 ---
+
 There are several articles describing the most common e-commerce fraud types. One of them is known as friendly fraud, a term generating certain curiosity. How can fraud be considered "friendly"? **We call friendly fraud the contestation that takes place not for cunning, but due to confusion from the card holder** He can have actually made that purchase and not remember it.
 
 In many cases, the reason is simple: the store corporate name is different from its trade name. He bought something at Rita's Bakery, but is not aware that it is actually called "ABC Com e Distr Alim Ltda". He literally does not recognize the purchase in his statement. Another common scenario is the son using his parents' card for purchasing credit for some online game, which could have taken place with or without their knowledge or consent. When seeing a strange entrance in the invoice, the person thinks his card was cloned and requests its cancellation.

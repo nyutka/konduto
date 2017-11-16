@@ -1,11 +1,13 @@
 ---
+title: "¡No hables cerca de tu televisión, puede ser una espía!"
+date: 2016-11-16 11:39:00 Z
 layout: post
-categories: es		
-date: '2016-11-16T08:39:00-03:00'
-title: "¡No hables cerca de tu televisión, puede ser una espía!"		
-subtitle: "¿Será verdad? ¿Una Smart TV puede realmente captar nuestras informaciones personales?"
-excerpt: "¿Será verdad? ¿Una Smart TV puede realmente captar nuestras informaciones personales?"		
-author: felipe	
+categories: es
+subtitle: "¿Será verdad? ¿Una Smart TV puede realmente captar nuestras informaciones
+  personales?"
+excerpt: "¿Será verdad? ¿Una Smart TV puede realmente captar nuestras informaciones
+  personales?"
+author: felipe
 ---
 
 ¡Shhh! Vamos a hablar bajito que alguna televisión puede oírnos…

@@ -1,10 +1,11 @@
 ---
+title: 'Cartão ou boleto: qual o pagamento mais seguro na Black Friday?'
+date: 2016-11-04 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-11-04-T10:39:00-03:00'
-title: "Cartão ou boleto: qual o pagamento mais seguro na Black Friday?"
-subtitle: "Cartão de crédito, sempre, é a forma de pagamento on-line mais segura para o consumidor"
-excerpt: "Como o consumidor pode aproveitar os descontos sem correr risco de golpes?"
+subtitle: Cartão de crédito, sempre, é a forma de pagamento on-line mais segura para
+  o consumidor
+excerpt: Como o consumidor pode aproveitar os descontos sem correr risco de golpes?
 author: felipe
 ---
 

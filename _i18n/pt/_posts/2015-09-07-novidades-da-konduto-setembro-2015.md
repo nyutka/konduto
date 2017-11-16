@@ -1,14 +1,14 @@
 ---
+title: Revisão manual, notificações, viagens e marketplace
+date: 2015-09-07 12:10:00 Z
 layout: post
-date: '2015-09-07T09:10:00-03:00'
-title: "Revisão manual, notificações, viagens e marketplace"
-subtitle: ""
-excerpt: "Lançamos diversas novidades na plataforma. Confira!"
+subtitle: ''
+excerpt: Lançamos diversas novidades na plataforma. Confira!
 cover_image: megaphone-news-sept.jpg
-cover_image_caption: "Image by
-<a href='https://www.flickr.com/photos/rhodesj/'>rhodesj</a>"
+cover_image_caption: Image by <a href='https://www.flickr.com/photos/rhodesj/'>rhodesj</a>
 author: tom
 ---
+
 Talvez você não tenha notado, mas faz um tempinho que nós não postamos por aqui!
 
 A verdade é que os últimos meses têm sido de muito trabalho e esforço. O nosso [super time](https://www.konduto.com/pt/about?utm_source=konduto&utm_medium=blog&utm_campaign=conteudo/) botou no ar uma série de novidades bem bacanas que queremos compartilhar com você.

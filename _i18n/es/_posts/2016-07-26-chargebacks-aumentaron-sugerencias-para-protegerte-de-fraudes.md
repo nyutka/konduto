@@ -1,12 +1,16 @@
 ---
+title: "¿Los chargebacks aumentaron? Aprende 5 sugerencias de emergencia para protegerte
+  de fraudes"
+date: 2016-07-26 13:39:00 Z
 layout: post
 categories: es
-date: '2016-07-26-T10:39:00-03:00'
-title: "¿Los chargebacks aumentaron? Aprende 5 sugerencias de emergencia para protegerte de fraudes"
-subtitle: "Entérate de cómo protegerte de las estafas de tarjeta de crédito mientras no implantas una solución antifraude"
-excerpt: "Entérate de cómo protegerte de las estafas de tarjeta de crédito mientras no implantas una solución antifraude."
+subtitle: Entérate de cómo protegerte de las estafas de tarjeta de crédito mientras
+  no implantas una solución antifraude
+excerpt: Entérate de cómo protegerte de las estafas de tarjeta de crédito mientras
+  no implantas una solución antifraude.
 author: felipe
 ---
+
 Tu e-commerce acaba de tener un excelente período de ventas, superando las expectativas y generando ingresos considerables para toda la empresa. Pero, justamente en el momento de mayor entusiasmo, llega una mala noticia: un **[chargeback](https://blog.konduto.com/es/2016/05/que-hacer-al-recibir-el-primer-chargeback/?utm_source=konduto&utm_medium=blog-es&utm_campaign=conteudo)**. Y otro más. Y otro. La señal de alerta ya está sonando, y el ruido es alto.
 
 ![blu](/images/160112-blu.gif)

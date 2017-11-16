@@ -1,10 +1,12 @@
 ---
+title: Quase 40% dos brasileiros estão com nome sujo... mas não há 40% de fraudes
+  na internet
+date: 2017-01-17 13:39:00 Z
 layout: post
 categories: pt
-date: '2017-01-17-T10:39:00-03:00'
-title: "Quase 40% dos brasileiros estão com nome sujo... mas não há 40% de fraudes na internet"
-subtitle: "Temos uma dica simples para você não perder 40% da conversão de vendas"
-excerpt: "Qual a ligação entre pessoas negativadas e o risco de fraude em uma compra on-line?"
+subtitle: Temos uma dica simples para você não perder 40% da conversão de vendas
+excerpt: Qual a ligação entre pessoas negativadas e o risco de fraude em uma compra
+  on-line?
 author: felipe
 ---
 

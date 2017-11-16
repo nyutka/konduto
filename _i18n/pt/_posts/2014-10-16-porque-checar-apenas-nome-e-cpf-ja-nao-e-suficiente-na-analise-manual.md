@@ -1,11 +1,14 @@
 ---
-layout: post
-date: '2014-10-16T10:14:00-03:00'
 title: Quer evitar fraudes? Checar apenas nomes e CPF não é mais suficiente
-subtitle: "Fizemos um teste e geramos 300 CPFs aleatórios para ver quantos pertenciam a alguma pessoa"
-excerpt: "Realizar uma fraude gerando um CPF não é uma tarefa tão difícil. Saiba como não cair neste golpe"
+date: 2014-10-16 13:14:00 Z
+layout: post
+subtitle: Fizemos um teste e geramos 300 CPFs aleatórios para ver quantos pertenciam
+  a alguma pessoa
+excerpt: Realizar uma fraude gerando um CPF não é uma tarefa tão difícil. Saiba como
+  não cair neste golpe
 author: tom
 ---
+
 Duas das análises mais básicas que os e-commerces fazem quando suspeitam de um pedido são **buscar o CPF do cliente no site da [Receita Federal](http://www.receita.fazenda.gov.br/aplicacoes/atcta/cpf/consultapublica.asp)** e colocar o **endereço de entrega no Google Maps**. Se o CPF bate com o nome e o endereço não fica no [meio do nada](https://maps.google.com/maps/ms?ie=UTF8&t=h&oe=UTF8&msa=0&msid=201110084297875977065.0004b9c904d87bcc9939a&dg=feature), aquela venda já parece menos arriscada.
 
 **Leia também**  

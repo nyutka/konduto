@@ -1,12 +1,14 @@
 ---
+title: We are turning two! But what did we learn until now?
+date: 2016-02-25 13:39:00 Z
 layout: post
 categories: en
-date: '2016-02-25T10:39:00-03:00'
-title: 'We are turning two! But what did we learn until now?'
-subtitle: "5 lessons we learned while we went from 0 to 1+ million orders screened monthly"
-excerpt: "5 lessons we learned while we went from 0 to 1+ million orders screened monthly"
+subtitle: 5 lessons we learned while we went from 0 to 1+ million orders screened
+  monthly
+excerpt: 5 lessons we learned while we went from 0 to 1+ million orders screened monthly
 author: tom
 ---
+
 This a very special day for us, because [Konduto](https://www.konduto.com/?utm_source=konduto&utm_medium=blog-en&utm_campaign=conteudo-2a) is turning 2!
 
 We can't tell if it's "already" or "that long" since our team first sat down together to begin coding. We want to thank our customers for trusting us, our beta trials and investors for believing in us, and specially our [awesome team](https://www.konduto.com/pt/about/?utm_source=konduto&utm_medium=blog-en&utm_campaign=conteudo-2a) for the hard work they've put in these past 24 months.

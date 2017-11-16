@@ -1,12 +1,13 @@
 ---
+title: "¿Fraude amigo?: sabe lo que es y aprende como evitarlo"
+date: 2016-05-30 13:39:00 Z
 layout: post
 categories: es
-date: '2016-05-30-T10:39:00-03:00'
-title: "¿Fraude amigo?: sabe lo que es y aprende como evitarlo"
-subtitle: "Un chargeback no siempre es fraude."
-excerpt: "Un chargeback no siempre es fraude."
+subtitle: Un chargeback no siempre es fraude.
+excerpt: Un chargeback no siempre es fraude.
 author: tom
 ---
+
 Hay innúmeros artículos por ahí que describen los tipos más corrientes de fraude en el e-commerce. Uno de estos se conoce como fraude amigo, término que genera cierta curiosidad. ¿Cómo se puede considerar un fraude como «amigo»? Llamamos fraude amigo la **impugnación que ocurre no con mala intención, pero por confusión del dueño de la tarjeta**. Puede ser que este haya realizado la compra, pero que no se acuerde.
 
 En muchos casos la razón es simple: la razón social de la tienda es distinta del nombre fantasía. Así, el cliente compra en la Panadería Juana, pero no sabe que en verdad es «ABC Com. y Distrib. de Alim. Ltda.». El cliente literalmente no reconoce la compra en su extracto. Otro escenario corriente es cuando el hijo usa la tarjeta de los padres para comprar créditos en algún juego, esto puede ocurrir con o sin el consentimiento del dueño de la tarjeta. Al ver un registro extraño en la factura, el titular piensa que la tarjeta fue clonada y pide su cancelación.

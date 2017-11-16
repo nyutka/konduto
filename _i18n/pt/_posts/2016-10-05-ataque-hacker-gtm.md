@@ -1,10 +1,12 @@
 ---
+title: Fraude no GTM pode ter exposto dados bancários de milhões de brasileiros
+date: 2016-10-05 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-10-05-T10:39:00-03:00'
-title: "Fraude no GTM pode ter exposto dados bancários de milhões de brasileiros"
-subtitle: "Serviço do Google pode ter sido usado como ponte para criminosos virtuais aplicarem golpes em internautas"
-excerpt: "Hackers invadiram GTM de lojas virtuais e faziam sites distribuir vírus para vítimas"
+subtitle: Serviço do Google pode ter sido usado como ponte para criminosos virtuais
+  aplicarem golpes em internautas
+excerpt: Hackers invadiram GTM de lojas virtuais e faziam sites distribuir vírus para
+  vítimas
 author: felipe
 ---
 

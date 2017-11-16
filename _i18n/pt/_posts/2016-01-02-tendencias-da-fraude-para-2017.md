@@ -1,11 +1,13 @@
 ---
+title: 5 tendências da fraude on-line para 2017
+date: 2016-12-21 11:39:00 Z
 layout: post
-categories: pt		
-date: '2016-12-21T08:39:00-03:00'
-title: "5 tendências da fraude on-line para 2017"		
-subtitle: "O que os criminosos cibernéticos preparam para o e-commerce? E como o mercado deve se proteger?"
-excerpt: "Com base no que vimos em 2016, notamos algumas tendências do que virá pela frente neste novo ano"		
-author: felipe	
+categories: pt
+subtitle: O que os criminosos cibernéticos preparam para o e-commerce? E como o mercado
+  deve se proteger?
+excerpt: Com base no que vimos em 2016, notamos algumas tendências do que virá pela
+  frente neste novo ano
+author: felipe
 ---
 
 ![tendencias](/images/161221-tendencias-fraude.png)

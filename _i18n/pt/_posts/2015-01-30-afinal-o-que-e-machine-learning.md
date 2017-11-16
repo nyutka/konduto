@@ -1,11 +1,13 @@
 ---
+title: 'Inteligência artificial: afinal, o que é machine learning?'
+date: 2015-01-30 14:01:00 Z
 layout: post
-date: '2015-01-30T11:01:00-03:00'
-title: "Inteligência artificial: afinal, o que é machine learning?"
-subtitle: "Entenda como as máquinas conseguem aprender sozinhas e qual o impacto disso na nossa vida"
-excerpt: "Facebook, Google e claro, nós na Konduto, utilizamos machine learning"
+subtitle: Entenda como as máquinas conseguem aprender sozinhas e qual o impacto disso
+  na nossa vida
+excerpt: Facebook, Google e claro, nós na Konduto, utilizamos machine learning
 author: tom
 ---
+
 A internet já tem [3 bilhões de usuários](http://www1.folha.uol.com.br/tec/2014/11/1553088-internet-ja-tem-quase-3-bilhoes-de-usuarios-no-mundo-diz-onu.shtml) em todo o mundo, e cada um deles é um gerador de conteúdo. Nós produzimos e coletamos mais informações do que nunca. São artigos, desenhos, poemas, fotos, vídeos, podcasts, pesquisas e posts de cada usuário da internet. Para se ter uma ideia, estima-se que 90% da informação gerada na história foi criada nos [últimos 2 anos](http://www.sciencedaily.com/releases/2013/05/130522085217.htm).
 
 **Leia também**  

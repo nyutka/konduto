@@ -1,10 +1,10 @@
 ---
+title: Nueva Portada Konduto, más linda y con grandes novedades
+date: 2016-10-26 08:39:00 Z
 layout: post
 categories: es
-date: '2016-10-26-T06:39:00-02:00'
-title: "Nueva Portada Konduto, más linda y con grandes novedades"
 subtitle: "¡Portada Konduto ya nace con tras nuevas funcionalidades!"
-excerpt: "Nuestro painel en línea está más amigable y ha ganado nuevas funcionalidades"
+excerpt: Nuestro painel en línea está más amigable y ha ganado nuevas funcionalidades
 author: felipe
 ---
 

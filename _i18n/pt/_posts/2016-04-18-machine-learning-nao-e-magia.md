@@ -1,12 +1,13 @@
 ---
+title: 'Machine learning (e antifraude) não é magia: você precisa ensinar o sistema'
+date: 2016-04-18 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-04-18T10:39:00-03:00'
-title: "Machine learning (e antifraude) não é magia: você precisa ensinar o sistema"
 subtitle: A intervenção humana é crucial para o bom funcionamento do sistema
 excerpt: A intervenção humana é crucial para o bom funcionamento do sistema
 author: felipe
 ---
+
 Um dos ramos da tecnologia que evolui a passos mais largos com o intuito de facilitar o dia a dia da sociedade é o **machine learning**, ou aprendizado de máquina. Há alguns meses, listamos aqui no nosso blog **[20 tarefas que já são executadas por sistemas computadorizados](https://blog.konduto.com/pt/2015/12/20-tarefas-incriveis-que-machine-learning-pode-fazer/?utm_source=konduto&utm_medium=blog&utm_campaign=conteudo-mlmagic)**, e muitas delas já são praticamente indispensáveis para muitos de nós.
 
 Recentemente, o machine learning voltou a ganhar notoriedade na imprensa depois do [desafio de Go](http://www1.folha.uol.com.br/tec/2016/03/1749289-supercomputador-do-google-vence-torneio-de-go-contra-campeao-mundial.shtml) (um jogo de estratégia bastante popular na Ásia), entre o campeão mundial Lee Se-Dol e o supercomputador AlphaGo, desenvolvido pela empresa Deep Mind, filial do Google. O sistema computadorizado, que “aprendeu” o jogo e se aperfeiçoou nas estratégias graças ao aprendizado de máquina, venceu quatro das cinco partidas, de maneira surpreendente. E o caso correu o mundo. 

@@ -1,12 +1,14 @@
 ---
+title: 'Novos SDK mobile: queremos pegar ainda mais fraudes em apps!'
+date: 2016-09-12 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-09-12-T10:39:00-03:00'
-title: "Novos SDK mobile: queremos pegar ainda mais fraudes em apps!"
-subtitle: "Somos o primeiro antifraude do mundo a monitorar o comportamento de navegação na compra mobile"
-excerpt: "A Konduto deu mais um importante passo no combate à fraude on-line!"
+subtitle: Somos o primeiro antifraude do mundo a monitorar o comportamento de navegação
+  na compra mobile
+excerpt: A Konduto deu mais um importante passo no combate à fraude on-line!
 author: felipe
 ---
+
 ![mobile](/images/160912-mobile.png) 
 
 Estamos muito felizes em anunciar um lançamento inédito no mercado! Desenvolvemos uma solução voltada para negócios em aplicativos mobile, capaz de realizar uma análise de risco altamente eficaz em compras feitas a partir de smartphones e tablets. 

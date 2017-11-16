@@ -1,12 +1,15 @@
 ---
+title: Devo criar um e-commerce ou vender em um marketplace?
+date: 2016-04-04 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-04-04T10:39:00-03:00'
-title: Devo criar um e-commerce ou vender em um marketplace?
-subtitle: "Para quem está começando a surfar a onda do e-commerce, não é demérito nenhum criar uma loja dentro de um marketplace"
-excerpt: "Empreendedor, você sabe quando deve criar uma loja virtual para chamá-la de sua?"
+subtitle: Para quem está começando a surfar a onda do e-commerce, não é demérito nenhum
+  criar uma loja dentro de um marketplace
+excerpt: Empreendedor, você sabe quando deve criar uma loja virtual para chamá-la
+  de sua?
 author: felipe
 ---
+
 O e-commerce é a menina dos olhos no mundo dos negócios, e nunca faltam notícias animadoras sobre o setor - principalmente no Brasil, um dos dez maiores mercados eletrônicos do mundo e em crescimento mesmo em tempos de crise. Não à toa, vemos todos os dias o surgimento de inúmeras lojas virtuais, que vendem os mais variados tipos de produto e atendem os mais diversos tipos de consumidores. Mas empreendedor, me responda: **você sabe quando deve, de fato, criar uma loja virtual para chamá-la de sua**? 
 
 Não vou negar que é tentador, e também muito gratificante, planejar toda a estratégia da sua loja virtual, comprar o domínio com o nome exato do negócio, colocar o site no ar com um design super bacana e esperar as vendas surgirem em um ritmo frenético. Já dá até para escutar o barulhinho da caixa registradora! 

@@ -1,10 +1,11 @@
 ---
+title: Veja 5 motivos para você usar um gateway de pagamentos
+date: 2016-06-20 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-06-20-T10:39:00-03:00'
-title: "Veja 5 motivos para você usar um gateway de pagamentos"
-subtitle: "Gateways de pagamento podem significar um ganho enorme para a sua operação"
-excerpt: "Por que abrir mão de um percentual de cada venda se eu posso plugar diretamente com uma adquirente?"
+subtitle: Gateways de pagamento podem significar um ganho enorme para a sua operação
+excerpt: Por que abrir mão de um percentual de cada venda se eu posso plugar diretamente
+  com uma adquirente?
 author: tom
 ---
 

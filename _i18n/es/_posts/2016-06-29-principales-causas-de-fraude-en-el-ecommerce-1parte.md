@@ -1,10 +1,13 @@
 ---
+title: 'Las principales causas de fraude en el e-commerce, 1ª Parte: Autenticación
+  del cliente'
+date: 2016-06-29 13:39:00 Z
 layout: post
 categories: es
-date: '2016-06-29-T10:39:00-03:00'
-title: "Las principales causas de fraude en el e-commerce, 1ª Parte: Autenticación del cliente"
-subtitle: "En la primera parte, hablaremos acerca de la autenticación del usuario por medio de internet"
-excerpt: "En la primera parte, hablaremos acerca de la autenticación del usuario por medio de internet"
+subtitle: En la primera parte, hablaremos acerca de la autenticación del usuario por
+  medio de internet
+excerpt: En la primera parte, hablaremos acerca de la autenticación del usuario por
+  medio de internet
 author: tom
 ---
 

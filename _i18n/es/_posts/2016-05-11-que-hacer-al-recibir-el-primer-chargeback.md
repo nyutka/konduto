@@ -1,10 +1,12 @@
 ---
+title: "¿Qué hacer al recibir el primer chargeback?"
+date: 2016-05-11 13:39:00 Z
 layout: post
 categories: es
-date: '2016-05-11T10:39:00-03:00'
-title: "¿Qué hacer al recibir el primer chargeback?"
-subtitle: "Antes que nada, ¡no entres en pánico! ¡Aún es posible intentar revertirlo y prevenirse para el futuro!"
-excerpt: "Antes que nada, ¡no entres en pánico! ¡Aún es posible intentar revertirlo y prevenirse para el futuro!"
+subtitle: Antes que nada, ¡no entres en pánico! ¡Aún es posible intentar revertirlo
+  y prevenirse para el futuro!
+excerpt: Antes que nada, ¡no entres en pánico! ¡Aún es posible intentar revertirlo
+  y prevenirse para el futuro!
 author: milton
 ---
 

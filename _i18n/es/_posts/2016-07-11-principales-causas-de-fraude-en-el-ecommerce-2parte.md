@@ -1,12 +1,15 @@
 ---
+title: 'Las principales causas de fraude en el e-commerce, 2ª Parte: Fuga de datos'
+date: 2016-07-11 13:39:00 Z
 layout: post
 categories: es
-date: '2016-07-11-T10:39:00-03:00'
-title: "Las principales causas de fraude en el e-commerce, 2ª Parte: Fuga de datos"
-subtitle: "En esta segunda parte, hablaremos acerca de la seguridad y de la fuga de datos sensibles"
-excerpt: "En esta segunda parte, hablaremos acerca de la seguridad y de la fuga de datos sensibles"
+subtitle: En esta segunda parte, hablaremos acerca de la seguridad y de la fuga de
+  datos sensibles
+excerpt: En esta segunda parte, hablaremos acerca de la seguridad y de la fuga de
+  datos sensibles
 author: tom
 ---
+
 Si no hubiera miles de números de tarjetas en manos de los delincuentes, no tendríamos fraude en el e-commerce. Al retirar la oferta de datos observaríamos una caída brutal en el número de [chargebacks](https://blog.konduto.com/es/2016/05/que-hacer-al-recibir-el-primer-chargeback/?utm_source=konduto&utm_medium=blog-es&utm_campaign=conteudo). ¿Pero de dónde vienen las tarjetas clonadas? ¿De qué manera los estafadores obtienen esta información confidencial?
 
 **Parte 1** 

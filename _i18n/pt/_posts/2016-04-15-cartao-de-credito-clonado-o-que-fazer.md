@@ -1,10 +1,11 @@
 ---
+title: Meu cartão de crédito foi clonado! E agora?
+date: 2016-04-15 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-04-15T10:39:00-03:00'
-title: 'Meu cartão de crédito foi clonado! E agora?'
-subtitle: Entenda o que fazer se não reconhecer alguma compra feita em seu cartão de crédito
-excerpt: 'Onde meu cartão foi clonado? Devo parar de comprar pela internet?'
+subtitle: Entenda o que fazer se não reconhecer alguma compra feita em seu cartão
+  de crédito
+excerpt: Onde meu cartão foi clonado? Devo parar de comprar pela internet?
 author: tom
 ---
 

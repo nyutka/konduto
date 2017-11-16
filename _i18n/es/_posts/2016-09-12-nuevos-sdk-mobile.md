@@ -1,12 +1,15 @@
 ---
+title: 'Nuevo SDK mobile: queremos atrapar aún más fraudes en apps móviles'
+date: 2016-09-12 13:39:00 Z
 layout: post
 categories: es
-date: '2016-09-12-T10:39:00-03:00'
-title: "Nuevo SDK mobile: queremos atrapar aún más fraudes en apps móviles"
-subtitle: "Somos el primer antifraude del mundo a monitorear el comportamiento del cliente en el m-commerce"
-excerpt: "Somos el primer antifraude del mundo a monitorear el comportamiento del cliente en el m-commerce"
+subtitle: Somos el primer antifraude del mundo a monitorear el comportamiento del
+  cliente en el m-commerce
+excerpt: Somos el primer antifraude del mundo a monitorear el comportamiento del cliente
+  en el m-commerce
 author: felipe
 ---
+
 ![mobile](/images/160912-mobile.png) 
 
 Estamos muy felices de anunciar un lanzamiento inédito al mercado. Desarrollamos una solución específica para negocios en aplicaciones móviles, capaz de analizar con mucha eficiencia el riesgo de compras hechas en smartphones y tabletas. 

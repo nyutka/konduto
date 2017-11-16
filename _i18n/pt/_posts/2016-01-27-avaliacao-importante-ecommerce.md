@@ -1,12 +1,13 @@
 ---
+title: Você precisa avaliar uma coisa muito importante no seu e-commerce
+date: 2016-01-26 21:39:00 Z
 layout: post
 categories: pt
-date: '2016-01-26T18:39:00-03:00'
-title: Você precisa avaliar uma coisa muito importante no seu e-commerce
-subtitle: "É sério que você vai deixar o medo da fraude acabar com o seu e-commerce?"
-excerpt: "Sem medo: a fraude não é um bicho-papão. Só parece."
+subtitle: É sério que você vai deixar o medo da fraude acabar com o seu e-commerce?
+excerpt: 'Sem medo: a fraude não é um bicho-papão. Só parece.'
 author: daniel
 ---
+
 Venho recebendo recebido muitos e-mails e mensagens privadas de empreendedores perguntando por que eu sempre faço a mesma pergunta a sites que estão com problemas para sobreviverem: qual é o método de pagamento utilizado?
 
 Eu tenho uma suspeita. Ou melhor: uma certeza. Uma certeza quase que absoluta: a melhor forma de destruir negócios pequenos na internet é apostar no meio de pagamento errado. Muita gente que ler este post vai me perguntar: “e o que seria um meio de pagamento errado?”. Eu respondo de forma direta e simples: **qualquer meio de pagamento que aprove menos de 80% dos pedidos que o seu site enviar é errado**! 

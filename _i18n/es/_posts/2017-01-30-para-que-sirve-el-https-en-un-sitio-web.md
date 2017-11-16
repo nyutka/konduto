@@ -1,10 +1,12 @@
 ---
+title: "¿Sabes para qué sirve el HTTPS en tu sitio?"
+date: 2017-01-30 13:39:00 Z
 layout: post
 categories: es
-date: '2017-01-30T10:39:00-03:00'
-title: "¿Sabes para qué sirve el HTTPS en tu sitio?"
-subtitle: "El cliente se siente más seguro en un ambiente HTTPS. Pero eso no significa que esté realmente seguro"
-excerpt: "El cliente se siente más seguro en un ambiente HTTPS. Pero eso no significa que esté realmente seguro"
+subtitle: El cliente se siente más seguro en un ambiente HTTPS. Pero eso no significa
+  que esté realmente seguro
+excerpt: El cliente se siente más seguro en un ambiente HTTPS. Pero eso no significa
+  que esté realmente seguro
 author: tom
 ---
 

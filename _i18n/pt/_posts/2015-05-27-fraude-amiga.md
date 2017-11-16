@@ -1,14 +1,15 @@
 ---
+title: Fraude amiga?
+date: 2015-05-27 17:10:00 Z
 layout: post
-date: '2015-05-27T14:10:00-03:00'
-title: "Fraude amiga?"
-subtitle: "Um chargeback nem sempre é fraude."
-excerpt: "Um chargeback nem sempre é fraude. Descubra o que é a fraude amiga e o que você pode fazer a respeito."
+subtitle: Um chargeback nem sempre é fraude.
+excerpt: Um chargeback nem sempre é fraude. Descubra o que é a fraude amiga e o que
+  você pode fazer a respeito.
 cover_image: friendly-fraud.jpg
-cover_image_caption: "Image by
-<a href='https://www.flickr.com/photos/ameriswede/'>_Dinkel_</a>"
+cover_image_caption: Image by <a href='https://www.flickr.com/photos/ameriswede/'>_Dinkel_</a>
 author: tom
 ---
+
 Existem [inúmeros](http://www.cursodeecommerce.com.br/blog/tipos-de-fraudes-com-cartoes-de-credito-ecommerce/) [artigos](http://ecommercepordentro.com/tipos-fraude-cartao-credito/) [por ai](http://www.albertovalle.com.br/fraudes-cartoes-de-credito-lojas-virtuais/) descrevendo os tipos mais comuns de fraude no e-commerce. Uma delas é conhecida como **fraude amiga**, termo que gera uma certa curiosidade. Como uma fraude pode ser considerada "amiga"? Chamamos de **fraude amiga** aquela contestação que acontece não por malícia, mas sim por confusão do dono do cartão. Ele pode muito bem ter feito aquela compra, mas não se lembra.
 
 **Baixe grátis!**   

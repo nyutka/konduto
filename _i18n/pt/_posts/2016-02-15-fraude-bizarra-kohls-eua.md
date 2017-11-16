@@ -1,11 +1,15 @@
 ---
+title: 'Fraude bizarra chama atenção nos EUA: compras caras são enviadas para casa
+  das vítimas'
+date: 2016-02-15 13:39:00 Z
 layout: post
-date: '2016-02-15T10:39:00-03:00'
-title: 'Fraude bizarra chama atenção nos EUA: compras caras são enviadas para casa das vítimas'
-subtitle: "Caso ocorreu após uma cliente ter a conta sequestrada por um fraudador bastante preguiçoso"
-excerpt: "Não, não se trata de um caso raro de benevolência dos fraudadores. Mas uma prática surpreendente e bastante engenhosa"
+subtitle: Caso ocorreu após uma cliente ter a conta sequestrada por um fraudador bastante
+  preguiçoso
+excerpt: Não, não se trata de um caso raro de benevolência dos fraudadores. Mas uma
+  prática surpreendente e bastante engenhosa
 author: felipe
 ---
+
 Uma nova modalidade de fraude online chamou bastante a atenção nos Estados Unidos recentemente, envolvendo uma das maiores lojas de departamento daquele país: a Kohl’s. Hackers invadiam contas de clientes legítimos, faziam compras de altíssimo valor e enviavam os produtos para a casa das próprias vítimas. 
 
 Ahn? Oi? Como assim?

@@ -1,11 +1,13 @@
 ---
+title: 'Inteligencia artificial: ¿al final, qué es machine learning?'
+date: 2016-12-05 11:39:00 Z
 layout: post
-categories: es		
-date: '2016-12-05T08:39:00-03:00'
-title: "Inteligencia artificial: ¿al final, qué es machine learning?"		
-subtitle: "Entiende cómo las máquinas logran aprender solas y cuál es el impacto de esto en nuestra vida"
-excerpt: "Entiende cómo las máquinas logran aprender solas y cuál es el impacto de esto en nuestra vida"		
-author: tom	
+categories: es
+subtitle: Entiende cómo las máquinas logran aprender solas y cuál es el impacto de
+  esto en nuestra vida
+excerpt: Entiende cómo las máquinas logran aprender solas y cuál es el impacto de
+  esto en nuestra vida
+author: tom
 ---
 
 Internet cuenta ya con 3 mil millones de usuarios en todo el mundo, y cada uno de ellos es un generador de contenido. Nosotros producimos y recolectamos más informaciones que nunca. Son artículos, dibujos, poemas, fotos, vídeos, podcasts, encuestas y publicaciones de cada usuario de internet. Para que nos hagamos una idea, se estima que el 90% de la información generada en la historia fue creada en los [últimos 2 años](http://www.sciencedaily.com/releases/2013/05/130522085217.htm).

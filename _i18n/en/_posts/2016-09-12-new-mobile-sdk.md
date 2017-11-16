@@ -1,10 +1,11 @@
 ---
+title: Announcing our new Mobile SDK for in-app behaviour analysis
+date: 2016-09-12 13:39:00 Z
 layout: post
 categories: en
-date: '2016-09-12-T10:39:00-03:00'
-title: "Announcing our new Mobile SDK for in-app behaviour analysis"
-subtitle: "Mobile payments are a hot topic today and mobile fraud is right next to it"
-excerpt: "Mobile payments are a hot topic today and mobile fraud is right next to it"
+subtitle: Mobile payments are a hot topic today and mobile fraud is right next to
+  it
+excerpt: Mobile payments are a hot topic today and mobile fraud is right next to it
 author: tom
 ---
 

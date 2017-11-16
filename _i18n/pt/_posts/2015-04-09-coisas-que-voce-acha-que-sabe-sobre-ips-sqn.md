@@ -1,13 +1,15 @@
 ---
+title: Coisas que você acha que sabe sobre IPs, só que não
+date: 2015-04-09 17:43:00 Z
 layout: post
-date: '2015-04-09T14:43:00-03:00'
-title: "Coisas que você acha que sabe sobre IPs, só que não"
-subtitle: "Qual é o meu IP? Depende... você não tem um IP para chamar de seu!"
-excerpt: "Os filmes nos ensinaram que tudo se resolve rastreando o IP do usuário. Só que na vida real não é bem assim. Veja por quê."
+subtitle: Qual é o meu IP? Depende... você não tem um IP para chamar de seu!
+excerpt: Os filmes nos ensinaram que tudo se resolve rastreando o IP do usuário. Só
+  que na vida real não é bem assim. Veja por quê.
 cover_image: ip-facts-sqn.jpg
-cover_image_caption: "Image by <a href='https://www.flickr.com/photos/cosmoflash/'>cosmoflash</a>"
+cover_image_caption: Image by <a href='https://www.flickr.com/photos/cosmoflash/'>cosmoflash</a>
 author: tom
 ---
+
 Toda vez que um filme menciona tecnologia, o termo "IP" ([Protocolo de Internet](https://pt.wikipedia.org/wiki/Endere%C3%A7o_IP), ou Internet Protocol em inglês) é lançado em algum momento do diálogo. Na trama, falar em endereço de IP automaticamente classifica a personagem como alguém que "entende de computadores". E, na maioria dos casos, é possível rastrear o IP até uma pessoa ou endereço e pegar o criminoso no flagra. Funciona que é uma maravilha... nas telas!
 
 **Baixe grátis!**   

@@ -1,12 +1,13 @@
 ---
+title: Konduto chega a 3 milhões de transações analisadas por mês!
+date: 2016-07-14 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-07-14-T10:39:00-03:00'
-title: "Konduto chega a 3 milhões de transações analisadas por mês!"
-subtitle: "Nossos sistemas já processam mais de uma venda por segundo"
-excerpt: "Triplicamos nossa capacidade em relação a dezembro de 2015"
+subtitle: Nossos sistemas já processam mais de uma venda por segundo
+excerpt: Triplicamos nossa capacidade em relação a dezembro de 2015
 author: felipe
 ---
+
 A Konduto alcançou a marca de 3 milhões de transações analisadas por mês. Sim: nossos sistemas já recebem mais de 1 venda por segundo! 
 
 ![celebration](/images/160714-3mm.gif) 

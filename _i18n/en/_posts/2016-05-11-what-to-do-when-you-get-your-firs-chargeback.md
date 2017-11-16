@@ -1,10 +1,12 @@
 ---
+title: What to do when you get your first chargeback?
+date: 2016-05-11 13:39:00 Z
 layout: post
 categories: en
-date: '2016-05-11T10:39:00-03:00'
-title: "What to do when you get your first chargeback?"
-subtitle: "Before anything, do not panic! It is still possible to try reverting it and help preventing for the future!"
-excerpt: "Before anything, do not panic! It is still possible to try reverting it and help preventing for the future!"
+subtitle: Before anything, do not panic! It is still possible to try reverting it
+  and help preventing for the future!
+excerpt: Before anything, do not panic! It is still possible to try reverting it and
+  help preventing for the future!
 author: milton
 ---
 

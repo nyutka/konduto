@@ -1,11 +1,14 @@
 ---
+title: 'Análisis de riesgo en tiempo real: ¿cómo evitar fraudes sin perjudicar al
+  buen cliente?'
+date: 2016-10-03 11:39:00 Z
 layout: post
-categories: es		
-date: '2016-10-03T08:39:00-03:00'
-title: "Análisis de riesgo en tiempo real: ¿cómo evitar fraudes sin perjudicar al buen cliente?"		
-subtitle: "La tecnología puede ser una aliada importante del comerciante para una toma de decisión tan importante"
-excerpt: "La tecnología puede ser una aliada importante del comerciante para una toma de decisión tan importante"		
-author: felipe		
+categories: es
+subtitle: La tecnología puede ser una aliada importante del comerciante para una toma
+  de decisión tan importante
+excerpt: La tecnología puede ser una aliada importante del comerciante para una toma
+  de decisión tan importante
+author: felipe
 ---
 
 Para la mayor parte de los minoristas en línea, el camino que un pedido recorre tras la finalización de la compra es muy parecido: la primera cosa que ocurre es la **autorización de pago**, para ver si la tarjeta es válida y si tiene fondos; a continuación viene el **antifraude**, que evalúa si se puede despachar el pedido o si merece un **[análisis manual](https://blog.konduto.com/es/2016/08/tenemos-que-hablar-de-revision-manual?utm_source=konduto&utm_medium=blog-es&utm_campaign=conteudo/)**. En este punto, muchos minoristas también **chequean el stock** para garantizar que el producto aún se encuentra allí. Si el análisis de riesgo está bien, el comerciante, entonces, dirige la operación al **manoseo y despacho**. Y ya está, se acabó.

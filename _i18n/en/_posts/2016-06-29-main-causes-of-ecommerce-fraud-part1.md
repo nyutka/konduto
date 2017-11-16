@@ -1,10 +1,12 @@
 ---
+title: 'The main causes of fraud in e-commerce - Part 1: Client authentication'
+date: 2016-06-29 13:39:00 Z
 layout: post
 categories: en
-date: '2016-06-29-T10:39:00-03:00'
-title: "The main causes of fraud in e-commerce - Part 1: Client authentication"
-subtitle: "In the first part, we will talk about user authentication by means of the internet"
-excerpt: "In the first part, we will talk about user authentication by means of the internet"
+subtitle: In the first part, we will talk about user authentication by means of the
+  internet
+excerpt: In the first part, we will talk about user authentication by means of the
+  internet
 author: tom
 ---
 

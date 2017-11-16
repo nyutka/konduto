@@ -1,10 +1,10 @@
 ---
+title: Lançamos o novo Portal Konduto, mais bonito e cheio de novidades
+date: 2016-10-26 03:39:00 Z
 layout: post
 categories: pt
-date: '2016-10-26-T01:39:00-02:00'
-title: "Lançamos o novo Portal Konduto, mais bonito e cheio de novidades"
-subtitle: "Portal Konduto já nasce com três grandes novidades!"
-excerpt: "Nossa área logada ficou mais amigável e ganhou novas funcionalidades"
+subtitle: Portal Konduto já nasce com três grandes novidades!
+excerpt: Nossa área logada ficou mais amigável e ganhou novas funcionalidades
 author: felipe
 ---
 

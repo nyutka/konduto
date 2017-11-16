@@ -1,11 +1,13 @@
 ---
+title: 'As principais causas de fraude no e-commerce - Parte 2: Vazamento de dados'
+date: 2015-03-27 22:48:00 Z
 layout: post
-date: '2015-03-27T19:48:00-03:00'
-title: "As principais causas de fraude no e-commerce - Parte 2: Vazamento de dados"
-subtitle: "Nesta segunda parte vamos falar sobre segurança e vazamento de dados sensíveis"
-excerpt: "Na segunda parte deste post, que fala sobre as fontes da fraude na internet, vamos tratar da segurança e vazamento de dados pessoais e de cartão de crédito."
+subtitle: Nesta segunda parte vamos falar sobre segurança e vazamento de dados sensíveis
+excerpt: Na segunda parte deste post, que fala sobre as fontes da fraude na internet,
+  vamos tratar da segurança e vazamento de dados pessoais e de cartão de crédito.
 author: tom
 ---
+
 Não teríamos fraude no e-commerce se não houvessem milhares de números de cartão nas mãos dos criminosos. Ao retirar a oferta de dados veríamos uma queda brutal no número de chargebacks. Mas de onde vêm os cartōes clonados? Como os fraudadores obtêm estas informaçōes sigilosas?
 
 **Leia também**  

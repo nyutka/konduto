@@ -1,10 +1,11 @@
 ---
-layout: post
-date: '2014-11-24T10:31:00-03:00'
 title: Novas funcionalidades do Portal
-excerpt: "Novidades que vão ajudar você a fazer melhores revisões manuais."
+date: 2014-11-24 13:31:00 Z
+layout: post
+excerpt: Novidades que vão ajudar você a fazer melhores revisões manuais.
 author: tom
 ---
+
 Hoje estamos lançando novas funcionalidades em nosso Portal que vão ajudar as suas revisões manuais: um link para **pedidos relacionados** e uma tela de **motivos para rejeição** de um pedido.
 
 ## Pedidos relacionados

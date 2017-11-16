@@ -1,12 +1,15 @@
 ---
+title: 'The main causes of fraud in e-commerce - Part 2: Data leakage'
+date: 2016-07-11 13:39:00 Z
 layout: post
 categories: en
-date: '2016-07-11-T10:39:00-03:00'
-title: "The main causes of fraud in e-commerce - Part 2: Data leakage"
-subtitle: "In this second part, let's talk about safety and the leaking of sensitive data"
-excerpt: "In this second part, let's talk about safety and the leaking of sensitive data"
+subtitle: In this second part, let's talk about safety and the leaking of sensitive
+  data
+excerpt: In this second part, let's talk about safety and the leaking of sensitive
+  data
 author: tom
 ---
+
 We would have no fraud in e-commerce if there weren't millions of credit card numbers on the hands of criminals. If we could remove the offering of data, we would see a brutal drop in the number of chargebacks. But where do the cloned cards come from? How do fraudsters obtain such secret information?
 
 **Part 1**  

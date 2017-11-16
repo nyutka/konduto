@@ -1,11 +1,11 @@
 ---
+title: Things you think you know about IPs, but don't
+date: 2017-01-30 11:39:00 Z
 layout: post
-categories: en		
-date: '2017-01-30T08:39:00-03:00'
-title: "Things you think you know about IPs, but don't"		
-subtitle: "What is my IP? It depends... you do not have an IP you can say it is yours!"
-excerpt: "What is my IP? It depends... you do not have an IP you can say it is yours!"		
-author: tom		
+categories: en
+subtitle: What is my IP? It depends... you do not have an IP you can say it is yours!
+excerpt: What is my IP? It depends... you do not have an IP you can say it is yours!
+author: tom
 ---
 
 Every time a film mentions technology, the term 'IP' (Internet Protocol) is used somewhere in the dialog. In the plot, stating an IP address automatically classifies the character as someone who "understands about computers." And in most cases, it is possible to trace the IP down to a person or an address and arrest the culprit. It works like a charm... in the movies!

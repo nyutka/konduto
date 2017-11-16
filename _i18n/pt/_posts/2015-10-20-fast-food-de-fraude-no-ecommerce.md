@@ -1,11 +1,15 @@
 ---
-layout: post		
-date: '2015-10-20T18:10:00-03:00'		
-title: "Fast-food de fraude no e-commerce? Já existe algo assim... "		
-subtitle: "Crime de venda de dados roubados de cartões de crédito é tão organizado que é possível obter facilmente essas informações em sites e grupos de discussões na internet. Quase tão fácil como comprar um hambúrguer..."		
-excerpt: "Hoje em dia, há fóruns, grupos de discussão e sites que vendem dados sobre cartões de créditos roubados. Perigo para o e-commerce!"		
-author: felipe		
+title: 'Fast-food de fraude no e-commerce? Já existe algo assim... '
+date: 2015-10-20 21:10:00 Z
+layout: post
+subtitle: Crime de venda de dados roubados de cartões de crédito é tão organizado
+  que é possível obter facilmente essas informações em sites e grupos de discussões
+  na internet. Quase tão fácil como comprar um hambúrguer...
+excerpt: Hoje em dia, há fóruns, grupos de discussão e sites que vendem dados sobre
+  cartões de créditos roubados. Perigo para o e-commerce!
+author: felipe
 ---
+
 ![Crime Cartão](/images/201520-ladrao_cartao_dpc.jpg)
 <small>*Imagem: Dollar Photoclub*</small>
 

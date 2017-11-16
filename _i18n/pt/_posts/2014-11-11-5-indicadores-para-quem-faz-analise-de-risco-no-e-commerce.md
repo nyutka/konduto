@@ -1,11 +1,14 @@
 ---
-layout: post
-date: '2014-11-11T09:36:00-03:00'
 title: 5 indicadores para quem faz análise de risco no e-commerce
-subtitle: "Chargebacks, revisões manuais, rejeições, aprovações automáticas. Você sabe tudo isso de cabeça?"
-excerpt: "Chargebacks, revisões manuais, rejeições, aprovações automáticas. Você sabe tudo isso de cabeça?"
+date: 2014-11-11 12:36:00 Z
+layout: post
+subtitle: Chargebacks, revisões manuais, rejeições, aprovações automáticas. Você sabe
+  tudo isso de cabeça?
+excerpt: Chargebacks, revisões manuais, rejeições, aprovações automáticas. Você sabe
+  tudo isso de cabeça?
 author: tom
 ---
+
 Todo mundo que administra um e-commerce tem alguns indicadores na ponta da língua: número de pedidos faturados, ticket médio, visitantes únicos, taxa de conversão e assim por diante.
 
 **Leia também**  

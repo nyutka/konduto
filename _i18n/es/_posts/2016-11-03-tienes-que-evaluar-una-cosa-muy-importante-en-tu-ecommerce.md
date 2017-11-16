@@ -1,11 +1,11 @@
 ---
+title: Tienes que evaluar una cosa muy importante en tu e-commerce
+date: 2016-11-03 11:39:00 Z
 layout: post
-categories: es		
-date: '2016-11-03T08:39:00-03:00'
-title: "Tienes que evaluar una cosa muy importante en tu e-commerce"		
+categories: es
 subtitle: "¿En serio vas a dejar que el miedo del fraude acabe con tu tienda en línea?"
-excerpt: "¿En serio vas a dejar que el miedo del fraude acabe con tu tienda en línea?"		
-author: daniel		
+excerpt: "¿En serio vas a dejar que el miedo del fraude acabe con tu tienda en línea?"
+author: daniel
 ---
 
 He recibido muchos e-mails y mensajes privados de emprendedores preguntando por qué siempre hago la misma pregunta a sitios que tienen problemas para sobrevivir: **¿qué método de pago utilizas?**

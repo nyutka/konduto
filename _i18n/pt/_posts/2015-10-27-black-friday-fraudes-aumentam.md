@@ -1,11 +1,14 @@
 ---
-layout: post		
-date: '2015-10-27T18:10:00-03:00'
-title: "A Black Friday vem aí! Mas e as fraudes, vão aumentar?"		
-subtitle: "A expectativa é que o consumidor aproveite os descontos de 27 de novembro. Mas fraudador também gosta de promoção"		
-excerpt: "Um dos dias mais importantes do ano para o comércio brasileiro, a Black Friday promete fomentar as vendas no País. Mas os fraudadores também vão estar de olho..."		
-author: felipe		
+title: A Black Friday vem aí! Mas e as fraudes, vão aumentar?
+date: 2015-10-27 21:10:00 Z
+layout: post
+subtitle: A expectativa é que o consumidor aproveite os descontos de 27 de novembro.
+  Mas fraudador também gosta de promoção
+excerpt: Um dos dias mais importantes do ano para o comércio brasileiro, a Black Friday
+  promete fomentar as vendas no País. Mas os fraudadores também vão estar de olho...
+author: felipe
 ---
+
 ![Crime Cartão](/images/151027-black-friday.jpg)
 <small>*Imagem: Dollar Photoclub*</small>
 

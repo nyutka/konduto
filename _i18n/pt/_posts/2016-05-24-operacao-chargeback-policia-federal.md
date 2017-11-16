@@ -1,12 +1,14 @@
 ---
+title: PF investiga fraudes de até R$ 300 mil e deflagra Operação Chargeback
+date: 2016-05-23 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-05-23-T10:39:00-03:00'
-title: "PF investiga fraudes de até R$ 300 mil e deflagra Operação Chargeback"
-subtitle: "Polícia Federal prendeu suspeitos que realizavam golpes em cidades do Tocantins"
-excerpt: "Polícia Federal lançou campanha para investigar crimes de compras fraudulentas no e-commerce"
+subtitle: Polícia Federal prendeu suspeitos que realizavam golpes em cidades do Tocantins
+excerpt: Polícia Federal lançou campanha para investigar crimes de compras fraudulentas
+  no e-commerce
 author: felipe
 ---
+
 ![car-pf](/images/160523-img-pf.png)
 <small>*Foto: Polícia Federal/Reprodução</small>
 

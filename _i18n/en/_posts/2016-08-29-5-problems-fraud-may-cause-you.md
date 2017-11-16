@@ -1,10 +1,12 @@
 ---
+title: 'Well beyond chargeback: see other 5 problems fraud may cause you'
+date: 2016-08-29 13:39:00 Z
 layout: post
 categories: en
-date: '2016-08-29-T10:39:00-03:00'
-title: "Well beyond chargeback: see other 5 problems fraud may cause you"
-subtitle: "It isn't just the value of the product. There are fines, logo disaccreditation, consumer fear..."
-excerpt: "It isn't just the value of the product. There are fines, logo disaccreditation, consumer fear..."
+subtitle: It isn't just the value of the product. There are fines, logo disaccreditation,
+  consumer fear...
+excerpt: It isn't just the value of the product. There are fines, logo disaccreditation,
+  consumer fear...
 author: felipe
 ---
 

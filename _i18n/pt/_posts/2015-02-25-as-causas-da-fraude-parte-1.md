@@ -1,11 +1,14 @@
 ---
+title: 'As principais causas de fraude no e-commerce - Parte 1: Autenticação do cliente'
+date: 2015-02-25 21:39:00 Z
 layout: post
-date: '2015-02-25T18:39:00-03:00'
-title: "As principais causas de fraude no e-commerce - Parte 1: Autenticação do cliente"
-subtitle: "Na primeira parte vamos falar sobre autenticação do usuário por meio da internet"
-excerpt: "Na primeira parte deste post vamos tratar de algumas das fontes da fraude na internet."
+subtitle: Na primeira parte vamos falar sobre autenticação do usuário por meio da
+  internet
+excerpt: Na primeira parte deste post vamos tratar de algumas das fontes da fraude
+  na internet.
 author: tom
 ---
+
 A fraude é uma realidade que faz parte de quem toca um negócio. Alguém pode te entregar notas falsas no caixa, passar um cheque sem fundo ou usar um cartão clonado e dados falsos. Na maioria dos casos você só descobre depois de levar o tombo e aprende uma lição ou outra no caminho.
 
 Este post, dividido em duas partes, vai tratar dos principais fatores que contribuem para a fraude na web: a dificuldade em **autenticar o cliente**, e a facilidade de **conseguir números de cartōes de crédito**.

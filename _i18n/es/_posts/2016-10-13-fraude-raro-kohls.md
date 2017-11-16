@@ -1,11 +1,13 @@
 ---
+title: 'Fraude raro en EE.UU.: compras caras son enviadas a casa de las víctimas'
+date: 2016-10-13 11:39:00 Z
 layout: post
-categories: es		
-date: '2016-10-13T08:39:00-03:00'
-title: "Fraude raro en EE.UU.: compras caras son enviadas a casa de las víctimas"		
-subtitle: "El caso ocurrió después de que un cliente tuvo su cuenta secuestrada por un estafador bastante perezoso"
-excerpt: "El caso ocurrió después de que un cliente tuvo su cuenta secuestrada por un estafador bastante perezoso"		
-author: felipe		
+categories: es
+subtitle: El caso ocurrió después de que un cliente tuvo su cuenta secuestrada por
+  un estafador bastante perezoso
+excerpt: El caso ocurrió después de que un cliente tuvo su cuenta secuestrada por
+  un estafador bastante perezoso
+author: felipe
 ---
 
 ![gift](/images/161003-gift.jpg)

@@ -1,10 +1,12 @@
 ---
+title: 'Black Friday: como os e-commerces podem se proteger das fraudes?'
+date: 2016-10-20 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-10-20-T10:39:00-03:00'
-title: "Black Friday: como os e-commerces podem se proteger das fraudes?"
-subtitle: "Lojas virtuais devem se preparar para não terem prejuízos na sexta-feira de descontos"
-excerpt: "Fraudadores agem durante a Black Friday porque sabem que muitas lojas devem ser mais permissivas na aprovação de pedidos"
+subtitle: Lojas virtuais devem se preparar para não terem prejuízos na sexta-feira
+  de descontos
+excerpt: Fraudadores agem durante a Black Friday porque sabem que muitas lojas devem
+  ser mais permissivas na aprovação de pedidos
 author: tom
 ---
 

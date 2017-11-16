@@ -1,11 +1,15 @@
 ---
-layout: post		
-date: '2015-11-10T18:10:00-03:00'
-title: "5 dicas para lojistas evitarem fraudes (e faturarem mais) na Black Friday"		
-subtitle: "A fraude está cada vez mais inteligente. E os lojistas também precisam estar cada vez mais atentos para não verem suas margens sendo reduzidas por conta dos golpes virtuais"		
-excerpt: "Espera-se que as fraudes na Black Friday atinjam R$ 30 milhões. Saiba como se proteger para não fazer parte dessa estatística tão tenebrosa"		
-author: felipe		
+title: 5 dicas para lojistas evitarem fraudes (e faturarem mais) na Black Friday
+date: 2015-11-10 21:10:00 Z
+layout: post
+subtitle: A fraude está cada vez mais inteligente. E os lojistas também precisam estar
+  cada vez mais atentos para não verem suas margens sendo reduzidas por conta dos
+  golpes virtuais
+excerpt: Espera-se que as fraudes na Black Friday atinjam R$ 30 milhões. Saiba como
+  se proteger para não fazer parte dessa estatística tão tenebrosa
+author: felipe
 ---
+
 ![5dicas](/images/151105-5dicas_bf.jpg)
 <small>*Imagem: Dollar Photoclub*</small>
 

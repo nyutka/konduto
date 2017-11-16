@@ -1,10 +1,12 @@
 ---
+title: Fraudador aplica golpe em companhia aérea e viaja de graça por 4 anos
+date: 2016-10-31 13:39:00 Z
 layout: post
 categories: pt
-date: '2016-10-31-T10:39:00-03:00'
-title: "Fraudador aplica golpe em companhia aérea e viaja de graça por 4 anos"
-subtitle: "Golpista rodou o mundo e chegou a emitir quase 30 passagens com cartões clonados"
-excerpt: "O acusado se propôs a pagar a dívida acumulada, mas pediu que não perdesse os pontos de milhagem"
+subtitle: Golpista rodou o mundo e chegou a emitir quase 30 passagens com cartões
+  clonados
+excerpt: O acusado se propôs a pagar a dívida acumulada, mas pediu que não perdesse
+  os pontos de milhagem
 author: felipe
 ---
 

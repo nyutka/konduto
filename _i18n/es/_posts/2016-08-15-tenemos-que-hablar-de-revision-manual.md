@@ -1,10 +1,12 @@
 ---
+title: Tenemos que hablar de revisión manual
+date: 2016-08-15 13:39:00 Z
 layout: post
 categories: es
-date: '2016-08-15-T10:39:00-03:00'
-title: "Tenemos que hablar de revisión manual"
-subtitle: "¿Realizar esta verificación, que puede añadir un nuevo costo a tu operación, realmente merece la pena?"
-excerpt: "¿Realizar esta verificación, que puede añadir un nuevo costo a tu operación, realmente merece la pena?"
+subtitle: "¿Realizar esta verificación, que puede añadir un nuevo costo a tu operación,
+  realmente merece la pena?"
+excerpt: "¿Realizar esta verificación, que puede añadir un nuevo costo a tu operación,
+  realmente merece la pena?"
 author: felipe
 ---
 
